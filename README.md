@@ -1,6 +1,6 @@
-#Informe
+# Informe
 
-###¿Como se instala spark en una computadora personal?
+### ¿Como se instala spark en una computadora personal?
 
 Utilice este recurso para instalar spark.
 https://www.youtube.com/watch?v=YanzUI-30pI
