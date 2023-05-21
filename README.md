@@ -112,7 +112,14 @@ public final class JavaWordCount {
   }
 }
 ```
-Este código viene en la carpeta examples de Spark.
+Este código viene en la carpeta examples de Spark. 
+Para correrlo el quickstart de la documentacion (https://spark.apache.org/docs/latest/quick-start.html) dice que hay que hacer:
+~~~
+run-example JavaWordCount <file>
+~~~
+
+Necesitaria ver que hace .read() y .tesxtFile(file).
+En mi caso voy a necesitar cambiarlo por el string de mi interes.
 
 ### ¿Cómo adaptar el código del Laboratorio 2 a la estructura del programa objetivo en Spark?
 
