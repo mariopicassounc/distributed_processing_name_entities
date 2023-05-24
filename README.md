@@ -118,10 +118,28 @@ Para correrlo el quickstart de la documentacion (https://spark.apache.org/docs/l
 run-example JavaWordCount <file>
 ~~~
 
+No queda claro como voy a aprovechar los 2 cores de mi computadora.
+
+Leyendo:
+
+https://spark.apache.org/docs/1.0.2/configuration.html
+
+https://spark.apache.org/docs/1.0.2/programming-guide.html
+
+
+
 Necesitaria ver que hace .read() y .tesxtFile(file).
 En mi caso voy a necesitar cambiarlo por el string de mi interes.
 
 ### ¿Cómo adaptar el código del Laboratorio 2 a la estructura del programa objetivo en Spark?
+
+Yo tengo una lista de articulos, por cada feed. Estaria bueno concatenar todas estas listas, para tener un array con todos los articulos. 
+A este array aplicarle la funcion parallelalize para comenzar a trabajar con spark.
+Esos articulos mapearlos y converitrlos en una lista de strings donde me guardo solo el titulo y el texto.
+Partir todo esos strings en una lista mas larga que tiene todas las palabras separadas.
+
+
+
 
 
 ### ¿Cómo se integra una estructura orientada a objetos con la estructura funcional de map-reduce?
