@@ -93,6 +93,8 @@ public class FeedReaderMain {
 				System.out.println(tuple._1() + ": " + tuple._2());
 			}
 
+			
+
 			sc.stop();
 		}
 	}

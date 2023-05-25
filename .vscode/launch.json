@@ -1,0 +1,86 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "args": [">", "output.txt"],
+
+        },
+        {
+            "type": "java",
+            "name": "FeedReaderMain",
+            "request": "launch",
+            "mainClass": "FeedReaderMain",
+            "projectName": "grupo24_lab03_2023_fbf759b1"
+        },
+        {
+            "type": "java",
+            "name": "Article",
+            "request": "launch",
+            "mainClass": "feed.Article",
+            "projectName": "grupo24_lab03_2023_fbf759b1"
+        },
+        {
+            "type": "java",
+            "name": "Feed",
+            "request": "launch",
+            "mainClass": "feed.Feed",
+            "projectName": "grupo24_lab03_2023_fbf759b1"
+        },
+        {
+            "type": "java",
+            "name": "QuickHeuristic",
+            "request": "launch",
+            "mainClass": "namedEntity.heuristic.QuickHeuristic",
+            "projectName": "grupo24_lab03_2023_fbf759b1"
+        },
+        {
+            "type": "java",
+            "name": "RandomHeuristic",
+            "request": "launch",
+            "mainClass": "namedEntity.heuristic.RandomHeuristic",
+            "projectName": "grupo24_lab03_2023_fbf759b1"
+        },
+        {
+            "type": "java",
+            "name": "SingleSubscription",
+            "request": "launch",
+            "mainClass": "subscription.SingleSubscription",
+            "projectName": "grupo24_lab03_2023_fbf759b1"
+        },
+        {
+            "type": "java",
+            "name": "Subscription",
+            "request": "launch",
+            "mainClass": "subscription.Subscription",
+            "projectName": "grupo24_lab03_2023_fbf759b1"
+        },
+        {
+            "type": "java",
+            "name": "TestHttpRequest",
+            "request": "launch",
+            "mainClass": "test.TestHttpRequest",
+            "projectName": "grupo24_lab03_2023_fbf759b1"
+        },
+        {
+            "type": "java",
+            "name": "TestParserReddit",
+            "request": "launch",
+            "mainClass": "test.TestParserReddit",
+            "projectName": "grupo24_lab03_2023_fbf759b1"
+        },
+        {
+            "type": "java",
+            "name": "TestParserRss",
+            "request": "launch",
+            "mainClass": "test.TestParserRss",
+            "projectName": "grupo24_lab03_2023_fbf759b1"
+        }
+    ]
+}
