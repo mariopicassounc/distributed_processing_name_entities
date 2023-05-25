@@ -6,7 +6,7 @@
 {url=https://rss.nytimes.com/services/xml/rss/nyt/%s.xml, ulrParams=[Business, Technology], urlType=rss}
 **********************************************************************************************
 Title: U.S. Debt Default Could Damage Nation’s Credit Rating
-Publication Date: Wed May 24 06:00:24 ART 2023
+Publication Date: Wed May 24 21:50:31 ART 2023
 Link: https://www.nytimes.com/2023/05/24/business/debt-default-credit-ratings.html
 Text: If the government misses an interest payment, even by a few hours, its creditworthiness will suffer, possibly for a long time.
 **********************************************************************************************
@@ -17,8 +17,20 @@ Link: https://www.nytimes.com/2023/05/24/technology/personaltech/what-to-know-ab
 Text: Concerned parents have many tools, including free software from Apple and Google, to actively oversee how children use their tech.
 **********************************************************************************************
 **********************************************************************************************
+Title: Elon Musk’s Event With Ron DeSantis Exposes Twitter’s Weaknesses
+Publication Date: Wed May 24 21:40:03 ART 2023
+Link: https://www.nytimes.com/2023/05/24/technology/elon-musk-desantis-twitter.html
+Text: What was supposed to be a crowning moment for Mr. Musk’s Twitter turned into a series of technical glitches.
+**********************************************************************************************
+**********************************************************************************************
+Title: With Climate Panel as a Beacon, Global Group Takes On Misinformation
+Publication Date: Wed May 24 22:51:27 ART 2023
+Link: https://www.nytimes.com/2023/05/24/business/researchers-study-misinformation.html
+Text: A group of scholars introduced an international panel to study the digital information landscape, inspired by those who had been warning of the effect of global warming.
+**********************************************************************************************
+**********************************************************************************************
 Title: U.K. Inflation Slowed in April, but Remains Stubbornly High
-Publication Date: Wed May 24 15:08:49 ART 2023
+Publication Date: Wed May 24 15:08:50 ART 2023
 Link: https://www.nytimes.com/2023/05/24/business/uk-inflation-april.html
 Text: Consumer prices rose 8.7% from a year earlier, the slowest pace since March 2022.
 **********************************************************************************************
@@ -29,16 +41,16 @@ Link: https://www.nytimes.com/2023/05/24/business/adani-stock-price.html
 Text: Investors have again rushed into the conglomerate controlled by Gautam Adani after a panel signaled that the investigation into the company’s finances was getting nowhere.
 **********************************************************************************************
 **********************************************************************************************
-Title: BuzzFeed’s Botatouille Chatbot Puts A.I. Twist on Food Advice
-Publication Date: Tue May 23 10:00:08 ART 2023
-Link: https://www.nytimes.com/2023/05/23/business/media/buzzfeed-botatouille-chatbot-food.html
-Text: Jonah Peretti, the company’s chief executive, has embraced artificial intelligence more than most publishers. His latest offering: Botatouille, an A.I.-powered kitchen assistant.
+Title: Semafor Raises $19 Million, Replacing Money From Sam Bankman-Fried
+Publication Date: Wed May 24 12:02:47 ART 2023
+Link: https://www.nytimes.com/2023/05/24/business/media/semafor-funding-bankman-fried.html
+Text: The media start-up’s new backers include Henry Kravis, a founder of the private-equity giant KKR, and Jerry Yang, a Yahoo founder.
 **********************************************************************************************
 **********************************************************************************************
-Title: Mountain of FTX Evidence: Emails, Chat Logs, Code and a Notebook
-Publication Date: Tue May 23 06:00:34 ART 2023
-Link: https://www.nytimes.com/2023/05/23/technology/ftx-evidence-sam-bankman-fried.html
-Text: Prosecutors investigating Sam Bankman-Fried, the cryptocurrency exchange’s founder, have accumulated more than six million pages of documents and other records.
+Title: Police Used Excessive Force on 2 Australian Journalists, U.S. Finds
+Publication Date: Wed May 24 21:28:36 ART 2023
+Link: https://www.nytimes.com/2023/05/24/business/australian-journalists-police-george-floyd-protest.html
+Text: The Interior Department concluded that U.S. Park Police officers exceeded the “minimum level of reasonable force” during a George Floyd protest in 2020.
 **********************************************************************************************
 **********************************************************************************************
 Title: Australia Tries to Break Its Dependence on China for Lithium Mining
@@ -47,26 +59,8 @@ Link: https://www.nytimes.com/2023/05/23/business/australia-lithium-refining.htm
 Text: Half of the world’s supply of the critical battery ingredient is mined in Australia, which ships virtually all of it to China. The government and business are betting they can change that.
 **********************************************************************************************
 **********************************************************************************************
-Title: U.S. Faces ‘Elevated Risk’ of Default in Early June, a New Report Warns
-Publication Date: Tue May 23 17:36:51 ART 2023
-Link: https://www.nytimes.com/2023/05/23/us/politics/debt-limit-default-xdate-report.html
-Text: The Bipartisan Policy Center said the government would be operating on “dangerously low” cash reserves after Memorial Day in its estimate of the so-called X-date.
-**********************************************************************************************
-**********************************************************************************************
-Title: Airlines and F.A.A. Try to Head Off Summer Travel Meltdowns
-Publication Date: Tue May 23 14:02:05 ART 2023
-Link: https://www.nytimes.com/2023/05/22/business/airlines-faa-summer-travel-meldtown.html
-Text: Having angered travelers and lawmakers, airline executives and aviation officials said they were reducing flights, hiring staff and making other changes to avoid disruptions this summer.
-**********************************************************************************************
-**********************************************************************************************
-Title: With Climate Panel as a Beacon, Global Group Takes on Misinformation
-Publication Date: Wed May 24 18:42:38 ART 2023
-Link: https://www.nytimes.com/2023/05/24/business/researchers-study-misinformation.html
-Text: A group of scholars introduced an international panel to study the digital information landscape, inspired by those who had been warning of the effect of global warming.
-**********************************************************************************************
-**********************************************************************************************
 Title: Fed Officials Were Split Over June Rate Pause, Minutes Show
-Publication Date: Wed May 24 18:00:01 ART 2023
+Publication Date: Wed May 24 18:00:02 ART 2023
 Link: https://www.nytimes.com/2023/05/24/us/politics/federal-reserve-minutes.html
 Text: In the Federal Reserve’s last meeting, “several” participants thought rates may have moved high enough to get inflation under control.
 **********************************************************************************************
@@ -77,7 +71,7 @@ Link: https://www.nytimes.com/2023/05/24/nyregion/nicholas-gray-dead.html
 Text: His Gray’s Papaya, a knockoff of another frankfurter haven, helped turn an unlikely culinary combination into a New York phenomenon.
 **********************************************************************************************
 **********************************************************************************************
-Title: McCarthy Renews Call for Spending Cuts as Debt Talks Grind On
+Title: McCarthy Renews Call for Spending Cuts as Debt Ceiling Talks Grind On
 Publication Date: Wed May 24 20:14:33 ART 2023
 Link: https://www.nytimes.com/2023/05/24/us/politics/debt-limit-mccarthy-biden.html
 Text: With a potential default just over a week away, a resolution remained elusive and Republican leaders told lawmakers they could return home for the holiday break.
@@ -105,12 +99,6 @@ Title: Inside How TikTok Shares User Data
 Publication Date: Wed May 24 16:52:55 ART 2023
 Link: https://www.nytimes.com/2023/05/24/technology/inside-how-tiktok-shares-user-data-lark.html
 Text: Employees of the Chinese-owned video app have regularly posted user information on a messaging and collaboration tool called Lark, according to internal documents.
-**********************************************************************************************
-**********************************************************************************************
-Title: Semafor Raises $19 Million, Replacing Money From Sam Bankman-Fried
-Publication Date: Wed May 24 12:02:46 ART 2023
-Link: https://www.nytimes.com/2023/05/24/business/media/semafor-funding-bankman-fried.html
-Text: The media start-up’s new backers include Henry Kravis, a founder of the private-equity giant KKR, and Jerry Yang, a Yahoo founder.
 **********************************************************************************************
 **********************************************************************************************
 Title: AI Needs an International Watchdog, OpenAI Leaders Say
@@ -149,14 +137,32 @@ Link: https://www.nytimes.com/2023/05/23/business/jobs-protections-artificial-in
 Text: Tens of millions of jobs could be automated by generative artificial intelligence. The makers of new technologies are looking to the government to step in.
 **********************************************************************************************
 **********************************************************************************************
+Title: BuzzFeed’s Botatouille Chatbot Puts A.I. Twist on Food Advice
+Publication Date: Tue May 23 10:00:08 ART 2023
+Link: https://www.nytimes.com/2023/05/23/business/media/buzzfeed-botatouille-chatbot-food.html
+Text: Jonah Peretti, the company’s chief executive, has embraced artificial intelligence more than most publishers. His latest offering: Botatouille, an A.I.-powered kitchen assistant.
+**********************************************************************************************
+**********************************************************************************************
 Title: An A.I.-Generated Picture Stokes a Stock Market Plunge
 Publication Date: Tue May 23 08:56:50 ART 2023
 Link: https://www.nytimes.com/2023/05/23/business/ai-picture-stock-market.html
 Text: A stock sell-off driven by a since-debunked picture underscored fears about how artificial intelligence could be used for nefarious purposes with big consequences.
 **********************************************************************************************
 **********************************************************************************************
+Title: Mountain of FTX Evidence: Emails, Chat Logs, Code and a Notebook
+Publication Date: Tue May 23 06:00:34 ART 2023
+Link: https://www.nytimes.com/2023/05/23/technology/ftx-evidence-sam-bankman-fried.html
+Text: Prosecutors investigating Sam Bankman-Fried, the cryptocurrency exchange’s founder, have accumulated more than six million pages of documents and other records.
+**********************************************************************************************
+**********************************************************************************************
+Title: U.S. Faces ‘Elevated Risk’ of Default in Early June, a New Report Warns
+Publication Date: Tue May 23 17:36:51 ART 2023
+Link: https://www.nytimes.com/2023/05/23/us/politics/debt-limit-default-xdate-report.html
+Text: The Bipartisan Policy Center said the government would be operating on “dangerously low” cash reserves after Memorial Day in its estimate of the so-called X-date.
+**********************************************************************************************
+**********************************************************************************************
 Title: An African Country Faces Challenges to Protect Girls From HPV
-Publication Date: Tue May 23 14:48:29 ART 2023
+Publication Date: Thu May 25 00:22:45 ART 2023
 Link: https://www.nytimes.com/2023/05/23/health/hpv-vaccine-tanzania.html
 Text: Almost all cervical cancer deaths now occur in developing countries. Tanzania is trying to inoculate girls against the virus that causes the disease — nearly 20 years after rich countries began offering the shot.
 **********************************************************************************************
@@ -189,6 +195,12 @@ Title: Bioré and Influencer Apologize After School Shooting Ad
 Publication Date: Mon May 22 16:20:22 ART 2023
 Link: https://www.nytimes.com/2023/05/22/business/biore-tiktok-cecilee-max-school-shooting.html
 Text: A Michigan State graduate apologized after she talked about how the school shooting there affected her mental health as part of a paid partnership with the beauty company.
+**********************************************************************************************
+**********************************************************************************************
+Title: Airlines and F.A.A. Try to Head Off Summer Travel Meltdowns
+Publication Date: Tue May 23 14:02:05 ART 2023
+Link: https://www.nytimes.com/2023/05/22/business/airlines-faa-summer-travel-meldtown.html
+Text: Having angered travelers and lawmakers, airline executives and aviation officials said they were reducing flights, hiring staff and making other changes to avoid disruptions this summer.
 **********************************************************************************************
 **********************************************************************************************
 Title: Companies Are Pushing Back Harder on Union Efforts, Workers Say
@@ -347,18 +359,6 @@ Link: https://www.nytimes.com/2023/05/20/business/ai-financial-advice-chatgpt.ht
 Text: The financial services industry is plotting how to incorporate tools like ChatGPT into its products. But humans will still be necessary to provide personal advice.
 **********************************************************************************************
 **********************************************************************************************
-Title: DeSantis Lawyers Ask Judge in Disney Case to Recuse Himself
-Publication Date: Fri May 19 20:02:35 ART 2023
-Link: https://www.nytimes.com/2023/05/19/business/disney-ron-desantis-florida.html
-Text: They argued that Judge Mark E. Walker’s comments in two unrelated proceedings displayed a bias toward the company.
-**********************************************************************************************
-**********************************************************************************************
-Title: JetBlue-American Partnership Struck Down by Federal Judge
-Publication Date: Fri May 19 18:55:24 ART 2023
-Link: https://www.nytimes.com/2023/05/19/business/jetblue-american-northeast-alliance-justice-department.html
-Text: An alliance begun in 2021 at four airports in the New York area and Boston allowed the airlines to sell tickets on each other’s flights and share revenue.
-**********************************************************************************************
-**********************************************************************************************
 Title: Inside How TikTok Shares User Data
 Publication Date: Wed May 24 16:52:55 ART 2023
 Link: https://www.nytimes.com/2023/05/24/technology/inside-how-tiktok-shares-user-data-lark.html
@@ -384,13 +384,13 @@ Text: Prosecutors investigating Sam Bankman-Fried, the cryptocurrency exchange�
 **********************************************************************************************
 **********************************************************************************************
 Title: Elon Musk’s Event With Ron DeSantis Exposes Twitter’s Weaknesses
-Publication Date: Wed May 24 21:13:04 ART 2023
+Publication Date: Wed May 24 21:40:03 ART 2023
 Link: https://www.nytimes.com/2023/05/24/technology/elon-musk-desantis-twitter.html
 Text: What was supposed to be a crowning moment for Mr. Musk’s Twitter turned into a series of technical glitches.
 **********************************************************************************************
 **********************************************************************************************
 Title: Chinese Malware Hits Systems on Guam. Is Taiwan the Real Target?
-Publication Date: Wed May 24 19:55:22 ART 2023
+Publication Date: Thu May 25 00:12:39 ART 2023
 Link: https://www.nytimes.com/2023/05/24/us/politics/china-guam-malware-cyber-microsoft.html
 Text: The code, which Microsoft said was installed by a Chinese government hacking group, set off alarms because Guam would be a centerpiece of any U.S. military response to a move against Taiwan.
 **********************************************************************************************
@@ -402,7 +402,7 @@ Text: The Florida governor is set to announce that he will be running for presid
 **********************************************************************************************
 **********************************************************************************************
 Title: Grimes Reviews A.I. Grimes Songs
-Publication Date: Wed May 24 12:18:15 ART 2023
+Publication Date: Wed May 24 21:24:02 ART 2023
 Link: https://www.nytimes.com/2023/05/24/arts/music/grimes-ai-songs.html
 Text: The producer and pop singer, long a proponent of technological experimentation, has “open-sourced” her voice using new A.I. tools. She’s been impressed by the results.
 **********************************************************************************************
@@ -568,12 +568,12 @@ BankmanFried: 3
 advice: 1
 Musk: 4
 Grind: 1
-unrelated: 1
+popped: 1
 over: 3
 machines: 1
 executive: 5
-popped: 1
 conviction: 1
+minimum: 1
 any: 1
 Extremism: 1
 offering: 2
@@ -623,7 +623,7 @@ Prices: 2
 planned: 3
 them: 1
 underbelly: 1
-US: 12
+US: 14
 explayer: 1
 Facebook: 2
 justices: 1
@@ -646,12 +646,12 @@ come: 1
 alarms: 1
 automated: 1
 misses: 1
-Department: 1
+Department: 2
 BuzzFeeds: 1
 Apologize: 1
 new: 12
 Make: 2
-Twitters: 2
+Twitters: 3
 rising: 1
 Tanzania: 1
 Bidenmet: 1
@@ -665,15 +665,14 @@ has: 6
 swag: 1
 AI: 11
 Yorkphenomenon: 1
-New: 5
+New: 4
 Xdate: 3
 generative: 1
 body: 2
 Hotel: 1
-four: 1
+Washington: 1
 Guam: 2
 Consumer: 1
-Washington: 1
 strike: 1
 Industry: 1
 vast: 1
@@ -686,17 +685,17 @@ As: 1
 plans: 1
 Again: 1
 Guide: 1
-Floridas: 1
+installed: 1
 low: 1
 stop: 2
 law: 4
 six: 3
-installed: 1
+Floridas: 1
 participants: 1
 conglomerate: 1
 dissipated: 1
 quickly: 1
-Finds: 1
+Finds: 2
 Users: 1
 School: 1
 governed: 2
@@ -729,7 +728,7 @@ startups: 1
 agreement: 2
 caught: 1
 dozen: 1
-airports: 1
+multiplayer: 1
 just: 2
 travelers: 1
 network: 1
@@ -737,7 +736,6 @@ investor: 1
 defend: 1
 intent: 1
 already: 1
-multiplayer: 1
 analysis: 1
 officials: 1
 Holmes: 1
@@ -745,7 +743,7 @@ driven: 1
 cancer: 1
 act: 1
 Greener: 1
-Event: 1
+Event: 2
 Implants: 1
 real: 2
 Micron: 4
@@ -755,7 +753,7 @@ giants: 1
 miserable: 1
 Renews: 1
 how: 8
-into: 6
+into: 7
 Henry: 1
 leaders: 1
 potential: 1
@@ -775,34 +773,35 @@ Elevated: 1
 Republicans: 1
 Pause: 1
 Picks: 1
-Theranos: 1
+reasonable: 1
 disruptions: 2
 Mykonos: 1
 turnan: 1
 continuing: 1
 cut: 3
 highvolume: 1
+Theranos: 1
 Them: 1
 high: 1
 Star: 1
-moons: 1
+Interior: 1
 Monday: 2
+Floyd: 1
 Question: 1
 Contract: 1
 AIpowered: 1
 responds: 1
 apply: 1
 Are: 3
-They: 1
+ideas: 1
 mistake: 1
 Lark: 2
 Change: 1
-ideas: 1
+moons: 1
 recede: 1
 attack: 1
-comments: 1
-Systems: 1
 one: 2
+Systems: 1
 staff: 1
 letter: 1
 Campaign: 1
@@ -813,7 +812,7 @@ chip: 1
 aiding: 2
 succeed: 1
 His: 2
-What: 4
+What: 5
 Report: 2
 Energy: 4
 statements: 1
@@ -847,9 +846,9 @@ taking: 1
 note: 2
 remain: 1
 business: 1
-allowed: 1
-Week: 1
 Using: 1
+Week: 1
+Sidesteps: 1
 Hurts: 1
 last: 2
 between: 2
@@ -862,14 +861,14 @@ Reached: 1
 DeSantiss: 3
 very: 1
 ordinary: 1
-Sidesteps: 1
 Elizabeth: 1
+information: 3
 access: 3
 industry: 1
-information: 3
+office: 1
 FTX: 2
 users: 2
-office: 1
+Journalists: 1
 case: 1
 farm: 1
 hasnt: 1
@@ -882,20 +881,21 @@ Officials: 1
 Australia: 2
 device: 1
 Inside: 3
+Police: 2
 under: 1
-Attracts: 1
 health: 1
-Pushing: 1
+Attracts: 1
 shepherded: 1
-Business: 1
-organizing: 1
 its: 12
-past: 1
-costs: 1
+organizing: 1
 Over: 3
+Business: 1
+costs: 1
 have: 13
+Pushing: 1
 policy: 1
 Too: 1
+past: 1
 organizations: 2
 president: 2
 several: 1
@@ -909,7 +909,7 @@ who: 4
 traction: 1
 sellers: 1
 Close: 1
-With: 11
+With: 12
 risks: 2
 Stock: 2
 investigating: 3
@@ -923,13 +923,13 @@ losing: 1
 tool: 2
 apologized: 1
 little: 1
-Prospect: 1
+Park: 1
 Market: 1
 step: 1
 dangerous: 1
 free: 3
 administration: 1
-Case: 1
+Prospect: 1
 Wage: 2
 Chat: 3
 violations: 1
@@ -960,7 +960,6 @@ quarter: 1
 Rooms: 1
 aimed: 2
 Minnesota: 2
-Himself: 1
 videos: 1
 rich: 1
 Spending: 3
@@ -969,11 +968,11 @@ sides: 1
 War: 1
 Calling: 1
 is: 18
-retaliation: 2
 Lithium: 1
 attorney: 1
 beauty: 1
 Its: 4
+level: 1
 cryptocurrency: 2
 selling: 3
 Jerry: 1
@@ -988,9 +987,10 @@ ESports: 2
 Vulnerable: 1
 live: 3
 Biden: 3
+retaliation: 2
 States: 4
 Bans: 2
-Elon: 4
+Elon: 5
 Country: 1
 talk: 2
 using: 2
@@ -1014,14 +1014,13 @@ Blue: 1
 privateequity: 1
 Shares: 2
 oil: 1
-argued: 1
+Websites: 1
 Accidents: 1
 Some: 2
 UK: 1
 Risky: 1
 chatbots: 1
 after: 8
-Websites: 1
 teams: 2
 architects: 1
 Origin: 1
@@ -1041,6 +1040,7 @@ Jonah: 1
 energy: 1
 Mining: 1
 nefarious: 1
+Australian: 1
 filed: 2
 journalists: 1
 Michigan: 1
@@ -1052,10 +1052,10 @@ Yahoo: 1
 occur: 1
 technologies: 1
 Spotlight: 1
-Disney: 3
+Artificial: 1
 Food: 1
 discussion: 1
-Artificial: 1
+Disney: 2
 signed: 2
 Bior: 1
 violated: 1
@@ -1075,8 +1075,6 @@ Shows: 1
 Wretched: 1
 Man: 1
 Greeces: 1
-Down: 1
-Partnership: 1
 employee: 2
 SpaceX: 1
 what: 1
@@ -1091,7 +1089,6 @@ got: 1
 game: 2
 few: 1
 shareholders: 1
-revenue: 1
 enough: 2
 Reveals: 1
 can: 5
@@ -1129,12 +1126,11 @@ woman: 2
 Nations: 1
 Seeking: 2
 gasoline: 1
+Panel: 1
 inspired: 1
 systems: 1
-Panel: 1
-Flare: 1
 own: 1
-mission: 1
+Flare: 1
 inoculate: 1
 Varo: 1
 roleplaying: 1
@@ -1144,6 +1140,7 @@ cooking: 1
 mislabeled: 1
 Puts: 1
 marks: 1
+mission: 1
 takes: 2
 replace: 2
 Dead: 1
@@ -1169,7 +1166,7 @@ Delivery: 1
 suits: 1
 personal: 1
 expected: 2
-moment: 1
+moment: 2
 Uber: 4
 investigation: 1
 Screen: 2
@@ -1185,8 +1182,7 @@ Stubbornly: 1
 superintelligent: 2
 Kravis: 1
 accused: 1
-two: 5
-sell: 1
+two: 4
 estimate: 1
 rocket: 1
 because: 1
@@ -1198,7 +1194,7 @@ Microsoft: 2
 down: 1
 Alibaba: 2
 Chineseowned: 4
-turned: 1
+turned: 2
 get: 2
 Scope: 1
 school: 1
@@ -1209,7 +1205,6 @@ war: 1
 Landmark: 1
 requirements: 1
 salary: 1
-Struck: 1
 fresh: 1
 ruled: 1
 approach: 2
@@ -1222,6 +1217,7 @@ Moon: 1
 riskaverse: 1
 Twist: 1
 Tighter: 1
+protest: 1
 Try: 1
 secure: 1
 Investors: 3
@@ -1232,8 +1228,7 @@ federal: 2
 tough: 1
 Technologys: 1
 looking: 1
-Federal: 4
-airlines: 1
+Federal: 3
 inevitable: 1
 incursions: 1
 Bidens: 1
@@ -1245,24 +1240,23 @@ alone: 1
 Semafor: 1
 most: 4
 drifting: 1
-be: 13
+be: 14
 home: 1
 Employees: 4
 carry: 1
-bankruptcies: 1
 Americans: 1
 including: 2
+bankruptcies: 1
 Includes: 1
 combination: 1
 fears: 1
 May: 2
-toward: 1
 pass: 1
 professional: 2
 but: 8
 levels: 1
+series: 2
 cervical: 1
-series: 1
 shield: 1
 Must: 1
 Cavanagh: 2
@@ -1282,7 +1276,7 @@ Treasury: 1
 revive: 1
 Natural: 1
 Speaker: 1
-at: 7
+at: 6
 allowing: 1
 investors: 2
 Gray: 1
@@ -1292,11 +1286,10 @@ Adani: 1
 graduate: 1
 twist: 1
 give: 1
-bias: 1
 team: 1
 running: 2
 project: 2
-technical: 1
+technical: 2
 ingredient: 1
 cities: 1
 OpenAIs: 1
@@ -1328,11 +1321,11 @@ connects: 1
 No: 1
 Needs: 3
 Yang: 1
-for: 33
+for: 34
 Cuts: 1
 chips: 3
 Boom: 2
-Ceiling: 2
+Ceiling: 3
 operating: 1
 supply: 2
 pace: 1
@@ -1357,14 +1350,12 @@ parents: 2
 About: 2
 Raises: 1
 archaeologist: 1
-was: 6
+was: 7
 do: 1
-Mark: 1
 hacking: 1
 Default: 4
 released: 1
 Radio: 1
-area: 1
 archipelago: 1
 efforts: 4
 opensourced: 1
@@ -1379,13 +1370,13 @@ made: 1
 Bill: 2
 developing: 1
 leadership: 2
+crowning: 2
 Gamers: 1
-crowning: 1
 immersive: 1
 State: 4
-boom: 1
 Could: 2
-in: 36
+boom: 1
+in: 33
 Made: 1
 worlds: 2
 cash: 2
@@ -1399,25 +1390,23 @@ Calif: 2
 socalled: 2
 Washingtons: 2
 Resume: 1
-Weaknesses: 1
+Weaknesses: 2
 User: 2
 avoiding: 1
 Bumpy: 1
 Spends: 1
 Attempt: 1
-tickets: 1
 effect: 3
 publishers: 1
 Everyone: 1
 future: 2
+Excessive: 1
 Black: 1
-Judge: 3
-figures: 1
 alienated: 1
+figures: 1
 overall: 1
 changes: 1
 Watchdog: 2
-Boston: 1
 Gig: 2
 owner: 3
 G: 1
@@ -1444,6 +1433,7 @@ Tries: 1
 Reaches: 1
 all: 2
 intended: 1
+exceeded: 1
 though: 1
 Listen: 2
 Spine: 1
@@ -1451,12 +1441,11 @@ economic: 1
 Lyft: 2
 Adding: 1
 markets: 2
-York: 2
+York: 1
 clear: 1
 array: 1
 Provide: 1
 battery: 1
-Recuse: 1
 about: 10
 provider: 1
 least: 3
@@ -1506,16 +1495,17 @@ announce: 3
 celebrities: 1
 much: 1
 posted: 2
+officers: 1
 psychological: 1
 Growth: 2
-flights: 2
+flights: 1
 Companies: 1
 Global: 1
 mental: 1
 editor: 1
-off: 3
 Early: 1
 strategy: 1
+off: 3
 scheduled: 1
 Limit: 3
 It: 1
@@ -1524,9 +1514,9 @@ both: 1
 Altman: 1
 appeal: 2
 save: 1
+DeSantis: 3
 booming: 1
 McCarthy: 4
-DeSantis: 3
 members: 1
 major: 1
 gaming: 1
@@ -1545,25 +1535,24 @@ those: 1
 block: 1
 AIGenerated: 2
 Spaces: 2
-Mr: 3
+Mr: 4
 finances: 1
 Unconstitutional: 1
 Replacing: 1
 talked: 1
 companies: 3
 virus: 1
-share: 1
-displayed: 1
 Prosecutors: 2
 Dont: 2
 governors: 1
 another: 1
-a: 71
-to: 97
+a: 73
+to: 96
 platform: 2
 debt: 1
 iPhone: 1
 group: 2
+Used: 1
 programs: 2
 Reserves: 1
 where: 2
@@ -1579,7 +1568,6 @@ For: 1
 News: 2
 it: 10
 soaring: 1
-others: 1
 Soon: 1
 nothing: 1
 focused: 1
@@ -1609,13 +1597,14 @@ given: 1
 Steps: 2
 budget: 1
 Help: 1
-Twitter: 10
+Twitter: 11
 proponent: 1
 Rick: 1
 Warns: 3
 sessions: 2
 Rivals: 2
 Finances: 1
+during: 1
 Kevin: 1
 Else: 1
 Leans: 1
@@ -1628,7 +1617,7 @@ China: 5
 Company: 2
 while: 1
 children: 2
-supposed: 2
+supposed: 3
 Not: 1
 demand: 2
 league: 2
@@ -1656,14 +1645,14 @@ Concerned: 2
 Half: 1
 properties: 1
 defaulting: 1
+resigned: 1
 see: 2
-claw: 1
-of: 61
+of: 63
 Caps: 1
 founder: 5
 Allow: 1
-resigned: 1
-Musks: 2
+claw: 1
+Musks: 4
 actively: 2
 trying: 1
 Sunnyvale: 2
@@ -1677,7 +1666,6 @@ executives: 1
 arrangements: 1
 describe: 1
 helping: 1
-each: 1
 flock: 1
 stories: 1
 Suspends: 2
@@ -1710,9 +1698,7 @@ far: 2
 user: 2
 Prison: 1
 computer: 1
-E: 1
 convicted: 1
-Ask: 1
 minerals: 1
 monotonous: 1
 Nicholas: 1
@@ -1730,11 +1716,11 @@ Through: 1
 Dies: 1
 Rise: 1
 Would: 1
+glitches: 2
 ChatGPT: 2
-glitches: 1
 Joes: 1
 Flock: 1
-JetBlueAmerican: 1
+concluded: 1
 embraced: 1
 Messenger: 1
 prepared: 1
@@ -1760,7 +1746,7 @@ culinary: 1
 Casey: 1
 next: 1
 Talks: 3
-The: 40
+The: 41
 legal: 1
 than: 5
 Hollywood: 1
@@ -1768,8 +1754,9 @@ allow: 1
 leave: 2
 Debate: 1
 workers: 1
-company: 3
+company: 2
 reports: 1
+force: 1
 industrys: 2
 Supreme: 1
 Future: 3
@@ -1779,7 +1766,7 @@ oversee: 2
 Prompts: 1
 relatively: 1
 Workers: 4
-the: 101
+the: 99
 Minerals: 1
 not: 3
 carbon: 1
@@ -1815,7 +1802,8 @@ Anticipating: 2
 Tencent: 2
 challenge: 2
 show: 1
-on: 47
+George: 1
+on: 46
 improvements: 1
 aiming: 1
 against: 3
@@ -1830,10 +1818,9 @@ charges: 1
 face: 4
 Celebrities: 1
 fuels: 1
-Walkers: 1
 year: 4
 living: 1
-On: 1
+On: 2
 Karen: 2
 use: 2
 government: 6
@@ -1850,7 +1837,7 @@ intoa: 1
 more: 4
 Union: 4
 remained: 2
-An: 4
+An: 3
 making: 1
 Meta: 3
 agreements: 1
@@ -1870,7 +1857,6 @@ suffer: 1
 which: 7
 played: 1
 Damage: 1
-alliance: 1
 Green: 1
 should: 2
 Discussions: 1
@@ -1878,19 +1864,18 @@ defrauding: 1
 latest: 4
 Show: 1
 her: 4
+Force: 1
 popularity: 1
-Walk: 1
 court: 1
 up: 4
 scholars: 1
 Say: 5
 race: 2
-Lawyers: 1
+Walk: 1
 reducing: 1
 misinformation: 1
 rates: 1
 Starcruiser: 2
-proceedings: 1
 Grimes: 2
 photos: 1
 Reviews: 2
@@ -1899,8 +1884,8 @@ said: 12
 ban: 2
 fastestgrowing: 1
 OpenSource: 1
-by: 13
-Ron: 2
+by: 12
+Ron: 3
 path: 1
 Ukraine: 2
 like: 2
@@ -1934,15 +1919,550 @@ state: 3
 Mountain: 2
 local: 1
 work: 2
-begun: 1
-Exposes: 1
+Exposes: 2
 Tensions: 1
 gorillas: 1
 Leader: 1
 Your: 2
-and: 55
+and: 53
 response: 1
 subsidies: 2
 being: 3
 Target: 1
 revenues: 1
+
+
+
+************* Named Entities *************
+NBCUniversal 1
+House 1
+Tech 3
+Goes 2
+Vary 1
+Galactic 2
+BankmanFried 3
+Musk 4
+Grind 1
+Extremism 1
+Call 3
+Sues 2
+Optimists 1
+Challenges 1
+Insensitivity 2
+Decision 1
+Songs 1
+Fined 2
+OpenAI 4
+KKR 1
+Grays 1
+Mission 1
+Ensure 2
+Signal 1
+African 1
+Labor 1
+Prices 2
+US 14
+Facebook 2
+Defense 2
+Googles 1
+Travel 1
+Found 1
+Network 1
+Manure 1
+Department 2
+BuzzFeeds 1
+Apologize 1
+Make 2
+Twitters 3
+Tanzania 1
+Bidenmet 1
+Hits 1
+Chinas 2
+Slowed 1
+International 4
+AI 11
+Yorkphenomenon 1
+New 4
+Xdate 3
+Hotel 1
+Washington 1
+Guam 2
+Consumer 1
+Industry 1
+Wrangle 1
+Big 1
+Guide 1
+Floridas 1
+Finds 2
+Users 1
+School 1
+Policy 1
+HPV 1
+EU 2
+REI 1
+Plans 1
+Tens 1
+Paralyzed 1
+StartUps 1
+Holmes 1
+Greener 1
+Event 2
+Implants 1
+Micron 4
+Renews 1
+Henry 1
+Economy 1
+Brain 1
+Botatouille 2
+Materials 2
+Elevated 1
+Republicans 1
+Pause 1
+Picks 1
+Mykonos 1
+Theranos 1
+Star 1
+Interior 1
+Monday 2
+Floyd 1
+Question 1
+Contract 1
+AIpowered 1
+Lark 2
+Change 1
+Systems 1
+Campaign 1
+Inflation 3
+Reserve 1
+Report 2
+Energy 4
+Apple 3
+Taiwan 2
+Set 1
+Weigh 1
+Fledgling 1
+Starbucks 1
+April 1
+Wednesday 1
+Using 1
+Week 1
+Sidesteps 1
+Hurts 1
+FAA 2
+Right 1
+Reached 1
+DeSantiss 3
+Elizabeth 1
+FTX 2
+Journalists 1
+Threat 1
+Officials 1
+Australia 2
+Inside 3
+Police 2
+Attracts 1
+Business 1
+Pushing 1
+Split 1
+Host 1
+Restaurants 1
+Close 1
+Stock 2
+Head 1
+Data 5
+Park 1
+Market 1
+Prospect 1
+Wage 2
+Chat 3
+Cleveland 1
+Trader 1
+Reason 1
+Draymond 1
+Wolff 1
+First 1
+Times 1
+Rooms 1
+Minnesota 2
+Spending 3
+Montana 3
+War 1
+Calling 1
+Lithium 1
+Jerry 1
+President 2
+Leaders 3
+Jobs 1
+Rate 1
+ESports 2
+Vulnerable 1
+Biden 3
+States 4
+Bans 2
+Elon 5
+Country 1
+Chip 4
+Papaya 2
+Mike 2
+Harder 1
+Jamie 2
+Blue 1
+Shares 2
+Websites 1
+Accidents 1
+UK 1
+Risky 1
+Origin 1
+Meantime 1
+High 1
+Beacon 1
+Still 1
+Jonah 1
+Mining 1
+Australian 1
+Michigan 1
+Money 1
+Yahoo 1
+Spotlight 1
+Artificial 1
+Food 1
+Disney 2
+Bior 1
+Runway 1
+Minimum 2
+June 3
+Million 2
+DEI 2
+WFAN 1
+Introduces 1
+Shows 1
+Wretched 1
+Man 1
+Greeces 1
+SpaceX 1
+Advice 1
+Photo 1
+Reveals 1
+Car 1
+Picture 1
+Almost 1
+Satya 1
+Chosen 2
+Presidential 3
+Sales 2
+Nations 1
+Seeking 2
+Panel 1
+Flare 1
+Varo 1
+Puts 1
+Dead 1
+American 1
+Takes 1
+Potential 1
+Revelations 1
+Congress 2
+Day 1
+Lifted 1
+Delivery 1
+Uber 4
+Screen 2
+Collapsing 1
+Life 1
+Naturally 1
+Memorial 1
+Deal 3
+Instagram 1
+Stubbornly 1
+Kravis 1
+Building 1
+Real 1
+Protects 1
+Microsoft 2
+Alibaba 2
+Chineseowned 4
+Scope 1
+Faces 2
+Privacy 2
+Landmark 1
+Prevent 1
+TikTok 6
+Moon 1
+Twist 1
+Tighter 1
+Try 1
+Investors 3
+Technologys 1
+Federal 3
+Bidens 1
+Violating 2
+Semafor 1
+Employees 4
+Americans 1
+Includes 1
+May 2
+Must 1
+Cavanagh 2
+Uncertain 2
+Complain 2
+NASA 1
+Work 2
+Debt 7
+Dependence 1
+Treasury 1
+Natural 1
+Speaker 1
+Gray 1
+Protect 1
+Evidence 2
+Adani 1
+OpenAIs 1
+Passes 2
+Back 2
+Billionaires 1
+Childs 2
+Financial 2
+Standoff 1
+Plunge 1
+Efforts 1
+Negotiators 2
+Needs 3
+Yang 1
+Cuts 1
+Boom 2
+Ceiling 3
+Court 1
+Describe 1
+Ban 5
+Side 2
+Luxury 1
+Indian 1
+March 1
+AIs 1
+Raises 1
+Default 4
+Radio 1
+Strife 1
+Neither 1
+Payments 1
+Bill 2
+Gamers 1
+State 4
+Could 2
+Made 1
+Calif 2
+Washingtons 2
+Resume 1
+Weaknesses 2
+User 2
+Bumpy 1
+Spends 1
+Attempt 1
+Everyone 1
+Excessive 1
+Black 1
+Watchdog 2
+Gig 2
+Productive 1
+Find 1
+Republican 1
+Summer 1
+Applied 2
+Stalls 2
+Persists 1
+Wars 1
+Tries 1
+Reaches 1
+Listen 2
+Spine 1
+Lyft 2
+Adding 1
+York 1
+Provide 1
+Valley 2
+Ruling 1
+Another 1
+Montanas 2
+Makes 1
+Peretti 1
+Disneys 1
+Limiting 2
+Gas 1
+White 1
+Sports 1
+Growth 2
+Companies 1
+Global 1
+Early 1
+Limit 3
+Cars 1
+Altman 1
+DeSantis 3
+McCarthy 4
+Google 3
+Barely 1
+Chatbot 1
+Nadella 1
+Florida 4
+AIGenerated 2
+Spaces 2
+Mr 4
+Unconstitutional 1
+Replacing 1
+Prosecutors 2
+Dont 2
+Used 1
+Reserves 1
+Announcement 3
+Amazons 1
+Bezos 2
+News 2
+Soon 1
+Malware 1
+Swiss 1
+App 2
+Yellen 2
+Risk 1
+Fertile 1
+Clientele 1
+Chief 2
+Baidu 2
+Steps 2
+Help 1
+Twitter 11
+Rick 1
+Warns 3
+Rivals 2
+Finances 1
+Kevin 1
+Else 1
+Leans 1
+Know 2
+Detecting 1
+Intelligence 1
+China 5
+Company 2
+Succession 1
+Notebook 2
+Run 1
+Recovery 2
+Dogs 1
+Worlds 2
+Ground 1
+Escalates 1
+Fed 1
+Concerned 2
+Half 1
+Caps 1
+Allow 1
+Musks 4
+Sunnyvale 2
+Move 2
+Sam 3
+Suspends 2
+Gautam 1
+Much 1
+Coal 1
+Atomic 2
+Code 2
+Announce 1
+Logs 2
+Accuses 1
+Content 1
+Apples 1
+Center 3
+Planning 1
+Prison 1
+Nicholas 1
+Wants 1
+Jan 2
+Rating 1
+Section 1
+Remains 1
+Dies 1
+Rise 1
+Would 1
+ChatGPT 2
+Joes 1
+Flock 1
+Messenger 1
+Jeff 2
+Eight 1
+Americas 2
+Billion 4
+European 2
+Ad 1
+United 4
+Silicon 2
+Shooting 1
+Casey 1
+Talks 3
+Hollywood 1
+Debate 1
+Supreme 1
+Future 3
+Dimon 2
+Prompts 1
+Workers 4
+Minerals 1
+Break 2
+Path 1
+Girls 1
+Stokes 1
+Artemis 1
+JPMorgans 1
+Research 2
+Time 2
+Paired 1
+Microsofts 1
+Bipartisan 1
+Emails 2
+Rules 2
+Airlines 1
+Electric 1
+Credit 1
+Anticipating 2
+Tencent 2
+George 1
+Group 1
+Celebrities 1
+Karen 2
+Gorillas 1
+Misinformation 1
+Summit 1
+Influencer 1
+Union 4
+Meta 3
+Barbers 1
+Dallas 1
+Missed 1
+Nearly 1
+Damage 1
+Green 1
+Discussions 1
+Show 1
+Force 1
+Say 5
+Walk 1
+Starcruiser 2
+Grimes 2
+Reviews 2
+OpenSource 1
+Ron 3
+Ukraine 2
+Minutes 1
+Improperly 1
+Meltdowns 1
+Sue 1
+Agency 2
+Chinese 3
+Hot 1
+Site 1
+Climate 2
+Many 2
+Small 1
+Mountain 2
+Exposes 2
+Tensions 1
+Leader 1
+Target 1
