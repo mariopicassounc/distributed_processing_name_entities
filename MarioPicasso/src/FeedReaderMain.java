@@ -12,6 +12,7 @@ import org.apache.spark.api.java.JavaSparkContext;
 
 import feed.Article;
 import feed.Feed;
+import namedEntity.FactoryNamedEntity;
 import namedEntity.NamedEntity;
 import namedEntity.heuristic.Heuristic;
 import namedEntity.heuristic.QuickHeuristic;
@@ -97,11 +98,16 @@ public class FeedReaderMain {
 			System.out.println(tuple._1() + ": " + tuple._2());
 		}
 
-		// Create a List of named entities
-		List<NamedEntity> namedEntities = new ArrayList<NamedEntity>();
-
 		// For each word in the RDD, check if it is a named entity
 		Heuristic h = new QuickHeuristic();
+
+		// Create list of named entities with FactoryNamedEntity
+		FactoryNamedEntity factoryNamedEntity = new FactoryNamedEntity();
+		List<NamedEntity> namedEntities = factoryNamedEntity.createListNamedEntitys(h, output);
+
+		// Print the list of named entities with FactoryNamedEntity
+		System.out.println("\n\n\n************* Named Entities *************");
+		factoryNamedEntity.preetyPrint();
 		
 		sc.stop();
 		sc.close();

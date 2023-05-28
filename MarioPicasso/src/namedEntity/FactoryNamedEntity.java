@@ -121,4 +121,19 @@ public class FactoryNamedEntity {
         }
     }
 
+    public void preetyPrint() {
+        /*
+         * Prints the classFrequencyEntityMap and the list of Named Entities with frequency
+         */
+        System.out.println("Class Frequency Entity Map:");
+        for (Map.Entry<String, Integer> entry : classFrequencyEntityMap.entrySet()) {
+            System.out.println(entry.getKey() + " " + entry.getValue());
+        }
+
+        System.out.println("List of Named Entities:");
+
+        for (NamedEntity namedEntity : listNamedEntities) {
+            System.out.println(namedEntity.getName() + " " + namedEntity.getFrequency());
+        }
+    }
 }
