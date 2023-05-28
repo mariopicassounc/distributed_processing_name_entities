@@ -94,9 +94,6 @@ public class FeedReaderMain {
 		JavaPairRDD<String, Integer> counts = ones.reduceByKey((i1, i2) -> i1 + i2);
 
 		List<Tuple2<String, Integer>> output = counts.collect();
-		for (Tuple2<?, ?> tuple : output) {
-			System.out.println(tuple._1() + ": " + tuple._2());
-		}
 
 		// For each word in the RDD, check if it is a named entity
 		Heuristic h = new QuickHeuristic();

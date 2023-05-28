@@ -6,11 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FactoryNamedEntity",
+            "request": "launch",
+            "mainClass": "namedEntity.FactoryNamedEntity",
+            "projectName": "grupo24_lab03_2023_fbf759b1"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}",
-            "args": [">", "output.txt"],
-
+            "args": [
+                ">",
+                "output.txt"
+            ]
         },
         {
             "type": "java",
