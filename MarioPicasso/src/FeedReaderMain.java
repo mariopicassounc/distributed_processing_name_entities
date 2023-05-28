@@ -16,7 +16,7 @@ import namedEntity.NamedEntity;
 import namedEntity.heuristic.Heuristic;
 import namedEntity.heuristic.QuickHeuristic;
 import parser.FeedParser;
-import parser.FeedParserFactory;
+import parser.FactoryFeedParser;
 import parser.SubscriptionParser;
 import scala.Tuple2;
 import subscription.SingleSubscription;
@@ -66,7 +66,7 @@ public class FeedReaderMain {
 
 				Feed feed;
 
-				FeedParser feedParser = FeedParserFactory.createParser(type);
+				FeedParser feedParser = FactoryFeedParser.createParser(type);
 				feed = feedParser.parseFeed(feedUrl);
 				feed.prettyPrint();
 
@@ -102,33 +102,7 @@ public class FeedReaderMain {
 
 		// For each word in the RDD, check if it is a named entity
 		Heuristic h = new QuickHeuristic();
-
-		for (Tuple2<?, ?> tuple : output) {
-			String word = (String) tuple._1();
-			Integer frequency = (Integer) tuple._2();
-
-			// If it is a named entity, add it to the list
-			if (h.isEntity(word)) {
-				List<String> category = h.getCategory(word);
-
-				if (category != null) {
-					NamedEntity ne = new NamedEntity(word, category, frequency);
-					namedEntities.add(ne);
-
-				}
-				else{
-					NamedEntity ne = new NamedEntity(word, null, frequency);
-					namedEntities.add(ne);
-				}
-			}
-		}
-
-		// Print the named entities
-		System.out.println("\n\n\n************* Named Entities *************");
-		for (NamedEntity ne : namedEntities) {
-			ne.prettyPrint();
-		}
-
+		
 		sc.stop();
 		sc.close();
 	}
