@@ -14,12 +14,12 @@ import httprequest.HttpRequester;
 
 public class RedditParser extends FeedParser {
 
-    public RedditParser(){
+    public RedditParser() {
         super();
     }
 
     public Feed parseFeed(String url) {
-        try{
+        try {
 
             HttpRequester httpRequester = new HttpRequester(url);
             String content = httpRequester.getContent();
@@ -38,7 +38,7 @@ public class RedditParser extends FeedParser {
                     nombreFeed = nombreFeed.replace('_', ' ');
                 }
             }
-            
+
             Feed feedResult = new Feed(nombreFeed);
 
             for (JsonElement child : children) {
@@ -47,7 +47,7 @@ public class RedditParser extends FeedParser {
                 String linkA = "https://www.reddit.com" + publication.get("permalink").getAsString();
                 String descriptionA = publication.get("selftext").getAsString();
                 Long pubDateA = publication.get("created_utc").getAsLong();
-                
+
                 Date datePub = new Date(pubDateA * 1000);
 
                 Article article = new Article(titleA, descriptionA, datePub, linkA);
@@ -55,10 +55,17 @@ public class RedditParser extends FeedParser {
             }
             return feedResult;
 
-        } catch(Exception e){
+        } catch (Exception e) {
             System.out.println("Error: " + e.getMessage());
             return new Feed("");
         }
     }
-        
+
+    static public void main(String[] args) {
+        String url = "https://www.reddit.com/r/Android/hot/.json?count=10";
+        String type = "reddit";
+        FeedParser parser = FactoryFeedParser.createParser(type);
+        Feed feed = parser.parseFeed(url);
+        feed.prettyPrint();
+    }
 }

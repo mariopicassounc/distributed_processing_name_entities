@@ -1,11 +1,1756 @@
+
+
+
+************* FeedReader version 2.0 *************
+[Business, Technology]
+[business, sports]
+[Android, OddlySatisfaying]
+{url=https://rss.nytimes.com/services/xml/rss/nyt/%s.xml, ulrParams=[Business, Technology], urlType=rss}
+**********************************************************************************************
+Title: Inside Fox’s Legal and Business Debacle
+Publication Date: Sat May 27 11:16:12 ART 2023
+Link: https://www.nytimes.com/2023/05/27/business/media/fox-news-dominion-voting.html
+Text: Fox’s handling of the defamation suit brought by Dominion Voting Systems, which settled for $787.5 million, left many unanswered questions.
+**********************************************************************************************
+**********************************************************************************************
+Title: Has ‘Gig Work’ Become a Dirty Word?
+Publication Date: Sat May 27 17:01:13 ART 2023
+Link: https://www.nytimes.com/2023/05/27/business/gig-work-uber-lyft-writers-strike.html
+Text: If work for companies like Uber and Lyft once carried some appeal for offering flexibility, the kind of labor it has come to represent is now used by some as shorthand for a raw deal.
+**********************************************************************************************
+**********************************************************************************************
+Title: 401(k) Hardship Withdrawals Tick Up as Inflation Stays High
+Publication Date: Sun May 28 11:18:55 ART 2023
+Link: https://www.nytimes.com/2023/05/27/business/401k-hardship-withdrawals-retirement.html
+Text: Retirement plan administrators are noting an uptick in hardship withdrawals. But taking that money out can harm your future financial security.
+**********************************************************************************************
+**********************************************************************************************
+Title: Yellen’s Debt Limit Warnings Went Unheeded, Leaving Her to Face Fallout
+Publication Date: Sat May 27 21:52:56 ART 2023
+Link: https://www.nytimes.com/2023/05/27/us/politics/yellen-debt-limit.html
+Text: The Treasury secretary, who considered ways to contain the fallout of a default when she was a Fed official in 2011, had urged Democrats to raise the limit while they still had control of Congress.
+**********************************************************************************************
+**********************************************************************************************
+Title: Netflix Starts to Crack Down on Password Sharing
+Publication Date: Sat May 27 16:24:14 ART 2023
+Link: https://www.nytimes.com/2023/05/27/business/media/netflix-streaming-password.html
+Text: The streaming company had said it was looking for ways to increase revenue. And one way was to make more people pay for the service.
+**********************************************************************************************
+**********************************************************************************************
+Title: Gasoline Prices, a Source of Pain Last Year, Have Come Way Down
+Publication Date: Fri May 26 13:44:01 ART 2023
+Link: https://www.nytimes.com/2023/05/26/business/energy-environment/oil-gasoline-prices-summer.html
+Text: Reasons include a stronger supply of oil and weaker-than-expected demand, energy experts say. Some people are saving hundreds of dollars on fuel.
+**********************************************************************************************
+**********************************************************************************************
+Title: An Iconic Wine Store and the Mystery of the Missing Bottles
+Publication Date: Fri May 26 13:32:53 ART 2023
+Link: https://www.nytimes.com/2023/05/25/business/sherry-lehmann.html
+Text: Sherry-Lehmann, a longtime purveyor of luxury wines, owes New York State $2.8 million in unpaid sales taxes — and its customers an explanation.
+**********************************************************************************************
+**********************************************************************************************
+Title: For the Markets, It’s Not Just the Debt Ceiling
+Publication Date: Fri May 26 10:00:09 ART 2023
+Link: https://www.nytimes.com/2023/05/26/business/markets-debt-ceiling.html
+Text: A host of issues face the markets, beyond the prospect of a possible default on U.S. debt. Hedge your bets and ride it out, our columnist says.
+**********************************************************************************************
+**********************************************************************************************
+Title: From Jacksonville, Florida, Salt Life is Coming to a Beach Near You
+Publication Date: Sun May 28 06:01:53 ART 2023
+Link: https://www.nytimes.com/2023/05/28/style/salt-life-clothes.html
+Text: First, Salt Life was a tattoo. Then it became a logo. Now it is a lifestyle brand with plans to open stores from coast to coast.
+**********************************************************************************************
+**********************************************************************************************
+Title: Biden Officials Announce Indo-Pacific Trade Deal, Clashing With Industry Groups
+Publication Date: Sat May 27 17:06:37 ART 2023
+Link: https://www.nytimes.com/2023/05/27/business/economy/biden-indo-pacific-trade-deal.html
+Text: The United States announced a deal to coordinate supply chains with allies, but prominent business groups said the deal fell short on reducing tariffs and other trade barriers.
+**********************************************************************************************
+**********************************************************************************************
+Title: Why Do Almost Half of Americans Leave Paid Time Off on the Table?
+Publication Date: Sat May 27 18:51:30 ART 2023
+Link: https://www.nytimes.com/2023/05/27/business/dealbook/unused-paid-time-off.html
+Text: In a recent Pew survey, top reasons included worry about falling behind and fear of being fired. DealBook wants to know yours.
+**********************************************************************************************
+**********************************************************************************************
+Title: Time Is Running Out for Congress to Raise the Debt Ceiling
+Publication Date: Fri May 26 19:17:39 ART 2023
+Link: https://www.nytimes.com/2023/05/26/us/politics/debt-limit-default-mccarthy-mcconnell-biden-congress.html
+Text: With a June 5 deadline looming, there is much to be done to prevent the default that leaders of both parties said would never happen.
+**********************************************************************************************
+**********************************************************************************************
+Title: Mary Turner Pattiz, Rock D.J. During FM’s Heyday, Dies at 76
+Publication Date: Sat May 27 13:52:47 ART 2023
+Link: https://www.nytimes.com/2023/05/26/arts/music/mary-turner-pattiz-dead.html
+Text: She was known as “the Burner” for her seductive delivery, but off the air she was anything but a wild rock ’n’ roller. She later became an addiction counselor.
+**********************************************************************************************
+**********************************************************************************************
+Title: Yellen Expects U.S. to Run Out of Cash by June 5 as Debt Talks Continue
+Publication Date: Fri May 26 22:20:14 ART 2023
+Link: https://www.nytimes.com/2023/05/26/business/yellen-treasury-x-date-us-debt.html
+Text: The latest estimate comes as Republicans and the White House are trying to reach an agreement to raise the debt ceiling and avoid a crippling default.
+**********************************************************************************************
+**********************************************************************************************
+Title: Billionaires Worth More Than the United States’ Cash Balance
+Publication Date: Fri May 26 21:55:12 ART 2023
+Link: https://www.nytimes.com/2023/05/26/us/politics/cash-us-treasury-billionaires.html
+Text: The cash balance at the Treasury Department is now lower than the net worth of some of the world’s richest people.
+**********************************************************************************************
+**********************************************************************************************
+Title: Debt Ceiling Crisis: How a Default Could Unfold
+Publication Date: Sat May 27 00:31:32 ART 2023
+Link: https://www.nytimes.com/2023/05/26/business/economy/debt-limit-default.html
+Text: Here’s a look at what markets are expecting and planning for, and how a default might happen.
+**********************************************************************************************
+**********************************************************************************************
+Title: In Italy, Using Modern Jewelry Machinery for New Creations
+Publication Date: Fri May 26 11:38:26 ART 2023
+Link: https://www.nytimes.com/2023/05/26/fashion/jewelry-technology-vicenza-italy.html
+Text: Manufacturers in Vicenza are experimenting with technological advances that would allow brands to go beyond traditional handcrafted methods.
+**********************************************************************************************
+**********************************************************************************************
+Title: Contributions to College Savings Plans Pick Up as Inflation Eases
+Publication Date: Fri May 26 10:00:11 ART 2023
+Link: https://www.nytimes.com/2023/05/26/your-money/college-savings-plans-inflation.html
+Text: Deposits into 529 savings accounts fell last fall and early this year. But experts say the stock market recovery is helping to attract more money.
+**********************************************************************************************
+**********************************************************************************************
+Title: Consumer Spending Rose More Than Expected in April
+Publication Date: Fri May 26 10:46:02 ART 2023
+Link: https://www.nytimes.com/2023/05/26/business/economy/consumer-spending-april.html
+Text: New data on spending and income suggest that the economy remains robust despite the Federal Reserve’s interest rate increases.
+**********************************************************************************************
+**********************************************************************************************
+Title: Lazard Names Peter Orszag to Succeed Ken Jacobs as C.E.O.
+Publication Date: Fri May 26 14:58:54 ART 2023
+Link: https://www.nytimes.com/2023/05/26/business/dealbook/lazard-ceo-orszag.html
+Text: Mr. Orszag will oversee a financial institution with a long history of advising on corporate deals at a time when its mainstay business faces huge challenges.
+**********************************************************************************************
+**********************************************************************************************
+Title: Investors See Hope for a Debt Limit Deal
+Publication Date: Fri May 26 08:24:35 ART 2023
+Link: https://www.nytimes.com/2023/05/26/business/debt-ceiling-deal-markets.html
+Text: Stock and bond trading suggest that investors see an imminent deal to raise the debt limit and prevent the federal government from defaulting.
+**********************************************************************************************
+**********************************************************************************************
+Title: How the Employee Retention Tax Credit Became a Magnet for Fraud
+Publication Date: Fri May 26 18:29:50 ART 2023
+Link: https://www.nytimes.com/2023/05/26/us/politics/employee-retention-credit-tax-fraud.html
+Text: The Employee Retention Credit has spawned a cottage industry of firms claiming to help businesses get stimulus funds, often in violation of federal rules.
+**********************************************************************************************
+**********************************************************************************************
+Title: Predawn Picket Lines Help Writers Disrupt Studio Productions
+Publication Date: Fri May 26 06:03:33 ART 2023
+Link: https://www.nytimes.com/2023/05/26/business/media/writers-strike-picket-lines.html
+Text: Workers from other unions have shown solidarity with the strikers, catching entertainment companies off guard.
+**********************************************************************************************
+**********************************************************************************************
+Title: Digital Interactions Are Just Part of a Jewelry Sale Now
+Publication Date: Fri May 26 06:01:11 ART 2023
+Link: https://www.nytimes.com/2023/05/26/fashion/jewelry-technology-sales.html
+Text: Brands find that some of their customers’ pandemic-era buying habits are here to stay.
+**********************************************************************************************
+**********************************************************************************************
+Title: Restaurant Chain Franchises Face Scrutiny From the FTC
+Publication Date: Fri May 26 06:36:04 ART 2023
+Link: https://www.nytimes.com/2023/05/26/business/burgerim-ftc-franchise.html
+Text: Troubles at the restaurant chain Burgerim highlight concerns about whether franchisees need more protection in their contracts with franchisers.
+**********************************************************************************************
+**********************************************************************************************
+Title: Hyundai and LG Plan $4.3 Billion Battery Plant in Georgia
+Publication Date: Fri May 26 23:45:37 ART 2023
+Link: https://www.nytimes.com/2023/05/26/business/hyundai-lg-georgia-battery-plant.html
+Text: The facility is the second battery project under development in the state by Hyundai Motor Group and may bring 3,000 jobs.
+**********************************************************************************************
+**********************************************************************************************
+Title: Minnesota Governor Vetoes Gig Worker Pay Bill
+Publication Date: Thu May 25 19:16:08 ART 2023
+Link: https://www.nytimes.com/2023/05/25/technology/minnesota-veto-gig-workers.html
+Text: Gov. Tim Walz said the legislation would have raised costs for ordering an Uber or Lyft too high, potentially pricing out Minnesota customers.
+**********************************************************************************************
+**********************************************************************************************
+Title: How DeSantis’s Twitter Spaces Event Compares to Past Livestreams
+Publication Date: Thu May 25 21:28:02 ART 2023
+Link: https://www.nytimes.com/2023/05/25/technology/ron-desantis-twitter-spaces-live-stream.html
+Text: The Republican presidential candidate’s announcement on Twitter had a high of about 300,000 concurrent listeners and a total of 3.4 million listeners as of Thursday.
+**********************************************************************************************
+**********************************************************************************************
+Title: Jamie Dimon to Be Deposed as JPMorgan Faces Reckoning for Epstein Ties
+Publication Date: Fri May 26 08:41:12 ART 2023
+Link: https://www.nytimes.com/2023/05/25/business/jpmorgan-jeffrey-epstein.html
+Text: Two lawsuits claim that the nation’s largest bank ignored signs about Jeffrey Epstein’s sex trafficking because it was profiting from its relationship with him.
+**********************************************************************************************
+**********************************************************************************************
+Title: Supreme Court Rules That States Are Not Entitled to Windfalls in Tax Disputes
+Publication Date: Thu May 25 18:54:26 ART 2023
+Link: https://www.nytimes.com/2023/05/25/us/supreme-court-condo-taxes.html
+Text: In a unanimous decision, the justices sided with a 94-year-old woman who got nothing when a Minnesota county sold her condominium to recoup unpaid taxes.
+**********************************************************************************************
+**********************************************************************************************
+Title: Military Spending Emerges as Big Dispute in Debt-Limit Talks
+Publication Date: Thu May 25 16:27:48 ART 2023
+Link: https://www.nytimes.com/2023/05/25/us/politics/debt-limit-military-spending.html
+Text: President Biden has offered to freeze discretionary spending, including for defense. Republicans want to spend more for the military, and cut more elsewhere.
+**********************************************************************************************
+**********************************************************************************************
+Title: 2 Top Editors to Depart Wall Street Journal
+Publication Date: Thu May 25 15:20:01 ART 2023
+Link: https://www.nytimes.com/2023/05/25/business/media/wall-street-journal-editors.html
+Text: The changes are the latest under the news organization’s new editor in chief, Emma Tucker.
+**********************************************************************************************
+**********************************************************************************************
+Title: After Backlash, Target Becomes Latest Brand to Shift Pride Marketing
+Publication Date: Thu May 25 16:16:18 ART 2023
+Link: https://www.nytimes.com/2023/05/25/business/target-pride-lgbtq-companies-backlash.html
+Text: Target became the latest company to adjust plans for marketing supportive of the L.G.B.T.Q. community after it faced backlash from some customers.
+**********************************************************************************************
+**********************************************************************************************
+Title: White House and GOP Close In on Debt Ceiling Deal
+Publication Date: Thu May 25 23:01:17 ART 2023
+Link: https://www.nytimes.com/2023/05/25/us/politics/republicans-debt-limit-talks-biden.html
+Text: The details were not finalized, but negotiators were discussing a compromise that would allow Republicans to point to spending reductions and Democrats to say they had prevented large cuts.
+**********************************************************************************************
+**********************************************************************************************
+Title: Nvidia Nears Trillion-Dollar Valuation on Rising AI Demand
+Publication Date: Thu May 25 17:47:02 ART 2023
+Link: https://www.nytimes.com/2023/05/25/business/dealbook/nvidia-outlook-artificial-intelligence.html
+Text: The company delivered a robust sales forecast, powered by demand for the processors that run artificial intelligence systems.
+**********************************************************************************************
+**********************************************************************************************
+Title: German Economy Slipped Into Recession in First Quarter
+Publication Date: Thu May 25 15:16:47 ART 2023
+Link: https://www.nytimes.com/2023/05/25/business/german-economy-q1-gdp.html
+Text: Growth in Germany, Europe’s largest economy, was negative for the second consecutive quarter in the first three months of 2023.
+**********************************************************************************************
+**********************************************************************************************
+Title: Microsoft Calls for AI Rules to Minimize Risks
+Publication Date: Thu May 25 17:01:40 ART 2023
+Link: https://www.nytimes.com/2023/05/25/technology/microsoft-ai-rules-regulation.html
+Text: Its president, Brad Smith, said companies needed to “step up” and governments needed to “move faster” as artificial intelligence progressed.
+**********************************************************************************************
+**********************************************************************************************
+Title: Carl Icahn’s Proxy Fight With Illumina Comes to a Vote
+Publication Date: Thu May 25 10:03:43 ART 2023
+Link: https://www.nytimes.com/2023/05/25/business/icahn-illumina-shareholder-vote.html
+Text: Shareholders are set to vote on Thursday whether to back the gene-sequencing company’s incumbent board or candidates named by the activist investor.
+**********************************************************************************************
+**********************************************************************************************
+Title: How Geena Davis Continues to Tackle Gender Bias in Hollywood 
+Publication Date: Fri May 26 12:59:58 ART 2023
+Link: https://www.nytimes.com/2023/05/25/business/geena-davis-hollywood-sexism-gender.html
+Text: When it comes to quantifying bias in popular entertainment, the Academy Award winner’s in a league of her own.
+**********************************************************************************************
+**********************************************************************************************
+Title: Reid Hoffman Is Praising the Virtues of AI
+Publication Date: Thu May 25 06:00:33 ART 2023
+Link: https://www.nytimes.com/2023/05/25/technology/reid-hoffman-artificial-intelligence.html
+Text: Few are as involved in so many different artificial intelligence efforts as Mr. Hoffman, a Silicon Valley investor who co-founded LinkedIn.
+**********************************************************************************************
+**********************************************************************************************
+Title: How to Plan Around Strikes in Europe
+Publication Date: Thu May 25 06:24:37 ART 2023
+Link: https://www.nytimes.com/2023/05/25/travel/summer-strikes-europe.html
+Text: Across Europe, workers have been walking out over pay disputes and labor conditions, and the turmoil will extend into the summer travel season. But they don’t have to disrupt your trip.
+**********************************************************************************************
+**********************************************************************************************
+Title: Delays and Cancellations: Know Your Rights, and Book Wisely
+Publication Date: Thu May 25 06:24:40 ART 2023
+Link: https://www.nytimes.com/2023/05/25/travel/summer-delays-and-cancellations.html
+Text: The F.A.A. has made changes to cut down on chaos, but choosing your flights defensively, and knowing what you’re entitled to, can help.
+**********************************************************************************************
+**********************************************************************************************
+Title: Airfares: As Costs Rise, Flexibility Is Key
+Publication Date: Thu May 25 06:20:24 ART 2023
+Link: https://www.nytimes.com/2023/05/25/travel/summer-airfares.html
+Text: International ticket prices, especially, will be high, but not getting locked into dates or destinations can keep costs down. And consider “skiplagging.”
+**********************************************************************************************
+**********************************************************************************************
+Title: New York City Moves to Regulate How AI Is Used in Hiring
+Publication Date: Thu May 25 06:00:25 ART 2023
+Link: https://www.nytimes.com/2023/05/25/technology/ai-hiring-law-new-york.html
+Text: New York City’s pioneering, focused approach sets rules on how companies use the technology in work force decisions.
+**********************************************************************************************
+**********************************************************************************************
+Title: Airports With the Worst Records for Cancellations and Delays
+Publication Date: Thu May 25 06:18:02 ART 2023
+Link: https://www.nytimes.com/2023/05/25/travel/summer-airports.html
+Text: If you can, avoiding destinations with the worst records for delays and cancellations may be wise. Or at least time your arrival right.
+**********************************************************************************************
+**********************************************************************************************
+Title: Nanchang, Once a Symbol of China’s Growth, Signals a Housing Crisis
+Publication Date: Thu May 25 10:09:17 ART 2023
+Link: https://www.nytimes.com/2023/05/25/business/china-housing-crisis-nanchang.html
+Text: Nanchang’s skyscrapers represented urban transformation, but the city added apartments faster than its population grew. The result: vacant homes and offices.
+**********************************************************************************************
+**********************************************************************************************
+Title: Police Used Excessive Force on 2 Australian Journalists, U.S. Finds
+Publication Date: Wed May 24 21:28:36 ART 2023
+Link: https://www.nytimes.com/2023/05/24/business/australian-journalists-police-george-floyd-protest.html
+Text: The Interior Department concluded that U.S. Park Police officers exceeded the “minimum level of reasonable force” during a George Floyd protest in 2020.
+**********************************************************************************************
+**********************************************************************************************
+Title: With Climate Panel as a Beacon, Global Group Takes On Misinformation
+Publication Date: Wed May 24 22:51:27 ART 2023
+Link: https://www.nytimes.com/2023/05/24/business/researchers-study-misinformation.html
+Text: A group of scholars introduced an international panel to study the digital information landscape, inspired by those who had been warning of the effect of global warming.
+**********************************************************************************************
+**********************************************************************************************
+Title: Fed Officials Were Split Over June Rate Pause, Minutes Show
+Publication Date: Wed May 24 18:00:02 ART 2023
+Link: https://www.nytimes.com/2023/05/24/us/politics/federal-reserve-minutes.html
+Text: In the Federal Reserve’s last meeting, “several” participants thought rates may have moved high enough to get inflation under control.
+**********************************************************************************************
+**********************************************************************************************
+Title: Nicholas Gray, Whose Gray’s Papaya Became a Hot Dog Mecca, Dies at 86
+Publication Date: Thu May 25 17:05:07 ART 2023
+Link: https://www.nytimes.com/2023/05/24/nyregion/nicholas-gray-dead.html
+Text: His storefront eatery, a knockoff of a leading frankfurter grill, helped turn an unlikely culinary combination into a New York phenomenon.
+**********************************************************************************************
+**********************************************************************************************
+Title: McCarthy Renews Call for Spending Cuts as Debt Ceiling Talks Grind On
+Publication Date: Wed May 24 20:14:33 ART 2023
+Link: https://www.nytimes.com/2023/05/24/us/politics/debt-limit-mccarthy-biden.html
+Text: With a potential default just over a week away, a resolution remained elusive and Republican leaders told lawmakers they could return home for the holiday break.
+**********************************************************************************************
+**********************************************************************************************
+Title: How to Listen to DeSantis’s Presidential Announcement With Elon Musk on Twitter
+Publication Date: Wed May 24 20:05:06 ART 2023
+Link: https://www.nytimes.com/2023/05/24/technology/desantis-twitter-space-presidential-campaign.html
+Text: The Florida governor is set to announce that he will be running for president on Twitter Spaces, a live audio streaming platform on Twitter where people gather and talk online in real time.
+**********************************************************************************************
+**********************************************************************************************
+Title: Potential Debt Ceiling Deal Would Barely Change Federal Spending Path
+Publication Date: Wed May 24 14:00:22 ART 2023
+Link: https://www.nytimes.com/2023/05/24/us/politics/debt-ceiling-deal-federal-spending.html
+Text: Negotiators have focused on a relatively small corner of the budget, shunning new revenues or cuts to the fastest-growing programs
+**********************************************************************************************
+**********************************************************************************************
+Title: Yellen Warns of Missed Payments if Debt Limit Is Not Lifted
+Publication Date: Wed May 24 16:56:07 ART 2023
+Link: https://www.nytimes.com/2023/05/24/us/politics/yellen-debt-limit.html
+Text: The Treasury secretary said the Biden administration would face “very tough choices” if Congress did not act.
+**********************************************************************************************
+**********************************************************************************************
+Title: Inside How TikTok Shares User Data
+Publication Date: Wed May 24 16:52:55 ART 2023
+Link: https://www.nytimes.com/2023/05/24/technology/inside-how-tiktok-shares-user-data-lark.html
+Text: Employees of the Chinese-owned video app have regularly posted user information on a messaging and collaboration tool called Lark, according to internal documents.
+**********************************************************************************************
+**********************************************************************************************
+Title: Semafor Raises $19 Million, Replacing Money From Sam Bankman-Fried
+Publication Date: Wed May 24 12:02:47 ART 2023
+Link: https://www.nytimes.com/2023/05/24/business/media/semafor-funding-bankman-fried.html
+Text: The media start-up’s new backers include Henry Kravis, a founder of the private-equity giant KKR, and Jerry Yang, a Yahoo founder.
+**********************************************************************************************
+**********************************************************************************************
+Title: AI Needs an International Watchdog, OpenAI Leaders Say
+Publication Date: Wed May 24 15:14:42 ART 2023
+Link: https://www.nytimes.com/2023/05/24/business/artificial-intelligence-regulation-openai.html
+Text: To manage its risks, “superintelligent” artificial intelligence should be governed by a body similar to the International Atomic Energy Agency, the lab’s leadership said in note on its website.
+**********************************************************************************************
+**********************************************************************************************
+Title: DeSantis’s 2024 Campaign Announcement Shows Twitter’s Move to the Right
+Publication Date: Wed May 24 11:04:23 ART 2023
+Link: https://www.nytimes.com/2023/05/24/business/dealbook/desantis-twitter-presidential-campaign.html
+Text: The Florida governor’s plan to announce his presidential campaign on the social network is the latest sign of the company’s efforts to court conservatives.
+**********************************************************************************************
+**********************************************************************************************
+Title: The Surgeon General’s Social Media Warning and A.I.’s Existential Risks
+Publication Date: Fri May 26 06:05:10 ART 2023
+Link: https://www.nytimes.com/2023/05/26/podcasts/hard-fork-ajeya-cotra.html
+Text: Plus, Kevin and Casey react to this week’s tech headlines.
+**********************************************************************************************
+**********************************************************************************************
+Title: Minnesota Governor Vetoes Gig Worker Pay Bill
+Publication Date: Thu May 25 19:16:08 ART 2023
+Link: https://www.nytimes.com/2023/05/25/technology/minnesota-veto-gig-workers.html
+Text: Gov. Tim Walz said the legislation would have raised costs for ordering an Uber or Lyft too high, potentially pricing out Minnesota customers.
+**********************************************************************************************
+**********************************************************************************************
+Title: How DeSantis’s Twitter Spaces Event Compares to Past Livestreams
+Publication Date: Thu May 25 21:28:02 ART 2023
+Link: https://www.nytimes.com/2023/05/25/technology/ron-desantis-twitter-spaces-live-stream.html
+Text: The Republican presidential candidate’s announcement on Twitter had a high of about 300,000 concurrent listeners and a total of 3.4 million listeners as of Thursday.
+**********************************************************************************************
+**********************************************************************************************
+Title: Reid Hoffman Is Praising the Virtues of AI
+Publication Date: Thu May 25 06:00:33 ART 2023
+Link: https://www.nytimes.com/2023/05/25/technology/reid-hoffman-artificial-intelligence.html
+Text: Few are as involved in so many different artificial intelligence efforts as Mr. Hoffman, a Silicon Valley investor who co-founded LinkedIn.
+**********************************************************************************************
+**********************************************************************************************
+Title: Microsoft Calls for AI Rules to Minimize Risks
+Publication Date: Thu May 25 17:01:40 ART 2023
+Link: https://www.nytimes.com/2023/05/25/technology/microsoft-ai-rules-regulation.html
+Text: Its president, Brad Smith, said companies needed to “step up” and governments needed to “move faster” as artificial intelligence progressed.
+**********************************************************************************************
+**********************************************************************************************
+Title: How to Protect Your Mental Health When Using Social Media
+Publication Date: Thu May 25 09:58:37 ART 2023
+Link: https://www.nytimes.com/2023/05/25/technology/social-media-mental-health-tips.html
+Text: You don’t have to quit Instagram and TikTok cold turkey. Use these strategies — some practical, some more philosophical — to be online in a healthier or less harmful way.
+**********************************************************************************************
+**********************************************************************************************
+Title: Prompts to Try Asking ChatGPT
+Publication Date: Thu May 25 07:00:02 ART 2023
+Link: https://www.nytimes.com/2023/05/25/technology/ai-chatbot-chatgpt-prompts.html
+Text: Our personal tech columnist shares how to improve many parts of your life.
+**********************************************************************************************
+**********************************************************************************************
+Title: New York City Moves to Regulate How AI Is Used in Hiring
+Publication Date: Thu May 25 06:00:25 ART 2023
+Link: https://www.nytimes.com/2023/05/25/technology/ai-hiring-law-new-york.html
+Text: New York City’s pioneering, focused approach sets rules on how companies use the technology in work force decisions.
+**********************************************************************************************
+**********************************************************************************************
+Title: Elon Musk’s Event With Ron DeSantis Exposes Twitter’s Weaknesses
+Publication Date: Thu May 25 13:09:43 ART 2023
+Link: https://www.nytimes.com/2023/05/24/technology/elon-musk-desantis-twitter.html
+Text: What was supposed to be a crowning moment for Mr. Musk’s Twitter turned into a series of technical glitches.
+**********************************************************************************************
+**********************************************************************************************
+Title: Chinese Malware Hits Systems on Guam. Is Taiwan the Real Target?
+Publication Date: Thu May 25 00:12:39 ART 2023
+Link: https://www.nytimes.com/2023/05/24/us/politics/china-guam-malware-cyber-microsoft.html
+Text: The code, which Microsoft said was installed by a Chinese government hacking group, set off alarms because Guam would be a centerpiece of any U.S. military response to a move against Taiwan.
+**********************************************************************************************
+**********************************************************************************************
+Title: How to Listen to DeSantis’s Presidential Announcement With Elon Musk on Twitter
+Publication Date: Wed May 24 20:05:06 ART 2023
+Link: https://www.nytimes.com/2023/05/24/technology/desantis-twitter-space-presidential-campaign.html
+Text: The Florida governor is set to announce that he will be running for president on Twitter Spaces, a live audio streaming platform on Twitter where people gather and talk online in real time.
+**********************************************************************************************
+**********************************************************************************************
+Title: Grimes Reviews AI Grimes Songs
+Publication Date: Wed May 24 21:24:02 ART 2023
+Link: https://www.nytimes.com/2023/05/24/arts/music/grimes-ai-songs.html
+Text: The producer and pop singer, long a proponent of technological experimentation, has “open-sourced” her voice using new A.I. tools. She’s been impressed by the results.
+**********************************************************************************************
+**********************************************************************************************
+Title: Brain Implants Allow Paralyzed Man to Walk Using His Thoughts
+Publication Date: Fri May 26 22:45:20 ART 2023
+Link: https://www.nytimes.com/2023/05/24/science/paralysis-brain-implants-ai.html
+Text: In a new study, researchers describe a device that connects the intentions of a paralyzed patient to his physical movements.
+**********************************************************************************************
+**********************************************************************************************
+Title: Inside How TikTok Shares User Data
+Publication Date: Wed May 24 16:52:55 ART 2023
+Link: https://www.nytimes.com/2023/05/24/technology/inside-how-tiktok-shares-user-data-lark.html
+Text: Employees of the Chinese-owned video app have regularly posted user information on a messaging and collaboration tool called Lark, according to internal documents.
+**********************************************************************************************
+**********************************************************************************************
+Title: AI Needs an International Watchdog, OpenAI Leaders Say
+Publication Date: Wed May 24 15:14:42 ART 2023
+Link: https://www.nytimes.com/2023/05/24/business/artificial-intelligence-regulation-openai.html
+Text: To manage its risks, “superintelligent” artificial intelligence should be governed by a body similar to the International Atomic Energy Agency, the lab’s leadership said in note on its website.
+**********************************************************************************************
+**********************************************************************************************
+Title: What to Know About Limiting Your Child’s Screen Time
+Publication Date: Wed May 24 06:00:30 ART 2023
+Link: https://www.nytimes.com/2023/05/24/technology/personaltech/what-to-know-about-limiting-your-childs-screen-time.html
+Text: Concerned parents have many tools, including free software from Apple and Google, to actively oversee how children use their tech.
+**********************************************************************************************
+**********************************************************************************************
+Title: Mountain of FTX Evidence: Emails, Chat Logs, Code and a Notebook
+Publication Date: Tue May 23 06:00:34 ART 2023
+Link: https://www.nytimes.com/2023/05/23/technology/ftx-evidence-sam-bankman-fried.html
+Text: Prosecutors investigating Sam Bankman-Fried, the cryptocurrency exchange’s founder, have accumulated more than six million pages of documents and other records.
+**********************************************************************************************
+**********************************************************************************************
+Title: TikTok Sues Montana Over State Ban
+Publication Date: Mon May 22 22:05:07 ART 2023
+Link: https://www.nytimes.com/2023/05/22/technology/tiktok-montana-ban-lawsuit.html
+Text: The Chinese-owned video app filed the lawsuit days after Montana’s governor signed the ban, which takes effect on Jan. 1, into law.
+**********************************************************************************************
+**********************************************************************************************
+Title: Google’s Photo App Still Can’t Find Gorillas. And Neither Can Apple’s.
+Publication Date: Mon May 22 07:50:47 ART 2023
+Link: https://www.nytimes.com/2023/05/22/technology/ai-photo-labels-google-apple.html
+Text: Eight years after a controversy over Black people being mislabeled as gorillas by image analysis software — and despite big advances in computer vision — tech giants still fear repeating the mistake.
+**********************************************************************************************
+**********************************************************************************************
+Title: Silicon Valley Chosen for $4 Billion Chip Research Center
+Publication Date: Mon May 22 20:29:02 ART 2023
+Link: https://www.nytimes.com/2023/05/22/technology/applied-materials-silicon-valley.html
+Text: Anticipating federal subsidies, Applied Materials said it planned to invest up to $4 billion in the semiconductor project in Sunnyvale, Calif.
+**********************************************************************************************
+**********************************************************************************************
+Title: Meta Fined $1.3 Billion for Violating E.U. Data Privacy Rules
+Publication Date: Mon May 22 15:37:18 ART 2023
+Link: https://www.nytimes.com/2023/05/22/business/meta-facebook-eu-privacy-fine.html
+Text: The Facebook owner said it would appeal an order to stop sending data about European Union users to the United States.
+**********************************************************************************************
+**********************************************************************************************
+Title: Minnesota Passes Bill Seeking to Ensure Minimum Wage for Gig Workers
+Publication Date: Sun May 21 21:44:18 ART 2023
+Link: https://www.nytimes.com/2023/05/21/technology/minnesota-uber-lyft-gig-work.html
+Text: Lyft and Uber have opposed the legislation, threatening to reduce operations or leave the state if it is enacted.
+**********************************************************************************************
+**********************************************************************************************
+Title: Uber Suspends DEI Chief After Employees Complain of Insensitivity
+Publication Date: Sun May 21 19:02:29 ART 2023
+Link: https://www.nytimes.com/2023/05/21/business/uber-bo-young-lee-suspended.html
+Text: The executive hosted sessions about race and being a white woman that were titled “Don’t Call Me Karen,” prompting an employee uproar.
+**********************************************************************************************
+{url=https://www.chicagotribune.com/arcio/rss/category/%s/?query=display_date:[now-2d+TO+now]&sort=display_date:desc, ulrParams=[business, sports], urlType=rss}
+**********************************************************************************************
+Title: Biden and GOP rush to finalize debt ceiling deal, shore up support to prevent default
+Publication Date: Sun May 28 14:47:45 ART 2023
+Link: https://www.chicagotribune.com/nation-world/ct-aud-nw-debt-limit-deal-20230528-dftdutu2nzcddngmxr34xfflfy-story.html#ed=rss_www.chicagotribune.com/arcio/rss/category/business/
+Text: With days to spare before a potential first-ever government default, President Joe Biden and House Speaker Kevin McCarthy on Sunday were finalizing a deal to raise the nation’s debt ceiling while trying to wrangle enough Republican and Democratic votes to pass the measure in the coming week.
+**********************************************************************************************
+**********************************************************************************************
+Title: Where have Cubs players lived over the years? The suburbs were a popular choice for decades. And many have rented.
+Publication Date: Sun May 28 07:00:00 ART 2023
+Link: https://www.chicagotribune.com/real-estate/ct-re-cubs-homes-20230528-yxohwu5gpjdkjpnonftrrbub6m-story.html#ed=rss_www.chicagotribune.com/arcio/rss/category/business/
+Text: In the past few years, only a select few Cubs have bought Chicago-area homes of any kind.
+**********************************************************************************************
+**********************************************************************************************
+Title: Lawmakers clear a path for future expansion of I-55 over environmental, neighborhood concerns
+Publication Date: Fri May 26 20:14:26 ART 2023
+Link: https://www.chicagotribune.com/business/transportation/ct-biz-i-55-expansion-resolution-20230526-tnfvlizt5nfexle6pugy3a32xm-story.html#ed=rss_www.chicagotribune.com/arcio/rss/category/business/
+Text: Any new toll lanes along I-55 would likely be years away
+**********************************************************************************************
+**********************************************************************************************
+Title: Northwestern is the NCAA champion in women’s lacrosse, beating Boston College 18-6 for its 8th national title
+Publication Date: Sun May 28 15:32:26 ART 2023
+Link: https://www.chicagotribune.com/sports/college/ct-northwestern-ncaa-lacrosse-championship-20230528-ydtrhcl4qvah5bx3vc62amku3m-story.html#ed=rss_www.chicagotribune.com/arcio/rss/category/sports/
+Text: After an 11-year hiatus, Northwestern is back atop the throne in women’s lacrosse.
+**********************************************************************************************
+**********************************************************************************************
+Title: Eloy Jiménez is back with the Chicago White Sox after undergoing an appendectomy earlier this month
+Publication Date: Sun May 28 11:54:36 ART 2023
+Link: https://www.chicagotribune.com/sports/white-sox/ct-chicago-white-sox-eloy-jimenez-20230528-mxmyacxybvhzfjaqnqfv4cvcem-story.html#ed=rss_www.chicagotribune.com/arcio/rss/category/sports/
+Text: The Chicago White Sox reinstated Eloy Jiménez from the injured list. He's missed most of this month after undergoing an appendectomy on May 6.
+**********************************************************************************************
+**********************************************************************************************
+Title: 3 nap-ready baseball observations, including Ricketts vs. the Roys from ‘Succession’ and Milwaukee Brewers’ relocation drama
+Publication Date: Sun May 28 08:30:00 ART 2023
+Link: https://www.chicagotribune.com/sports/ct-milwaukee-brewers-chicago-cubs-tom-ricketts-20230528-r43gj5wfmncu7gn2qledjusqb4-story.html#ed=rss_www.chicagotribune.com/arcio/rss/category/sports/
+Text: Sunday baseball thoughts on the Milwaukee Brewers' stadium debate, the similarities between Cubs owners and the fictional Roy family from "Succession," and a look at "progress" in MLB's 1987 plan to increase minority hiring.
+**********************************************************************************************
+**********************************************************************************************
+Title: Column: Women’s basketball is having a moment — and the WNBA is missing it by delaying expansion
+Publication Date: Sun May 28 08:00:00 ART 2023
+Link: https://www.chicagotribune.com/sports/sky/ct-chicago-sky-wnba-expansion-20230528-7q6yppo3mjbvnlkclpgzh3ftn4-story.html#ed=rss_www.chicagotribune.com/arcio/rss/category/sports/
+Text: The WNBA is pushing its year-over-year growth in audience numbers to show how its footprint is growing. With the increased visibility, expansion — at two levels — seems more imperative than ever.
+**********************************************************************************************
+**********************************************************************************************
+Title: Where have Cubs players lived over the years? The suburbs were a popular choice for decades. And many have rented.
+Publication Date: Sun May 28 07:00:00 ART 2023
+Link: https://www.chicagotribune.com/real-estate/ct-re-cubs-homes-20230528-yxohwu5gpjdkjpnonftrrbub6m-story.html#ed=rss_www.chicagotribune.com/arcio/rss/category/sports/
+Text: In the past few years, only a select few Cubs have bought Chicago-area homes of any kind.
+**********************************************************************************************
+**********************************************************************************************
+Title: Derrick White’s putback as time expires lifts Celtics past Heat, forces Game 7 in East finals
+Publication Date: Sun May 28 00:38:37 ART 2023
+Link: https://www.chicagotribune.com/sports/breaking/ny-derrick-white-celtics-heat-eastern-conference-finals-game-7-20230528-ad5jbtc5xjdddiys7kqs4dpk5u-story.html#ed=rss_www.chicagotribune.com/arcio/rss/category/sports/
+Text: The Boston Celtics moved to the brink of the greatest comeback in NBA playoffs history Saturday.
+**********************************************************************************************
+**********************************************************************************************
+Title: Chicago Red Stars goalkeeper Alyssa Naeher sets NWSL career saves record in 1-0 victory
+Publication Date: Sun May 28 00:14:22 ART 2023
+Link: https://www.chicagotribune.com/sports/soccer/ct-chicago-red-stars-alyssa-naeher-20230528-ueflo4t2vzbydclnkwbtsmcwue-story.html#ed=rss_www.chicagotribune.com/arcio/rss/category/sports/
+Text: Chicago Red Stars goalkeeper Alyssa Naeher set the NWSL career saves record in a much-needed victory over Orlando.
+**********************************************************************************************
+**********************************************************************************************
+Title: Twice as nice. Randall Nauden’s two homers power Brother Rice past Mount Carmel for regional title. ‘He’s a warrior.’
+Publication Date: Sun May 28 00:12:39 ART 2023
+Link: https://www.chicagotribune.com/suburbs/daily-southtown/sports/ct-sta-bas-wy-reg-st-0529-20230528-mx322xnve5g3layhw4skgog3e4-story.html#ed=rss_www.chicagotribune.com/arcio/rss/category/sports/
+Text: Randall Nauden hit a pair of solo home runs Saturday as Brother Rice beat Mount Carmel 6-5 in the Class 4A Whitney Young Sectional final.
+**********************************************************************************************
+**********************************************************************************************
+Title: Chicago Cubs now last in NL Central after blowing lead to Cincinnati Reds: ‘It’s been tough. The results definitely haven’t been great.’
+Publication Date: Sun May 28 00:09:08 ART 2023
+Link: https://www.chicagotribune.com/sports/cubs/ct-chicago-cubs-cincinnati-reds-20230528-5afrf5543jcqtpwfeok6sm5cyu-story.html#ed=rss_www.chicagotribune.com/arcio/rss/category/sports/
+Text: Chicago Cubs manager David Ross wouldn’t speculate on whether the Cincinnati Reds might be closer to becoming a playoff threat than many thought when last year’s 100-game losers opened the season.
+**********************************************************************************************
+**********************************************************************************************
+Title: Newark’s Danica Peshia powers up in sixth inning but runs into winds of fortune. ‘This is exactly where I wanted to be.’
+Publication Date: Sat May 27 22:44:40 ART 2023
+Link: https://www.chicagotribune.com/suburbs/aurora-beacon-news/sports/ct-abn-sof-walthc-sect-st-0529-20230528-ujq3lbvvsfbovipbx5xjrflgrq-story.html#ed=rss_www.chicagotribune.com/arcio/rss/category/sports/
+Text: Danica Peshia, who already had two hits, came close to hitting a late homer Saturday against Ottawa Marquette in a Class 1A sectional final.
+**********************************************************************************************
+**********************************************************************************************
+Title: Boe knows baseball. Ryan Boe drives in winning run as Batavia tops St. Charles North for regional title. ‘We’re hot.’
+Publication Date: Sat May 27 21:30:06 ART 2023
+Link: https://www.chicagotribune.com/suburbs/aurora-beacon-news/sports/ct-abn-bas-geneva-reg-st-0529-20230528-i7neq7bcubdqrdagohweqoecry-story.html#ed=rss_www.chicagotribune.com/arcio/rss/category/sports/
+Text: Ryan Boe, a quarterback in football, found himself in one of those situations Saturday in the Class 4A Geneva Regional championship game..
+**********************************************************************************************
+**********************************************************************************************
+Title: Taken out as pitcher, Conor Essenburg gets Lincoln-Way West past Sandburg at plate. ‘My chance to redeem myself.’
+Publication Date: Sat May 27 20:30:53 ART 2023
+Link: https://www.chicagotribune.com/suburbs/daily-southtown/sports/ct-sta-bas-sndbrg-reg-st-0529-20230527-rcmkupwyorhafligprp6gbn6w4-story.html#ed=rss_www.chicagotribune.com/arcio/rss/category/sports/
+Text: Kansas State recruit delivers big RBI single as part of a six-run sixth inning to power Warriors past Eagles for a Class 4A regional title.
+**********************************************************************************************
+**********************************************************************************************
+Title: Notre Dame men’s lacrosse upsets Virginia in OT, 13-12, to reach first NCAA title game since 2014
+Publication Date: Sat May 27 20:28:30 ART 2023
+Link: https://www.chicagotribune.com/sports/college/bs-sp-virginia-notre-dame-mens-lacrosse-ncaa-tournament-20230527-6fmcsi2ec5bj3dqsquqz3zqsvu-story.html#ed=rss_www.chicagotribune.com/arcio/rss/category/sports/
+Text: Notre Dame men's lacrosse scored three of the last four goals in regulation and the game-winner in overtime to upset Virginia, 13-12, and advance to the NCAA final for the first time since 2014.
+**********************************************************************************************
+**********************************************************************************************
+Title: With one swing, Jordan Reeves rallies Joliet Catholic past Providence for regional title. ‘I try to stay positive.’
+Publication Date: Sat May 27 19:40:58 ART 2023
+Link: https://www.chicagotribune.com/suburbs/daily-southtown/sports/ct-sta-sof-provi-reg-st-0529-20230527-azfoomxvbjfolbqnl7x5u7gu6u-story.html#ed=rss_www.chicagotribune.com/arcio/rss/category/sports/
+Text: Jordan Reeves was a game saver Saturday, helping the Angels beat the Celtics 6-5 in the Class 3A Providence Regional championship game.
+**********************************************************************************************
+**********************************************************************************************
+Title: A day after collecting 17 hits, the Chicago White Sox are held to 4 in 7-3 loss — but help could be on the way as soon as Sunday
+Publication Date: Sat May 27 18:50:50 ART 2023
+Link: https://www.chicagotribune.com/sports/white-sox/ct-chicago-white-sox-detroit-tigers-20230527-iy4bmqx4sfe4hl3uty5mkkbtou-story.html#ed=rss_www.chicagotribune.com/arcio/rss/category/sports/
+Text: The Chicago White Sox didn't have a hit until the 6th inning, and finished with just 4 in a 7-3 loss to the Detroit Tigers Saturday at Comerica Park.
+**********************************************************************************************
+**********************************************************************************************
+Title: Milwaukee Bucks finalizing deal to make Adrian Griffin their head coach
+Publication Date: Sat May 27 17:29:56 ART 2023
+Link: https://www.chicagotribune.com/sports/breaking/ct-milwaukee-bucks-coach-20230527-qlrqxdmk5zdytcjsfxvafc55pi-story.html#ed=rss_www.chicagotribune.com/arcio/rss/category/sports/
+Text: The Milwaukee Bucks are finalizing a deal to make Adrian Griffin their head coach after he spent the last five seasons as a Toronto Raptors assistant, a person familiar with the situation told The Associated Press.
+**********************************************************************************************
+**********************************************************************************************
+Title: Photos: Chicago Sky lose to Washington Mystics in home opener
+Publication Date: Sat May 27 01:50:06 ART 2023
+Link: https://www.chicagotribune.com/sports/sky/ct-chicago-sky-washington-mystics-photos-20230527-lkeyer5rhzgtpa7qqjc4wl2xo4-photogallery.html#ed=rss_www.chicagotribune.com/arcio/rss/category/sports/
+Text: Photos of the Chicago Sky's 71-69 loss to the Washington Mystics in their home opener on Friday, May 26, 2023, at Wintrust Arena.
+**********************************************************************************************
+**********************************************************************************************
+Title: Northwestern women’s lacrosse will play for its 8th NCAA title — and 1st since 2012 — after beating Denver in the Final Four
+Publication Date: Sat May 27 01:32:17 ART 2023
+Link: https://www.chicagotribune.com/sports/college/ct-northwestern-lacrosse-final-four-20230527-kqwenz25tnf7dp2yqf7kqmhnmq-story.html#ed=rss_www.chicagotribune.com/arcio/rss/category/sports/
+Text: For the first time in more than a decade, Northwestern’s powerhouse women’s lacrosse program will play for a national championship.
+**********************************************************************************************
+**********************************************************************************************
+Title: Libertyville’s Ellie Rebmann makes the most of her only season as a forward: ‘It’s sure fun to score goals’
+Publication Date: Sat May 27 01:26:47 ART 2023
+Link: https://www.chicagotribune.com/suburbs/lake-county-news-sun/sports/ct-lns-gso-rebmann-st-529-20230527-oezzfliivjftjklvc7dtudqxkq-story.html#ed=rss_www.chicagotribune.com/arcio/rss/category/sports/
+Text: Ellie Rebmann, playing forward for the first time in her only season for Libertyville, scored twice in a Class 3A sectional final.
+**********************************************************************************************
+**********************************************************************************************
+Title: Chicago White Sox collect 17 hits — including 3 triples — in a 12-3 win against the Detroit Tigers
+Publication Date: Sat May 27 01:17:14 ART 2023
+Link: https://www.chicagotribune.com/sports/white-sox/ct-chicago-white-sox-detroit-tigers-20230527-nslgvhy2t5h4jfzib55x3fcws4-story.html#ed=rss_www.chicagotribune.com/arcio/rss/category/sports/
+Text: Lance Lynn allowed one earned run in six innings for the Chicago White Sox in a 12-3 victory against the Detroit Tigers at Comerica Park.
+**********************************************************************************************
+**********************************************************************************************
+Title: West Aurora’s Mackenzie Fraus flexes strong defensive muscle in tense regional final. ‘It was a very stressful game.’
+Publication Date: Sat May 27 01:15:21 ART 2023
+Link: https://www.chicagotribune.com/suburbs/aurora-beacon-news/sports/ct-abn-sof-waur-reg-st-0528-20230527-36yptlwnpna3tk7ukeh23wethi-story.html#ed=rss_www.chicagotribune.com/arcio/rss/category/sports/
+Text: Mackenzie Fraus led a sparkling defensive effort Friday as the Blackhawks battled for Wheaton Warrenville South rallied for a 2-1 victory.
+**********************************************************************************************
+**********************************************************************************************
+Title: Chicago Sky drop their home opener 71-69 on Elena Delle Donne’s late 3-pointer for the Washington Mystics
+Publication Date: Sat May 27 00:16:50 ART 2023
+Link: https://www.chicagotribune.com/sports/sky/ct-chicago-sky-washington-mystics-20230527-mgr6hfn6j5dvxk74mw6tyrqcse-story.html#ed=rss_www.chicagotribune.com/arcio/rss/category/sports/
+Text: Elena Delle Donne scored 25 points, and the Washington Mystics beat the Chicago Sky 71-69 on Friday night at Wintrust Arena.
+**********************************************************************************************
+**********************************************************************************************
+Title: Hannah Tokarski, who hadn’t scored a goal for Lincoln-Way East, converts winning PK to oust Andrew. ‘This is my chance.’
+Publication Date: Sat May 27 00:01:08 ART 2023
+Link: https://www.chicagotribune.com/suburbs/daily-southtown/sports/ct-sta-gso-shprd-sect-st-0528-20230527-g4dkgalqbbdrlan66l3kmgod5m-story.html#ed=rss_www.chicagotribune.com/arcio/rss/category/sports/
+Text: Hannah Tokarski scored the clinching penalty kick in the fifth round of shootout as Lincoln-Way East won 5-3 for a 2-1 victory over Andrew.
+**********************************************************************************************
+**********************************************************************************************
+Title: Bailey Abbott’s boost in confidence provides one for Benet too: ‘We’re certainly going to need her’
+Publication Date: Fri May 26 23:56:54 ART 2023
+Link: https://www.chicagotribune.com/suburbs/naperville-sun/sports/ct-nvs-gso-bailey-abbott-st-0528-20230527-djxz7e37g5bz3iqowamg6l2n7u-story.html#ed=rss_www.chicagotribune.com/arcio/rss/category/sports/
+Text: Bailey Abbott’s first goal of the season is all the scoring Benet needs, largely due to her defense, in a Class 2A sectional final.
+**********************************************************************************************
+**********************************************************************************************
+Title: Fired-up Sarah Viar triples twice as Lockport downs Andrew for regional title. ‘I dropped the fridge off my back.’
+Publication Date: Fri May 26 23:14:49 ART 2023
+Link: https://www.chicagotribune.com/suburbs/daily-southtown/sports/ct-sta-sof-lckprt-reg-st-0528-20230527-wajrih5cfrdyjjqvou3mzqczxe-story.html#ed=rss_www.chicagotribune.com/arcio/rss/category/sports/
+Text: The junior shortstop's advice paid off Friday as the host Porters beat Andrew 4-1 in the Class 4A Lockport Regional championship game.
+**********************************************************************************************
+**********************************************************************************************
+Title: Baseball, softball and girls soccer scores for the Southland, Aurora, Elgin, Naperville and Lake County
+Publication Date: Fri May 26 23:07:54 ART 2023
+Link: https://www.chicagotribune.com/suburbs/daily-southtown/sports/ct-sta-local-scores-st-0528-20230527-3uqoaydyqngofapx27ygxsnrvu-story.html#ed=rss_www.chicagotribune.com/arcio/rss/category/sports/
+Text: Scores and highlights of high schools and local colleges from the Southland and Aurora, Elgin, Naperville and Lake County coverage areas.
+**********************************************************************************************
+**********************************************************************************************
+Title: Liam Hendriks takes a ‘step in the right direction’ as the Chicago White Sox closer throws another live batting practice
+Publication Date: Fri May 26 20:56:25 ART 2023
+Link: https://www.chicagotribune.com/sports/white-sox/ct-chicago-white-sox-liam-hendriks-eloy-jimenez-20230526-rt3emciiwreernjfqcfvz7f7wi-story.html#ed=rss_www.chicagotribune.com/arcio/rss/category/sports/
+Text: Chicago White Sox closer Liam Hendriks threw about 19 pitches in live batting practice before Friday’s game against the Detroit Tigers at Comerica Park.
+**********************************************************************************************
+**********************************************************************************************
+Title: Chicago Cubs avoid being no-hit, but little else goes right in a 9-0 loss — their 2nd straight 9-run defeat
+Publication Date: Fri May 26 20:22:03 ART 2023
+Link: https://www.chicagotribune.com/sports/cubs/ct-chicago-cubs-cincinnati-reds-20230526-6fr4mlyxavfmbesdcwiixmvhuu-story.html#ed=rss_www.chicagotribune.com/arcio/rss/category/sports/
+Text: Cincinnati Reds pitcher Hunter Greene dominated the Chicago Cubs with six no-hit innings in a 9-0 rout at Wrigley Field.
+**********************************************************************************************
+**********************************************************************************************
+Title: Photos: Reds 9, Cubs 0
+Publication Date: Fri May 26 18:28:02 ART 2023
+Link: https://www.chicagotribune.com/sports/cubs/ct-chicago-cubs-cincinnati-reds-052623-photos-20230526-h7ikuujucffgfmymmjuqbywiee-photogallery.html#ed=rss_www.chicagotribune.com/arcio/rss/category/sports/
+Text: Pictures from the Cubs' 9-0 loss to the Reds at Wrigley Field on May 26, 2023, in Chicago
+**********************************************************************************************
+**********************************************************************************************
+Title: LSU women’s basketball, star Angel Reese celebrate national championship at White House
+Publication Date: Fri May 26 18:03:13 ART 2023
+Link: https://www.chicagotribune.com/sports/college/bs-sp-lsu-womens-basketball-white-house-visit-angel-reese-20230526-jypkr4r4urg35eb26phpkjcprm-story.html#ed=rss_www.chicagotribune.com/arcio/rss/category/sports/
+Text: President Joe Biden hosted the NCAA men’s and women’s basketball champions at separate events Friday, and his wife, Jill, joined the celebration for LSU’s women’s team led by star Angel Reese.
+**********************************************************************************************
+{url=https://www.reddit.com/r/%s/hot/.json?count=10, ulrParams=[Android, OddlySatisfaying], urlType=reddit}
+**********************************************************************************************
+Title: Saturday APPreciation thread (May 27 2023) - Your weekly app recommendation/request thread!
+Publication Date: Sat May 27 09:15:10 ART 2023
+Link: https://www.reddit.com/r/Android/comments/13t5vtl/saturday_appreciation_thread_may_27_2023_your/
+Text: Note 1. Check out our [apps wiki for previous threads](https://www.reddit.com/r/Android/wiki/index#wiki_apps) and apps curated by the reddit Android community!
+
+Download the [official /r/Android App Store](https://github.com/d4rken/reddit-android-appstore/releases) based on our wiki!
+
+Note 2. Check [r/MoronicMondayAndroid](https://old.reddit.com/r/Android/search?q=MoronicMondayAndroid&amp;restrict_sr=on&amp;sort=new&amp;t=all), which serves as a repository for our retired weekly threads. Just pick any thread and Ctrl-F your way to wisdom!
+
+Note 3. Join our IRC and Telegram chat-rooms! Please [see our wiki](https://old.reddit.com/r/Android/wiki/index#wiki_.2Fr.2Fandroid_chat_rooms) for instructions.
+
+This weekly Saturday thread is for:
+* App promotion,
+* App praise/sharing
+
+Rules:
+
+1) If you are a developer, you may promote your own app ONLY under the bolded, distinguished moderator comment. Users: if you think someone is trying to bypass this rule by promoting their app in the general thread, click the report button so we can take a look!
+**********************************************************************************************
+**********************************************************************************************
+Title: Sunday Rant/Rage (May 28 2023) - Your weekly complaint thread!
+Publication Date: Sun May 28 09:00:30 ART 2023
+Link: https://www.reddit.com/r/Android/comments/13tyr6c/sunday_rantrage_may_28_2023_your_weekly_complaint/
+Text: Note 1. Check [MoronicMondayAndroid](https://old.reddit.com/r/Android/search?q=MoronicMondayAndroid&amp;restrict_sr=on&amp;sort=new&amp;t=all), which serves as a repository for our retired weekly threads. Just pick any thread and Ctrl-F your way to wisdom!
+
+Note 2. Join our IRC and Telegram chat-rooms! [Please see our wiki for instructions.](https://www.reddit.com/r/Android/wiki/index#wiki_.2Fr.2Fandroid_chat_rooms)
+
+This weekly Sunday thread is for you to let off some steam and speak out about whatever complaint you might have about:  
+
+* Your device.  
+
+* Your carrier.  
+
+* Your device's manufacturer.  
+
+* An app  
+
+* Any other company
+
+***  
+
+Rules  
+
+1) Please do not target any individuals or try to name/shame any individual. If you hate Google/Samsung/HTC etc. for one thing that is fine, but do not be rude to an individual app developer.
+
+2) If you have a suggestion to solve another user's issue, please leave a comment but be sure it's constructive! We do not want any flame-wars.  
+
+3) Be respectful of other's opinions. Even if you feel that somebody is "wrong" you don't have to go out of your way to prove them wrong. Disagree politely, and move on.
+**********************************************************************************************
+**********************************************************************************************
+Title: Daniel Micay: "I've stepped down as lead developer of GrapheneOS and will be replaced as a GrapheneOS Foundation director. I'll be ending my use of public social media."
+Publication Date: Sat May 27 06:55:06 ART 2023
+Link: https://www.reddit.com/r/Android/comments/13t3bsk/daniel_micay_ive_stepped_down_as_lead_developer/
+Text: 
+**********************************************************************************************
+**********************************************************************************************
+Title: Planning a new, modern and stable NewPipe
+Publication Date: Fri May 26 06:21:27 ART 2023
+Link: https://www.reddit.com/r/Android/comments/13s861t/planning_a_new_modern_and_stable_newpipe/
+Text: 
+**********************************************************************************************
+**********************************************************************************************
+Title: Google Pixel 7a review
+Publication Date: Fri May 26 12:43:28 ART 2023
+Link: https://www.reddit.com/r/Android/comments/13sgmsv/google_pixel_7a_review/
+Text: 
+**********************************************************************************************
+**********************************************************************************************
+Title: Mishaal Rahman: Here's some tidbits about Android 14's USB webcam feature (thread)
+Publication Date: Fri May 26 13:18:47 ART 2023
+Link: https://www.reddit.com/r/Android/comments/13shjq0/mishaal_rahman_heres_some_tidbits_about_android/
+Text: 
+**********************************************************************************************
+**********************************************************************************************
+Title: What are the ways Google will implement Bard into Android? (Ideas/Discussion)
+Publication Date: Fri May 26 11:15:52 ART 2023
+Link: https://www.reddit.com/r/Android/comments/13seff0/what_are_the_ways_google_will_implement_bard_into/
+Text: Obviously Bard is a MASSIVE update for technology moving forward. What ways is Google planning to implement it (other than ads) in Android? Or what ways do you think will be useful?
+
+* Gboard - Will Bard significantly make gBoard way better at voice to text? Or is bard not a language model? because gboard sometimes doesnt translate what I speak correctly. Is this something Bard can improve?
+
+* Google search will obviously be the forefront for general quarries.
+
+* Will it make organizing/creating albums in Google Photos better? "Make an album from the past 5 Halloweens"? stuff like that?
+
+* "When will make packages get here? So it searches my gmail and then tells me locatoin and stuff?
+
+* gboard - create custome pics or gifs? Create a gif of Arnold from the terminator with "text text text" write on it?
+**********************************************************************************************
+**********************************************************************************************
+Title: Google Play Store set to introduce two rows of ads post an app install
+Publication Date: Thu May 25 10:56:41 ART 2023
+Link: https://www.reddit.com/r/Android/comments/13rii5j/google_play_store_set_to_introduce_two_rows_of/
+Text: 
+**********************************************************************************************
+**********************************************************************************************
+Title: Daily Superthread (May 26 2023) - Your daily thread for questions, device recommendations and general discussions!
+Publication Date: Fri May 26 09:00:36 ART 2023
+Link: https://www.reddit.com/r/Android/comments/13sb8tu/daily_superthread_may_26_2023_your_daily_thread/
+Text: Note 1. Check [MoronicMondayAndroid](https://old.reddit.com/r/Android/search?q=MoronicMondayAndroid&amp;restrict_sr=on&amp;sort=new&amp;t=all), which serves as a repository for our retired weekly threads. Just pick any thread and Ctrl-F your way to wisdom! 
+
+Note 2. Join our IRC and Telegram chat-rooms! [Please see our wiki for instructions.](https://www.reddit.com/r/Android/wiki/index#wiki_.2Fr.2Fandroid_chat_rooms)
+
+Please post your questions here. Feel free to use this thread for general questions/discussion as well.
+
+The /r/Android wiki has a list of recommended phones and covers most areas, the links have been added below. Any suggestions or changes are welcome. Please [contact us](https://www.reddit.com/message/compose/?to=/r/Android) if you would like to help maintain this section. 
+
+[Entry level devices](https://www.reddit.com/r/Android/wiki/affordable)
+
+[Midrange section](https://www.reddit.com/r/Android/wiki/midrange)
+
+[Flagship section](https://www.reddit.com/r/Android/wiki/flagships)
+**********************************************************************************************
+**********************************************************************************************
+Title: Motorola Edge+ 2023 review: Boring design aside, this is a flagship worth considering
+Publication Date: Thu May 25 11:39:19 ART 2023
+Link: https://www.reddit.com/r/Android/comments/13rjju1/motorola_edge_2023_review_boring_design_aside/
+Text: 
+**********************************************************************************************
+**********************************************************************************************
+Title: How to access the Google Tasks website without Gmail sidebar
+Publication Date: Thu May 25 13:48:55 ART 2023
+Link: https://www.reddit.com/r/Android/comments/13rmswx/how_to_access_the_google_tasks_website_without/
+Text: 
+**********************************************************************************************
+**********************************************************************************************
+Title: [Android Authorithy] ASUS accidentally leaks ZenFone 10's pricing
+Publication Date: Thu May 25 13:39:08 ART 2023
+Link: https://www.reddit.com/r/Android/comments/13rmk0h/android_authorithy_asus_accidentally_leaks/
+Text: 
+**********************************************************************************************
+**********************************************************************************************
+Title: Daily Superthread (May 25 2023) - Your daily thread for questions, device recommendations and general discussions!
+Publication Date: Thu May 25 09:00:24 ART 2023
+Link: https://www.reddit.com/r/Android/comments/13rfupv/daily_superthread_may_25_2023_your_daily_thread/
+Text: Note 1. Check [MoronicMondayAndroid](https://old.reddit.com/r/Android/search?q=MoronicMondayAndroid&amp;restrict_sr=on&amp;sort=new&amp;t=all), which serves as a repository for our retired weekly threads. Just pick any thread and Ctrl-F your way to wisdom! 
+
+Note 2. Join our IRC and Telegram chat-rooms! [Please see our wiki for instructions.](https://www.reddit.com/r/Android/wiki/index#wiki_.2Fr.2Fandroid_chat_rooms)
+
+Please post your questions here. Feel free to use this thread for general questions/discussion as well.
+
+The /r/Android wiki has a list of recommended phones and covers most areas, the links have been added below. Any suggestions or changes are welcome. Please [contact us](https://www.reddit.com/message/compose/?to=/r/Android) if you would like to help maintain this section. 
+
+[Entry level devices](https://www.reddit.com/r/Android/wiki/affordable)
+
+[Midrange section](https://www.reddit.com/r/Android/wiki/midrange)
+
+[Flagship section](https://www.reddit.com/r/Android/wiki/flagships)
+**********************************************************************************************
+**********************************************************************************************
+Title: Don't ask Google's new AI search to recommend you good phones, because yikes
+Publication Date: Fri May 26 17:08:28 ART 2023
+Link: https://www.reddit.com/r/Android/comments/13sn5b0/dont_ask_googles_new_ai_search_to_recommend_you/
+Text: 
+**********************************************************************************************
+**********************************************************************************************
+Title: Why are GOOD haptic feedback underappreciated in Android??
+Publication Date: Wed May 24 17:41:22 ART 2023
+Link: https://www.reddit.com/r/Android/comments/13qx2cw/why_are_good_haptic_feedback_underappreciated_in/
+Text: Yes, why are haptic feedback so underappreciated in the Android space?
+
+I been smartphone user since 2008, the haptic was never really something that struck my mind much as a "priority" having dabbled with Windows Phones a lot and Android devices such as Galaxy S2 and Xperia Z in the early days, I was generally impressed with iPhones feel of use but was too ignorant to understand why, I knew the vibration motors had something to do with it, but at the time, the idea of haptic was an alien concept. 
+
+Then I had pleasure of owning a Xiaomi Mi 10 Ultra, this device changed my mind, everything I did felt mechanical and had weight to button presses, thats how good the haptic were, it was only when I parted with it duo its long list of software issues that made me tired of it, and going back to Samsung such as Galaxy S20 FE and then S21 Ultra and S22 Ultra through my job, it made me realise how Godawful the haptic were on these devices.
+
+How can Samsung sell you a 1200 euro device that has haptic feedback from 2009? With the iPhone 13 my mother have, I had a spin on it made me realise how much Xiaomi had optimised their Android ROM MIUI to include as much haptic feedback as possible in every place they felt it needed, such as controlling the volume gives a satisfying rattle that grows stronger or weaker depending how low or high it goes, the Xiaomi also had different haptic for back button and home button, even haptic for the fingerprint reader.
+
+iPhone is similar, it has haptic for nearly everything now, it honestly felt extremely satisfying to use despite my absolute disgust for iOS. 
+
+My friend has a LG V60 and its amazing in haptic just like Xiaomi, LG did outstanding work incorporating haptic into everything, a lot of people say Google Pixel phones have good haptic having tried the Pixel 7 in the store, I cannot say I am impressed it felt just like the Sony Xperia 1 I had once upon a time that I actually ended up returning, the haptic are too strong and only present in certain places. Essentially its just the basic Android haptic, there no haptic for volume control as an example.
+
+Let me put it like this, you typing on a keyboard on Xiaomi / LG, you can literally feel the distances from each key, the haptic are different depending where you press on the keyboard, iPhone has similarly if you use a keyboard that supports haptic like Microsoft Swift.
+
+Haptic feedback changes how "good" it feels to use a device if you will, it feels more mechanical, is it going to improve your workflow? Probably not, but it will make the device feel better to use, so why, why is it such an underappreciated feature? 
+
+I only come across 3 devices that implements custom haptic everywhere in Android, LG V60, Xiaomi flagships like Mi 10 Ultra, Mi 11 Ultra and Mi 13 Pro, unfamiliar with Huawei but some people say it does indeed have similar haptic to Xiaomi?
+**********************************************************************************************
+**********************************************************************************************
+Title: Mishaal Rahman: Demo of Android 14's new partial screen recording feature which lets you record a single app without any System UI elements or notifications appearing in the video (thread)
+Publication Date: Wed May 24 00:13:51 ART 2023
+Link: https://www.reddit.com/r/Android/comments/13q9gf4/mishaal_rahman_demo_of_android_14s_new_partial/
+Text: 
+**********************************************************************************************
+**********************************************************************************************
+Title: [Exclusive] Samsung Galaxy Watch 6 Classic 5K Renders Confirm Rotating Bezel Comeback, Reveal Full Design; Launch Expected Soon
+Publication Date: Wed May 24 03:29:26 ART 2023
+Link: https://www.reddit.com/r/Android/comments/13qdk34/exclusive_samsung_galaxy_watch_6_classic_5k/
+Text: 
+**********************************************************************************************
+**********************************************************************************************
+Title: [JuanBagnell] Mobvoi TicWatch Pro 5! The Most Powerful WearOS Watch, But What About Updates?
+Publication Date: Wed May 24 14:31:59 ART 2023
+Link: https://www.reddit.com/r/Android/comments/13qrzfu/juanbagnell_mobvoi_ticwatch_pro_5_the_most/
+Text: 
+**********************************************************************************************
+**********************************************************************************************
+Title: Google bans Downloader app after TV firms complain it can load a pirate website
+Publication Date: Tue May 23 16:30:17 ART 2023
+Link: https://www.reddit.com/r/Android/comments/13py6j8/google_bans_downloader_app_after_tv_firms/
+Text: 
+**********************************************************************************************
+**********************************************************************************************
+Title: Mishaal Rahman: If you connect a physical keyboard to a large screen device running Android 14, under Settings &gt; System &gt; Keyboard &gt; Physical keyboard, the "keyboard shortcuts" menu will now show a MUCH more comprehensive list of available keyboard shortcuts, as shown below!
+Publication Date: Wed May 24 00:01:30 ART 2023
+Link: https://www.reddit.com/r/Android/comments/13q96uq/mishaal_rahman_if_you_connect_a_physical_keyboard/
+Text: 
+**********************************************************************************************
+**********************************************************************************************
+Title: Daily Superthread (May 24 2023) - Your daily thread for questions, device recommendations and general discussions!
+Publication Date: Wed May 24 09:00:45 ART 2023
+Link: https://www.reddit.com/r/Android/comments/13qjjla/daily_superthread_may_24_2023_your_daily_thread/
+Text: Note 1. Check [MoronicMondayAndroid](https://old.reddit.com/r/Android/search?q=MoronicMondayAndroid&amp;restrict_sr=on&amp;sort=new&amp;t=all), which serves as a repository for our retired weekly threads. Just pick any thread and Ctrl-F your way to wisdom! 
+
+Note 2. Join our IRC and Telegram chat-rooms! [Please see our wiki for instructions.](https://www.reddit.com/r/Android/wiki/index#wiki_.2Fr.2Fandroid_chat_rooms)
+
+Please post your questions here. Feel free to use this thread for general questions/discussion as well.
+
+The /r/Android wiki has a list of recommended phones and covers most areas, the links have been added below. Any suggestions or changes are welcome. Please [contact us](https://www.reddit.com/message/compose/?to=/r/Android) if you would like to help maintain this section. 
+
+[Entry level devices](https://www.reddit.com/r/Android/wiki/affordable)
+
+[Midrange section](https://www.reddit.com/r/Android/wiki/midrange)
+
+[Flagship section](https://www.reddit.com/r/Android/wiki/flagships)
+**********************************************************************************************
+**********************************************************************************************
+Title: Fabian Nappenbach: Brief HTC U23 Pro hands-on
+Publication Date: Wed May 24 00:04:30 ART 2023
+Link: https://www.reddit.com/r/Android/comments/13q99af/fabian_nappenbach_brief_htc_u23_pro_handson/
+Text: 
+**********************************************************************************************
+**********************************************************************************************
+Title: OnePlus 11 Marble Odyssey limited-edition announced for India
+Publication Date: Wed May 24 13:11:45 ART 2023
+Link: https://www.reddit.com/r/Android/comments/13qpw83/oneplus_11_marble_odyssey_limitededition/
+Text: 
+**********************************************************************************************
+**********************************************************************************************
+Title: Amazon launches its biggest tablet, the $230 Fire Max 11
+Publication Date: Tue May 23 10:17:43 ART 2023
+Link: https://www.reddit.com/r/Android/comments/13poa44/amazon_launches_its_biggest_tablet_the_230_fire/
+Text: 
+**********************************************************************************************
+**********************************************************************************************
+Title: Motorola Razr 40 Ultra: All details about the new foldable smartphone in advance
+Publication Date: Tue May 23 23:58:31 ART 2023
+Link: https://www.reddit.com/r/Android/comments/13q94cf/motorola_razr_40_ultra_all_details_about_the_new/
+Text: 
+**********************************************************************************************
+**********************************************************************************************
+Title: Nothing Phone (2): Carl Pei Talks Exclusively About The iPhone Challenger
+Publication Date: Thu May 25 12:31:56 ART 2023
+Link: https://www.reddit.com/r/Android/comments/13rkui3/nothing_phone_2_carl_pei_talks_exclusively_about/
+Text: 
+**********************************************************************************************
+Error: java.io.IOException: Server returned HTTP response code: 429 for URL: https://www.reddit.com/r/OddlySatisfaying/hot/.json?count=10
+
+
+
+************* Named Entities *************
 Class Frequency Entity Map:
 OtherNE 0
-Organization 0
+Organization 16
 Country 0
-Product 0
-LastName 120
-Person 120
+Product 1
+LastName 8
+Person 8
 Place 0
 TotalNE 0
 List of Named Entities:
-Messi 120
+House 4
+IdeasDiscussion 1
+Tackle 1
+BankmanFried 2
+Gasoline 1
+Call 2
+Songs 1
+OpenAI 2
+Nanchang 1
+Grays 1
+Employee 2
+Ensure 1
+Viar 1
+LGBTQ 1
+US 5
+Carmel 2
+Facebook 1
+LSU 1
+Withdrawals 1
+Plus 1
+Worker 2
+Becomes 1
+Department 2
+Digital 1
+Twitters 2
+Hits 1
+Heat 1
+International 5
+Disagree 1
+David 1
+Guam 2
+Georgia 1
+Joe 2
+Near 1
+Deposed 1
+Fight 1
+Troubles 1
+DebtLimit 1
+NL 1
+USB 1
+Plans 1
+Updates 1
+Paralyzed 1
+Writers 1
+Naperville 2
+County 2
+Orszag 2
+FMs 1
+Dispute 1
+Stays 1
+Continues 1
+Reeves 2
+Media 2
+Exclusive 1
+Implants 1
+Renews 1
+Henry 1
+WNBA 2
+Angels 1
+Magnet 1
+Pause 1
+Ryan 2
+SwiftHaptic 1
+Burner 1
+Lark 2
+Classic 1
+Systems 2
+Reds 5
+Tim 2
+Inflation 2
+Apple 1
+Virtues 2
+Batavia 1
+Denver 1
+Past 2
+Franchises 1
+Using 3
+Machinery 1
+Brands 1
+Pain 1
+DeSantiss 5
+FTX 1
+Journalists 1
+Citys 2
+Lazard 1
+Inside 3
+Final 1
+LinkedIn 2
+Tasks 1
+Raise 1
+Peter 1
+Debacle 1
+Data 3
+I'll 1
+OnePlus 1
+Wage 1
+Yellens 1
+First 2
+German 1
+Wall 1
+Spending 4
+Pixel 3
+President 3
+Biden 6
+States 4
+Elon 3
+Papaya 1
+Ken 1
+Pay 2
+Shares 2
+Odyssey 1
+Notre 2
+Dog 1
+Editors 1
+DJ 1
+Young 1
+Naudens 1
+High 1
+Paid 1
+Beacon 1
+Randall 2
+Create 1
+Retention 2
+Australian 1
+Depart 1
+Charles 1
+Reid 2
+Powerful 1
+Yahoo 1
+Aurora 2
+Million 1
+Twice 1
+Pride 1
+Shows 1
+Trade 1
+Man 1
+Nappenbach 1
+Last 1
+Play 1
+Airports 1
+Geneva 1
+Libertyvilles 1
+Almost 1
+MoronicMondayAndroidhttpsoldredditcomrAndroidsearchqMoronicMondayAndroidamprestrictsronampsortnewamptall 4
+Presidential 2
+Chosen 1
+GOP 2
+Seeking 1
+Panel 1
+Jacobs 1
+Takes 1
+Potential 1
+Symbol 1
+Southland 2
+Entry 3
+Emerges 1
+Screen 1
+Pew 1
+Life 2
+Cincinnati 3
+Deal 4
+ROM 1
+Kravis 1
+Shareholders 1
+Tokarski 2
+Microsoft 4
+GrapheneOS 2
+Table 1
+Carl 2
+Proxy 1
+Hannah 2
+Boe 3
+Marketing 1
+TikTok 4
+Quarter 1
+Sunday 5
+Creations 1
+Come 1
+Heyday 1
+Obviously 1
+Foxs 2
+Derrick 1
+Musk 2
+Grind 1
+Sues 1
+Records 1
+Went 1
+Insensitivity 1
+Worth 1
+Unheeded 1
+Fined 1
+KKR 1
+Salt 2
+Dirty 1
+Prices 1
+Googles 1
+Succeed 1
+GoogleSamsungHTC 1
+Delle 2
+Warning 1
+Wheaton 1
+LincolnWay 3
+Vote 1
+Make 1
+Chinas 1
+UI 1
+Join 5
+AI 12
+Yorkphenomenon 1
+New 8
+Industry 1
+Washington 4
+Four 1
+Consumer 1
+Amazon 1
+Minimize 2
+Mobvoi 1
+Big 1
+Reckoning 1
+Samsung 3
+Mi 4
+Health 1
+Manufacturers 1
+Finds 1
+Rotating 1
+Users 1
+Delays 2
+Bezel 1
+Fraud 1
+Expected 2
+RantRage 1
+Sandburg 1
+EU 1
+Baseball 1
+Essenburg 1
+Sectional 1
+Shift 1
+Tucker 1
+Bucks 2
+Pei 1
+Mystics 4
+Studio 1
+Event 3
+Even 1
+Gmail 1
+Milwaukee 4
+Economy 1
+Brain 1
+Cancellations 2
+Galaxy 3
+Europe 2
+Unfold 1
+Brief 1
+Republicans 3
+Don't 1
+Column 1
+Materials 1
+Interior 1
+Floyd 1
+NewPipe 1
+Compares 2
+Change 1
+Design 1
+Ultra 6
+Rising 1
+Reese 2
+Campaign 1
+Confirm 1
+Energy 2
+Taiwan 2
+Peshia 2
+Balance 1
+April 1
+TV 1
+FAA 1
+Right 1
+JPMorgan 1
+Northwesterns 1
+Brother 2
+Vetoes 2
+Officials 2
+Police 2
+Marquette 1
+Feel 3
+Business 1
+Fridays 1
+Emma 1
+Field 2
+Split 1
+Productions 1
+Sox 8
+Whites 1
+Existential 1
+Names 1
+Close 1
+Stock 1
+Icahns 1
+Park 4
+Chat 1
+Donne 1
+Hendriks 2
+MIUI 1
+Geena 1
+ASUS 1
+Cubs' 1
+Netflix 1
+Fire 1
+Minnesota 6
+Tigers 4
+Montana 1
+Wintrust 2
+Jewelry 2
+Please 9
+Jerry 1
+Leaders 2
+Greene 1
+Word 1
+Rate 1
+Chicago 19
+Hope 1
+NWSL 2
+Chip 1
+Class 8
+Jamie 1
+IRC 5
+Governor 2
+Still 1
+Associated 1
+Benet 2
+Epstein 1
+Vicenza 1
+Costs 1
+Money 1
+Brewers 1
+Democrats 2
+Minimum 1
+June 3
+DEI 1
+Academy 1
+Hunter 1
+Arnold 1
+Max 1
+Expects 1
+Missing 1
+Sharing 1
+Walz 2
+Phone 1
+SherryLehmann 1
+Whitney 1
+Photo 1
+Roy 1
+Turner 1
+Leaving 1
+Game 1
+Halloweens 1
+Note 8
+Ottawa 1
+Lockport 2
+Instagram 1
+Thoughts 1
+Whose 1
+Gov 2
+Crack 1
+Hyundai 2
+Lifted 1
+Congress 3
+Bailey 2
+Uber 5
+Risks 3
+Moves 2
+Danica 2
+Picket 1
+Check 6
+Real 1
+Pattiz 1
+Two 1
+Thursday 3
+Windfalls 1
+Chineseowned 3
+MASSIVE 1
+Faces 1
+Privacy 1
+Groups 1
+Jordan 2
+Heres 1
+Elgin 2
+HTC 1
+Donnes 1
+Physical 1
+Try 1
+Investors 1
+Germany 1
+Federal 3
+Violating 1
+Hiring 2
+Semafor 1
+Employees 3
+Americans 1
+May 8
+Backlash 1
+Boring 1
+Deposits 1
+Press 1
+Complain 1
+CtrlF 5
+Work 1
+Debt 10
+NCAA 5
+Treasury 3
+Speaker 1
+FE 1
+Gray 1
+Protect 1
+Evidence 1
+Tax 2
+Essentially 1
+Plan 2
+Around 1
+Crisis 2
+FTC 1
+Bard 4
+Joliet 1
+Disputes 1
+Passes 1
+Alyssa 2
+Billionaires 1
+Asking 1
+Childs 1
+PK 1
+Full 1
+Exclusively 1
+Negotiators 1
+Dame 2
+Needs 2
+Storehttpsgithubcomdrkenredditandroidappstorereleases 1
+Authorithy 1
+See 1
+Yang 1
+Cuts 1
+Ceiling 6
+Surgeon 1
+Comes 1
+Court 1
+Ban 1
+AIs 1
+Raises 1
+Rock 1
+Worst 1
+Mishaal 3
+Elena 2
+Gboard 1
+Lawmakers 1
+Iconic 1
+Default 1
+Award 1
+Neither 1
+Payments 1
+Bill 3
+GOOD 1
+Could 1
+State 3
+Liam 2
+Running 1
+Calif 1
+Libertyville 1
+Source 1
+Warnings 1
+Weaknesses 1
+User 2
+Predawn 1
+Launch 1
+Excessive 1
+Black 1
+Store 2
+Watchdog 2
+Livestreams 2
+Boston 2
+Gig 4
+Housing 1
+Ellie 2
+Davis 1
+Find 1
+LSUs 1
+Republican 4
+Applied 1
+Europes 1
+Continue 1
+Use 1
+Recession 1
+Lance 1
+Auroras 1
+Chicagoarea 2
+Saturday 8
+Photos 4
+Democratic 1
+Bottles 1
+Listen 2
+Lyft 4
+Eloy 2
+York 5
+Starts 1
+Jeffrey 1
+Modern 1
+Password 1
+Military 1
+Legal 1
+Valley 3
+Andrew 4
+Keyboard 1
+Pro 3
+Mount 2
+St 1
+Catholic 1
+Mackenzie 2
+Fabian 1
+India 1
+South 1
+Montanas 1
+Dominion 1
+Praising 2
+West 2
+Strikes 1
+Key 1
+Wrigley 2
+Taken 1
+Eagles 1
+Xiaomi 7
+Edge 1
+Gender 1
+Book 1
+Daniel 1
+Downloader 1
+Limiting 1
+Scrutiny 1
+Bias 1
+Android 13
+White 11
+Stars 2
+North 1
+Rahman 3
+WearOS 1
+Growth 2
+Jill 1
+Huawei 1
+Brand 1
+Global 1
+Limit 3
+Disrupt 1
+DeSantis 1
+McCarthy 2
+Superthread 3
+OT 1
+Google 11
+Barely 1
+Savings 1
+Florida 4
+Telegram 5
+Detroit 4
+Spaces 4
+Mr 4
+Replacing 1
+Sarah 1
+Celtics 3
+Yes 1
+Cubs 10
+Lake 2
+Social 2
+Prosecutors 1
+Dont 1
+Markets 1
+Probably 1
+Restaurant 1
+Sony 1
+Become 1
+Used 3
+Reserves 2
+Renders 1
+Announcement 3
+Red 2
+IndoPacific 1
+Orlando 1
+Soon 1
+Hoffman 4
+Flexibility 1
+Malware 1
+Ross 1
+App 4
+Yellen 2
+Conor 1
+LG 5
+Warrenville 1
+Chief 1
+Italy 1
+Calls 2
+Help 1
+Hardship 1
+Brewers' 1
+Kansas 1
+Twitter 11
+Daily 3
+Warns 1
+Reveal 1
+Porters 1
+Airfares 1
+Abbotts 2
+Naeher 2
+Kevin 2
+Know 2
+Micay 1
+Beach 1
+Epsteins 1
+Ties 1
+Mary 1
+Raptors 1
+Burgerim 1
+Tick 1
+Succession 2
+CEO 1
+Run 1
+Arena 2
+Notebook 1
+Retirement 1
+Fed 2
+Concerned 1
+Nanchangs 1
+City 2
+Contributions 1
+Half 1
+Illumina 1
+Roys 1
+Fraus 2
+Central 1
+Allow 1
+Musks 2
+Toronto 1
+Cash 2
+Windows 1
+Sunnyvale 1
+Scores 1
+Move 1
+Sam 2
+Signals 1
+Battery 1
+Regulate 2
+DealBook 1
+Mecca 1
+Pictures 1
+MUCH 1
+Suspends 1
+Entitled 1
+Atomic 2
+Code 1
+Northwestern 3
+Announce 1
+Providence 2
+Logs 1
+APPreciation 1
+Apples 1
+Demand 1
+Newarks 1
+Razr 1
+Planning 1
+Center 1
+Rose 1
+MLB 1
+Demo 1
+Year 1
+I've 1
+Nicholas 1
+Blackhawks 1
+Jan 1
+Voting 1
+Phones 1
+Godawful 1
+Dies 2
+Rise 1
+Would 1
+ChatGPT 1
+Lines 1
+Leave 1
+Eight 1
+Billion 3
+TicWatch 1
+European 1
+United 3
+RBI 1
+Sale 1
+Silicon 3
+Casey 1
+Talks 4
+Hollywood 1
+Regional 3
+Nauden 1
+Nvidia 1
+Journal 1
+Marble 1
+Plant 1
+Supreme 1
+Dimon 1
+TrillionDollar 1
+Angel 2
+Prompts 1
+Workers 2
+Comeback 1
+Path 1
+Jimnez 2
+Coming 1
+Rice 2
+Rebmann 2
+JuanBagnell 1
+Research 1
+Time 3
+Interactions 1
+Street 1
+Mystery 1
+Emails 1
+Smith 2
+Clashing 1
+Jacksonville 1
+Rules 5
+Credit 2
+Anticipating 1
+NBA 1
+Motor 1
+George 1
+Group 2
+Friday 5
+Wisely 1
+Nothing 1
+Brad 2
+Griffin 2
+Karen 1
+Motorola 2
+Chain 1
+Gorillas 1
+College 2
+Misinformation 1
+Generals 1
+Rights 1
+Valuation 1
+Xperia 2
+Union 1
+Meta 1
+Fallout 1
+Missed 1
+Mental 1
+Latest 1
+Pick 1
+Adrian 2
+Show 1
+Force 1
+Walk 1
+Say 2
+Grimes 2
+Reviews 1
+Top 1
+Ron 1
+Hedge 1
+Minutes 1
+Firedup 1
+Became 2
+Eases 1
+Warriors 1
+Way 1
+Agency 2
+Sky 4
+Chinese 2
+Hot 1
+Lynn 1
+East 3
+Face 2
+Climate 1
+ZenFone 1
+Challenger 1
+Wine 1
+Across 1
+Ricketts 1
+Comerica 3
+Slipped 1
+Settings 1
+Womens 1
+Exposes 1
+Mountain 1
+Nears 1
+Watch 2
+Foundation 1
+Virginia 2
+Part 1
+Reasons 1
+Target 3
+System 2

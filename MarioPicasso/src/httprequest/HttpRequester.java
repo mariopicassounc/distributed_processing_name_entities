@@ -19,8 +19,8 @@ public class HttpRequester {
         this.url = url;
     }
 
-	public String getContent() {
-        try{
+    public String getContent() {
+        try {
             TimeUnit.SECONDS.sleep(1); // to avoid 429 error
             URL url = new URL(this.url);
             HttpURLConnection con = (HttpURLConnection) url.openConnection();
@@ -39,5 +39,14 @@ public class HttpRequester {
             RuntimeException re = new RuntimeException(e);
             throw re;
         }
-	}
+    }
+
+    static public void main(String[] args) {
+        // String url = "https://www.reddit.com/r/Android/hot/.json?count=10";
+        String url = "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml";
+        HttpRequester HttpRequester = new HttpRequester(url);
+        String content = HttpRequester.getContent();
+        System.out.println(content);
+    }
+
 }
