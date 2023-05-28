@@ -70,6 +70,9 @@ public class FactoryNamedEntity {
          * Updates values in the classFrequencyEntityMap
          */
 
+        // Update total NE frequency
+        classFrequencyEntityMap.put("TotalNE", classFrequencyEntityMap.get("TotalNE") + frequency);
+
         // All the cases covered by the heuristic Map
         if (category == null) {
             return new OtherNE(name, category, frequency, null, null);
