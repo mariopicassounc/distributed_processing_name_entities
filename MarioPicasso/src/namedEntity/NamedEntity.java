@@ -10,10 +10,11 @@ public class NamedEntity {
 	protected int frequency;
 	protected Theme theme;
 	
-	public NamedEntity(String name, List<String> category, int frequency) {
+	public NamedEntity(String name, List<String> category, int frequency,Theme theme) {
 		this.name = name;
 		this.category = category;
 		this.frequency = frequency;
+		this.theme = theme;
 	}
 
 	public String getName() {
