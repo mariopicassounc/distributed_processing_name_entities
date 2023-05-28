@@ -22,8 +22,10 @@ public class FactoryNamedEntity {
          */
 
         // All the cases covered by the heuristic Map
-
-        if (category.get(0).equals("LastName") && category.get(1).equals("International")) {
+        if (category == null){
+            return new OtherNE(name, category, frequency, null, null);
+        }
+        else if (category.get(0).equals("LastName") && category.get(1).equals("International")) {
             Theme theme = new International();
             return new LastName(name, category, frequency, theme, 0, null, null);
         } 
