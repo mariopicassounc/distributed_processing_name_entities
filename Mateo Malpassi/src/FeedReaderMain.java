@@ -9,6 +9,9 @@ import org.apache.spark.sql.SparkSession;
 import feed.Article;
 import feed.Feed;
 
+import namedEntity.heuristic.Heuristic;
+import namedEntity.heuristic.QuickHeuristic;
+
 import parser.FeedParser;
 import parser.FeedParserFactory;
 import parser.SubscriptionParser;
@@ -77,6 +80,17 @@ public class FeedReaderMain {
 			articleToString.add(a.getTitle());
 		}
 
+		//Heurística
+		Heuristic heuristic = new QuickHeuristic();
+		
+		//Filtro las NE de los artículos
+		List<String> neArray = new ArrayList<String>();
+		for (String s: articleToString){
+			if(heuristic.isEntity(s)){
+				neArray.add(s);
+			}
+		}
+		
 		// Detener Spark
 		spark.stop();
 	}
