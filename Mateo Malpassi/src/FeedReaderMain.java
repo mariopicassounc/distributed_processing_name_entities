@@ -2,6 +2,9 @@ import java.io.FileNotFoundException;
 import java.nio.file.Paths;
 import java.util.List;
 
+import org.apache.spark.api.java.JavaSparkContext;
+import org.apache.spark.sql.SparkSession;
+
 import feed.Feed;
 import parser.FeedParser;
 import parser.FeedParserFactory;
@@ -12,49 +15,52 @@ import subscription.Subscription;
 
 public class FeedReaderMain {
 
-	private static void printHelp(){
-		System.out.println("Please, call this program in correct way: FeedReader [-ne]");
-	}
-	
 	public static void main(String[] args) {
+	
+		//Seteo spark
+		SparkSession spark = SparkSession.builder()	//Init SparkSession
+		.appName("NamedEntityCount")	//Setea el nombre de aplicación
+		.master("local[*]")  // Usar todos los núcleos disponibles localmente
+		.getOrCreate();
+
+		JavaSparkContext sparkContext = new JavaSparkContext(spark.sparkContext());
 		
-		if (args.length == 0){
-			Subscription subscription = null;
+		Subscription subscription = null;
 
-			System.out.println("\n\n\n************* FeedReader version 1.0 *************");
+		System.out.println("\n\n\n************* FeedReader version 1.0 *************");
 			
-			// Read the default subscription file
-			String relativePath = "config/subscriptions.json";
-			String absolutePath = Paths.get(relativePath).toAbsolutePath().toString();
+		// Read the default subscription file
+		String relativePath = "config/subscriptions.json";
+		String absolutePath = Paths.get(relativePath).toAbsolutePath().toString();
 				
-			SubscriptionParser subParser = new SubscriptionParser(absolutePath);
+		SubscriptionParser subParser = new SubscriptionParser(absolutePath);
 				
-			try{
-				subscription = subParser.parseJSONFile();
-			}
-			catch(FileNotFoundException e){
-				System.out.println("Error: " + e.getMessage());
-			}
-				
-			// Para cada subscripcion requestear el feed, parsearlo y mostrarlo
-			for (SingleSubscription s: subscription.getSubscriptionsList()){
-				String url = s.getUrl();
-				String type = s.getUrlType();
-				List<String> params = s.getUlrParams();
-				s.prettyPrint();
-				// Para cada parametro obtener el feed
-				for (String param: params){
-					String feedUrl = url.replace("%s", param);
-
-					Feed feed;
-						
-					FeedParser feedParser = FeedParserFactory.createParser(type);
-					feed = feedParser.parseFeed(feedUrl);
-					feed.prettyPrint();
-				}
-			}	
-		}else {
-			printHelp();
+		try{
+			subscription = subParser.parseJSONFile();
 		}
+		catch(FileNotFoundException e){
+			System.out.println("Error: " + e.getMessage());
+		}
+				
+		// Para cada subscripcion requestear el feed, parsearlo y mostrarlo
+		for (SingleSubscription s: subscription.getSubscriptionsList()){
+			String url = s.getUrl();
+			String type = s.getUrlType();
+			List<String> params = s.getUlrParams();
+			s.prettyPrint();
+			// Para cada parametro obtener el feed
+			for (String param: params){
+				String feedUrl = url.replace("%s", param);
+
+				Feed feed;
+						
+				FeedParser feedParser = FeedParserFactory.createParser(type);
+				feed = feedParser.parseFeed(feedUrl);
+				feed.prettyPrint();
+			}
+		}
+		
+		// Detener Spark
+		spark.stop();
 	}
 }
