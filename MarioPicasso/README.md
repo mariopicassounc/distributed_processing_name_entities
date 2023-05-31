@@ -48,6 +48,19 @@ Abierto nuestro proyecto en VS Code hay abajo a la izquierda una pestañita que 
 La abrimos y nos dirgimos a "Referenced Libraries" y clikeamos "+"
   
 ### ¿Qué estructura tiene un programa en Spark?
+Lo primero que debe hacer un programa Spark es crear un objeto SparkContext, que le dice a Spark cómo acceder a un clúster. Para crear un SparkContext primero necesitas construir un objeto SparkConf que contiene información sobre tu aplicación.
+
+Luego haremos uso de RDD (Resilient Distributed Datasets), que es una colección de elementos <em>tolerantes a fallas</em> que se pueden operar en paralelo. 
+Hay dos formas de crear RDD: paralelizando una colección existente en el programa, o haciendo referencia a un conjunto de datos en un sistema de almacenamiento externo, como un sistema de archivos compartido, HDFS, HBase o cualquier fuente de datos que ofrezca un formato de entrada Hadoop.
+
+Tolerancia al fallo es un tema principal en el área de sistemas distribuidos, este nace del hecho de que en dos computadoras el mismo dato tener diferentes valores, por lo tanto no hay una única verdad sobre el valor de este dato. 
+No es un tema a profundizar aquí, ya que Spark resuelve este problema por nosotros, pudiendo trabajar con bases de datos distribuidas sin pensar en las complicaciones inherentes.
+
+Los RDD admiten dos tipos de operaciones: transformaciones, que crean un nuevo conjunto de datos a partir de uno existente, y acciones, que devuelven un valor después de ejecutar un cálculo en el conjunto de datos. 
+Por ejemplo, map es una transformación que pasa cada elemento del conjunto de datos a través de una función y devuelve un nuevo RDD que representa los resultados. Por otro lado, reduce es una acción que agrega todos los elementos del RDD usando alguna función y devuelve el resultado final.
+
+Generalmente primero hacemos transformaciones (map) para darle la forma que queremos a nuestros datos, y despues realizamos las acciones para obtener un resultado a partir del procesamiento paralelo del conjunto de datos.
+Algo piola es que spark hace las transformaciones "lazy", es decir, no se hacen hasta que haya una accion. Cuando ejecutamos la accion recien ahi se realiza la trasformacion previamente especificada. 
 
 
 ### ¿Qué estructura tiene un programa de conteo de palabras en diferentes documentos en Spark?
@@ -118,7 +131,6 @@ Para correrlo el quickstart de la documentacion (https://spark.apache.org/docs/l
 run-example JavaWordCount <file>
 ~~~
 
-No queda claro como voy a aprovechar los 2 cores de mi computadora.
 
 Leyendo:
 
@@ -127,22 +139,25 @@ https://spark.apache.org/docs/1.0.2/configuration.html
 https://spark.apache.org/docs/1.0.2/programming-guide.html
 
 
-
-Necesitaria ver que hace .read() y .tesxtFile(file).
-En mi caso voy a necesitar cambiarlo por el string de mi interes.
-
 ### ¿Cómo adaptar el código del Laboratorio 2 a la estructura del programa objetivo en Spark?
+En el codigo del laboratorio 2 cada articulo tenia su lista de entidades nombradas, y la clase Article tenia un metodo justamente para rellenar esta lista.
+En este lab no haré uso ni de ese metodo ni de esa lista.
 
-Yo tengo una lista de articulos, por cada feed. Estaria bueno concatenar todas estas listas, para tener un array con todos los articulos. 
-A este array aplicarle la funcion parallelalize para comenzar a trabajar con spark.
-Esos articulos mapearlos y converitrlos en una lista de strings donde me guardo solo el titulo y el texto.
-Partir todo esos strings en una lista mas larga que tiene todas las palabras separadas.
+1) Yo tengo una lista de articulos, por cada feed. Estaria bueno concatenar todas estas listas, para tener un array con todos los articulos. 
+2) Esos articulos mapearlos y converitrlos en una lista de strings donde me guardo solo el titulo y el texto.
+3) Ahora a la lista de strings, aplicarle la funcion parallelalize para comenzar a trabajar con Spark.
+4) Partir todo esos strings en una lista mas larga que tiene todas las palabras separadas.
+5) Mapear dicha lista para convertir la lista de palabras en una lista de tuplas (palabra, frecuencia) donde la frecuencia seria 1
+6) Reducir a partir de la clave la lista, para que quede cada palabra una sola vez con su respectiva frecuencia (reduceByKey).
 
-
-
-
+Los pasos donde se involucra spark son 3,4,5,6.
 
 ### ¿Cómo se integra una estructura orientada a objetos con la estructura funcional de map-reduce?
+En Java ser puede realizar partes funcionales en cierto punto, siempre se puede crear una clase sin atributos y con metodos que funciones como funciones deterministicas.
+En mi caso como las operaciones de spark eran pocas las deje en el Main, pero se podria hacer una clase sin atributo con un metodo "funcional" que le des la lista de articulos y te devuelva la lista tuplas (palabra, frecuencia).
 
+### Mas informacion sobre diseño
+La clase FactoryNamedEntities podria ser dividida en 2 clases: 
+    ListNamedEntities la cual se encarga solamente
 
 
