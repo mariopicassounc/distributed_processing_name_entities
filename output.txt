@@ -692,262 +692,7 @@ Link: https://www.chicagotribune.com/sports/college/bs-sp-lsu-womens-basketball-
 Text: President Joe Biden hosted the NCAA men’s and women’s basketball champions at separate events Friday, and his wife, Jill, joined the celebration for LSU’s women’s team led by star Angel Reese.
 **********************************************************************************************
 {url=https://www.reddit.com/r/%s/hot/.json?count=10, ulrParams=[Android, OddlySatisfaying], urlType=reddit}
-**********************************************************************************************
-Title: Saturday APPreciation thread (May 27 2023) - Your weekly app recommendation/request thread!
-Publication Date: Sat May 27 09:15:10 ART 2023
-Link: https://www.reddit.com/r/Android/comments/13t5vtl/saturday_appreciation_thread_may_27_2023_your/
-Text: Note 1. Check out our [apps wiki for previous threads](https://www.reddit.com/r/Android/wiki/index#wiki_apps) and apps curated by the reddit Android community!
-
-Download the [official /r/Android App Store](https://github.com/d4rken/reddit-android-appstore/releases) based on our wiki!
-
-Note 2. Check [r/MoronicMondayAndroid](https://old.reddit.com/r/Android/search?q=MoronicMondayAndroid&amp;restrict_sr=on&amp;sort=new&amp;t=all), which serves as a repository for our retired weekly threads. Just pick any thread and Ctrl-F your way to wisdom!
-
-Note 3. Join our IRC and Telegram chat-rooms! Please [see our wiki](https://old.reddit.com/r/Android/wiki/index#wiki_.2Fr.2Fandroid_chat_rooms) for instructions.
-
-This weekly Saturday thread is for:
-* App promotion,
-* App praise/sharing
-
-Rules:
-
-1) If you are a developer, you may promote your own app ONLY under the bolded, distinguished moderator comment. Users: if you think someone is trying to bypass this rule by promoting their app in the general thread, click the report button so we can take a look!
-**********************************************************************************************
-**********************************************************************************************
-Title: Sunday Rant/Rage (May 28 2023) - Your weekly complaint thread!
-Publication Date: Sun May 28 09:00:30 ART 2023
-Link: https://www.reddit.com/r/Android/comments/13tyr6c/sunday_rantrage_may_28_2023_your_weekly_complaint/
-Text: Note 1. Check [MoronicMondayAndroid](https://old.reddit.com/r/Android/search?q=MoronicMondayAndroid&amp;restrict_sr=on&amp;sort=new&amp;t=all), which serves as a repository for our retired weekly threads. Just pick any thread and Ctrl-F your way to wisdom!
-
-Note 2. Join our IRC and Telegram chat-rooms! [Please see our wiki for instructions.](https://www.reddit.com/r/Android/wiki/index#wiki_.2Fr.2Fandroid_chat_rooms)
-
-This weekly Sunday thread is for you to let off some steam and speak out about whatever complaint you might have about:  
-
-* Your device.  
-
-* Your carrier.  
-
-* Your device's manufacturer.  
-
-* An app  
-
-* Any other company
-
-***  
-
-Rules  
-
-1) Please do not target any individuals or try to name/shame any individual. If you hate Google/Samsung/HTC etc. for one thing that is fine, but do not be rude to an individual app developer.
-
-2) If you have a suggestion to solve another user's issue, please leave a comment but be sure it's constructive! We do not want any flame-wars.  
-
-3) Be respectful of other's opinions. Even if you feel that somebody is "wrong" you don't have to go out of your way to prove them wrong. Disagree politely, and move on.
-**********************************************************************************************
-**********************************************************************************************
-Title: Daniel Micay: "I've stepped down as lead developer of GrapheneOS and will be replaced as a GrapheneOS Foundation director. I'll be ending my use of public social media."
-Publication Date: Sat May 27 06:55:06 ART 2023
-Link: https://www.reddit.com/r/Android/comments/13t3bsk/daniel_micay_ive_stepped_down_as_lead_developer/
-Text: 
-**********************************************************************************************
-**********************************************************************************************
-Title: Planning a new, modern and stable NewPipe
-Publication Date: Fri May 26 06:21:27 ART 2023
-Link: https://www.reddit.com/r/Android/comments/13s861t/planning_a_new_modern_and_stable_newpipe/
-Text: 
-**********************************************************************************************
-**********************************************************************************************
-Title: Google Pixel 7a review
-Publication Date: Fri May 26 12:43:28 ART 2023
-Link: https://www.reddit.com/r/Android/comments/13sgmsv/google_pixel_7a_review/
-Text: 
-**********************************************************************************************
-**********************************************************************************************
-Title: Mishaal Rahman: Here's some tidbits about Android 14's USB webcam feature (thread)
-Publication Date: Fri May 26 13:18:47 ART 2023
-Link: https://www.reddit.com/r/Android/comments/13shjq0/mishaal_rahman_heres_some_tidbits_about_android/
-Text: 
-**********************************************************************************************
-**********************************************************************************************
-Title: What are the ways Google will implement Bard into Android? (Ideas/Discussion)
-Publication Date: Fri May 26 11:15:52 ART 2023
-Link: https://www.reddit.com/r/Android/comments/13seff0/what_are_the_ways_google_will_implement_bard_into/
-Text: Obviously Bard is a MASSIVE update for technology moving forward. What ways is Google planning to implement it (other than ads) in Android? Or what ways do you think will be useful?
-
-* Gboard - Will Bard significantly make gBoard way better at voice to text? Or is bard not a language model? because gboard sometimes doesnt translate what I speak correctly. Is this something Bard can improve?
-
-* Google search will obviously be the forefront for general quarries.
-
-* Will it make organizing/creating albums in Google Photos better? "Make an album from the past 5 Halloweens"? stuff like that?
-
-* "When will make packages get here? So it searches my gmail and then tells me locatoin and stuff?
-
-* gboard - create custome pics or gifs? Create a gif of Arnold from the terminator with "text text text" write on it?
-**********************************************************************************************
-**********************************************************************************************
-Title: Google Play Store set to introduce two rows of ads post an app install
-Publication Date: Thu May 25 10:56:41 ART 2023
-Link: https://www.reddit.com/r/Android/comments/13rii5j/google_play_store_set_to_introduce_two_rows_of/
-Text: 
-**********************************************************************************************
-**********************************************************************************************
-Title: Daily Superthread (May 26 2023) - Your daily thread for questions, device recommendations and general discussions!
-Publication Date: Fri May 26 09:00:36 ART 2023
-Link: https://www.reddit.com/r/Android/comments/13sb8tu/daily_superthread_may_26_2023_your_daily_thread/
-Text: Note 1. Check [MoronicMondayAndroid](https://old.reddit.com/r/Android/search?q=MoronicMondayAndroid&amp;restrict_sr=on&amp;sort=new&amp;t=all), which serves as a repository for our retired weekly threads. Just pick any thread and Ctrl-F your way to wisdom! 
-
-Note 2. Join our IRC and Telegram chat-rooms! [Please see our wiki for instructions.](https://www.reddit.com/r/Android/wiki/index#wiki_.2Fr.2Fandroid_chat_rooms)
-
-Please post your questions here. Feel free to use this thread for general questions/discussion as well.
-
-The /r/Android wiki has a list of recommended phones and covers most areas, the links have been added below. Any suggestions or changes are welcome. Please [contact us](https://www.reddit.com/message/compose/?to=/r/Android) if you would like to help maintain this section. 
-
-[Entry level devices](https://www.reddit.com/r/Android/wiki/affordable)
-
-[Midrange section](https://www.reddit.com/r/Android/wiki/midrange)
-
-[Flagship section](https://www.reddit.com/r/Android/wiki/flagships)
-**********************************************************************************************
-**********************************************************************************************
-Title: Motorola Edge+ 2023 review: Boring design aside, this is a flagship worth considering
-Publication Date: Thu May 25 11:39:19 ART 2023
-Link: https://www.reddit.com/r/Android/comments/13rjju1/motorola_edge_2023_review_boring_design_aside/
-Text: 
-**********************************************************************************************
-**********************************************************************************************
-Title: How to access the Google Tasks website without Gmail sidebar
-Publication Date: Thu May 25 13:48:55 ART 2023
-Link: https://www.reddit.com/r/Android/comments/13rmswx/how_to_access_the_google_tasks_website_without/
-Text: 
-**********************************************************************************************
-**********************************************************************************************
-Title: [Android Authorithy] ASUS accidentally leaks ZenFone 10's pricing
-Publication Date: Thu May 25 13:39:08 ART 2023
-Link: https://www.reddit.com/r/Android/comments/13rmk0h/android_authorithy_asus_accidentally_leaks/
-Text: 
-**********************************************************************************************
-**********************************************************************************************
-Title: Daily Superthread (May 25 2023) - Your daily thread for questions, device recommendations and general discussions!
-Publication Date: Thu May 25 09:00:24 ART 2023
-Link: https://www.reddit.com/r/Android/comments/13rfupv/daily_superthread_may_25_2023_your_daily_thread/
-Text: Note 1. Check [MoronicMondayAndroid](https://old.reddit.com/r/Android/search?q=MoronicMondayAndroid&amp;restrict_sr=on&amp;sort=new&amp;t=all), which serves as a repository for our retired weekly threads. Just pick any thread and Ctrl-F your way to wisdom! 
-
-Note 2. Join our IRC and Telegram chat-rooms! [Please see our wiki for instructions.](https://www.reddit.com/r/Android/wiki/index#wiki_.2Fr.2Fandroid_chat_rooms)
-
-Please post your questions here. Feel free to use this thread for general questions/discussion as well.
-
-The /r/Android wiki has a list of recommended phones and covers most areas, the links have been added below. Any suggestions or changes are welcome. Please [contact us](https://www.reddit.com/message/compose/?to=/r/Android) if you would like to help maintain this section. 
-
-[Entry level devices](https://www.reddit.com/r/Android/wiki/affordable)
-
-[Midrange section](https://www.reddit.com/r/Android/wiki/midrange)
-
-[Flagship section](https://www.reddit.com/r/Android/wiki/flagships)
-**********************************************************************************************
-**********************************************************************************************
-Title: Don't ask Google's new AI search to recommend you good phones, because yikes
-Publication Date: Fri May 26 17:08:28 ART 2023
-Link: https://www.reddit.com/r/Android/comments/13sn5b0/dont_ask_googles_new_ai_search_to_recommend_you/
-Text: 
-**********************************************************************************************
-**********************************************************************************************
-Title: Why are GOOD haptic feedback underappreciated in Android??
-Publication Date: Wed May 24 17:41:22 ART 2023
-Link: https://www.reddit.com/r/Android/comments/13qx2cw/why_are_good_haptic_feedback_underappreciated_in/
-Text: Yes, why are haptic feedback so underappreciated in the Android space?
-
-I been smartphone user since 2008, the haptic was never really something that struck my mind much as a "priority" having dabbled with Windows Phones a lot and Android devices such as Galaxy S2 and Xperia Z in the early days, I was generally impressed with iPhones feel of use but was too ignorant to understand why, I knew the vibration motors had something to do with it, but at the time, the idea of haptic was an alien concept. 
-
-Then I had pleasure of owning a Xiaomi Mi 10 Ultra, this device changed my mind, everything I did felt mechanical and had weight to button presses, thats how good the haptic were, it was only when I parted with it duo its long list of software issues that made me tired of it, and going back to Samsung such as Galaxy S20 FE and then S21 Ultra and S22 Ultra through my job, it made me realise how Godawful the haptic were on these devices.
-
-How can Samsung sell you a 1200 euro device that has haptic feedback from 2009? With the iPhone 13 my mother have, I had a spin on it made me realise how much Xiaomi had optimised their Android ROM MIUI to include as much haptic feedback as possible in every place they felt it needed, such as controlling the volume gives a satisfying rattle that grows stronger or weaker depending how low or high it goes, the Xiaomi also had different haptic for back button and home button, even haptic for the fingerprint reader.
-
-iPhone is similar, it has haptic for nearly everything now, it honestly felt extremely satisfying to use despite my absolute disgust for iOS. 
-
-My friend has a LG V60 and its amazing in haptic just like Xiaomi, LG did outstanding work incorporating haptic into everything, a lot of people say Google Pixel phones have good haptic having tried the Pixel 7 in the store, I cannot say I am impressed it felt just like the Sony Xperia 1 I had once upon a time that I actually ended up returning, the haptic are too strong and only present in certain places. Essentially its just the basic Android haptic, there no haptic for volume control as an example.
-
-Let me put it like this, you typing on a keyboard on Xiaomi / LG, you can literally feel the distances from each key, the haptic are different depending where you press on the keyboard, iPhone has similarly if you use a keyboard that supports haptic like Microsoft Swift.
-
-Haptic feedback changes how "good" it feels to use a device if you will, it feels more mechanical, is it going to improve your workflow? Probably not, but it will make the device feel better to use, so why, why is it such an underappreciated feature? 
-
-I only come across 3 devices that implements custom haptic everywhere in Android, LG V60, Xiaomi flagships like Mi 10 Ultra, Mi 11 Ultra and Mi 13 Pro, unfamiliar with Huawei but some people say it does indeed have similar haptic to Xiaomi?
-**********************************************************************************************
-**********************************************************************************************
-Title: Mishaal Rahman: Demo of Android 14's new partial screen recording feature which lets you record a single app without any System UI elements or notifications appearing in the video (thread)
-Publication Date: Wed May 24 00:13:51 ART 2023
-Link: https://www.reddit.com/r/Android/comments/13q9gf4/mishaal_rahman_demo_of_android_14s_new_partial/
-Text: 
-**********************************************************************************************
-**********************************************************************************************
-Title: [Exclusive] Samsung Galaxy Watch 6 Classic 5K Renders Confirm Rotating Bezel Comeback, Reveal Full Design; Launch Expected Soon
-Publication Date: Wed May 24 03:29:26 ART 2023
-Link: https://www.reddit.com/r/Android/comments/13qdk34/exclusive_samsung_galaxy_watch_6_classic_5k/
-Text: 
-**********************************************************************************************
-**********************************************************************************************
-Title: [JuanBagnell] Mobvoi TicWatch Pro 5! The Most Powerful WearOS Watch, But What About Updates?
-Publication Date: Wed May 24 14:31:59 ART 2023
-Link: https://www.reddit.com/r/Android/comments/13qrzfu/juanbagnell_mobvoi_ticwatch_pro_5_the_most/
-Text: 
-**********************************************************************************************
-**********************************************************************************************
-Title: Google bans Downloader app after TV firms complain it can load a pirate website
-Publication Date: Tue May 23 16:30:17 ART 2023
-Link: https://www.reddit.com/r/Android/comments/13py6j8/google_bans_downloader_app_after_tv_firms/
-Text: 
-**********************************************************************************************
-**********************************************************************************************
-Title: Mishaal Rahman: If you connect a physical keyboard to a large screen device running Android 14, under Settings &gt; System &gt; Keyboard &gt; Physical keyboard, the "keyboard shortcuts" menu will now show a MUCH more comprehensive list of available keyboard shortcuts, as shown below!
-Publication Date: Wed May 24 00:01:30 ART 2023
-Link: https://www.reddit.com/r/Android/comments/13q96uq/mishaal_rahman_if_you_connect_a_physical_keyboard/
-Text: 
-**********************************************************************************************
-**********************************************************************************************
-Title: Daily Superthread (May 24 2023) - Your daily thread for questions, device recommendations and general discussions!
-Publication Date: Wed May 24 09:00:45 ART 2023
-Link: https://www.reddit.com/r/Android/comments/13qjjla/daily_superthread_may_24_2023_your_daily_thread/
-Text: Note 1. Check [MoronicMondayAndroid](https://old.reddit.com/r/Android/search?q=MoronicMondayAndroid&amp;restrict_sr=on&amp;sort=new&amp;t=all), which serves as a repository for our retired weekly threads. Just pick any thread and Ctrl-F your way to wisdom! 
-
-Note 2. Join our IRC and Telegram chat-rooms! [Please see our wiki for instructions.](https://www.reddit.com/r/Android/wiki/index#wiki_.2Fr.2Fandroid_chat_rooms)
-
-Please post your questions here. Feel free to use this thread for general questions/discussion as well.
-
-The /r/Android wiki has a list of recommended phones and covers most areas, the links have been added below. Any suggestions or changes are welcome. Please [contact us](https://www.reddit.com/message/compose/?to=/r/Android) if you would like to help maintain this section. 
-
-[Entry level devices](https://www.reddit.com/r/Android/wiki/affordable)
-
-[Midrange section](https://www.reddit.com/r/Android/wiki/midrange)
-
-[Flagship section](https://www.reddit.com/r/Android/wiki/flagships)
-**********************************************************************************************
-**********************************************************************************************
-Title: Fabian Nappenbach: Brief HTC U23 Pro hands-on
-Publication Date: Wed May 24 00:04:30 ART 2023
-Link: https://www.reddit.com/r/Android/comments/13q99af/fabian_nappenbach_brief_htc_u23_pro_handson/
-Text: 
-**********************************************************************************************
-**********************************************************************************************
-Title: OnePlus 11 Marble Odyssey limited-edition announced for India
-Publication Date: Wed May 24 13:11:45 ART 2023
-Link: https://www.reddit.com/r/Android/comments/13qpw83/oneplus_11_marble_odyssey_limitededition/
-Text: 
-**********************************************************************************************
-**********************************************************************************************
-Title: Amazon launches its biggest tablet, the $230 Fire Max 11
-Publication Date: Tue May 23 10:17:43 ART 2023
-Link: https://www.reddit.com/r/Android/comments/13poa44/amazon_launches_its_biggest_tablet_the_230_fire/
-Text: 
-**********************************************************************************************
-**********************************************************************************************
-Title: Motorola Razr 40 Ultra: All details about the new foldable smartphone in advance
-Publication Date: Tue May 23 23:58:31 ART 2023
-Link: https://www.reddit.com/r/Android/comments/13q94cf/motorola_razr_40_ultra_all_details_about_the_new/
-Text: 
-**********************************************************************************************
-**********************************************************************************************
-Title: Nothing Phone (2): Carl Pei Talks Exclusively About The iPhone Challenger
-Publication Date: Thu May 25 12:31:56 ART 2023
-Link: https://www.reddit.com/r/Android/comments/13rkui3/nothing_phone_2_carl_pei_talks_exclusively_about/
-Text: 
-**********************************************************************************************
+Error: java.io.IOException: Server returned HTTP response code: 429 for URL: https://www.reddit.com/r/Android/hot/.json?count=10
 Error: java.io.IOException: Server returned HTTP response code: 429 for URL: https://www.reddit.com/r/OddlySatisfaying/hot/.json?count=10
 
 
@@ -955,16 +700,15 @@ Error: java.io.IOException: Server returned HTTP response code: 429 for URL: htt
 ************* Named Entities *************
 Class Frequency Entity Map:
 OtherNE 0
-Organization 16
+Organization 5
 Country 0
 Product 1
 LastName 8
 Person 8
 Place 0
-TotalNE 0
+TotalNE 1096
 List of Named Entities:
 House 4
-IdeasDiscussion 1
 Tackle 1
 BankmanFried 2
 Gasoline 1
@@ -991,7 +735,6 @@ Twitters 2
 Hits 1
 Heat 1
 International 5
-Disagree 1
 David 1
 Guam 2
 Georgia 1
@@ -1002,9 +745,7 @@ Fight 1
 Troubles 1
 DebtLimit 1
 NL 1
-USB 1
 Plans 1
-Updates 1
 Paralyzed 1
 Writers 1
 Naperville 2
@@ -1016,19 +757,16 @@ Stays 1
 Continues 1
 Reeves 2
 Media 2
-Exclusive 1
 Implants 1
 Renews 1
-Henry 1
 WNBA 2
+Henry 1
 Angels 1
 Magnet 1
 Pause 1
 Ryan 2
-SwiftHaptic 1
 Burner 1
 Lark 2
-Classic 1
 Systems 2
 Reds 5
 Tim 2
@@ -1051,20 +789,16 @@ Lazard 1
 Inside 3
 Final 1
 LinkedIn 2
-Tasks 1
 Raise 1
 Peter 1
 Debacle 1
 Data 3
-I'll 1
-OnePlus 1
 Wage 1
 Yellens 1
 First 2
 German 1
 Wall 1
 Spending 4
-Pixel 3
 President 3
 Biden 6
 States 4
@@ -1073,7 +807,6 @@ Papaya 1
 Ken 1
 Pay 2
 Shares 2
-Odyssey 1
 Notre 2
 Dog 1
 Editors 1
@@ -1084,13 +817,11 @@ High 1
 Paid 1
 Beacon 1
 Randall 2
-Create 1
 Retention 2
 Australian 1
 Depart 1
 Charles 1
 Reid 2
-Powerful 1
 Yahoo 1
 Aurora 2
 Million 1
@@ -1099,14 +830,11 @@ Pride 1
 Shows 1
 Trade 1
 Man 1
-Nappenbach 1
 Last 1
-Play 1
 Airports 1
 Geneva 1
 Libertyvilles 1
 Almost 1
-MoronicMondayAndroidhttpsoldredditcomrAndroidsearchqMoronicMondayAndroidamprestrictsronampsortnewamptall 4
 Presidential 2
 Chosen 1
 GOP 2
@@ -1117,32 +845,28 @@ Takes 1
 Potential 1
 Symbol 1
 Southland 2
-Entry 3
 Emerges 1
 Screen 1
 Pew 1
 Life 2
 Cincinnati 3
 Deal 4
-ROM 1
 Kravis 1
 Shareholders 1
 Tokarski 2
-Microsoft 4
-GrapheneOS 2
+Microsoft 3
 Table 1
-Carl 2
+Carl 1
 Proxy 1
 Hannah 2
 Boe 3
 Marketing 1
 TikTok 4
 Quarter 1
-Sunday 5
+Sunday 3
 Creations 1
 Come 1
 Heyday 1
-Obviously 1
 Foxs 2
 Derrick 1
 Musk 2
@@ -1160,83 +884,60 @@ Dirty 1
 Prices 1
 Googles 1
 Succeed 1
-GoogleSamsungHTC 1
 Delle 2
 Warning 1
-Wheaton 1
 LincolnWay 3
+Wheaton 1
 Vote 1
-Make 1
 Chinas 1
-UI 1
-Join 5
-AI 12
+AI 11
 Yorkphenomenon 1
 New 8
 Industry 1
 Washington 4
 Four 1
 Consumer 1
-Amazon 1
 Minimize 2
-Mobvoi 1
 Big 1
 Reckoning 1
-Samsung 3
-Mi 4
-Health 1
 Manufacturers 1
+Health 1
 Finds 1
-Rotating 1
-Users 1
 Delays 2
-Bezel 1
 Fraud 1
-Expected 2
-RantRage 1
+Expected 1
 Sandburg 1
 EU 1
-Baseball 1
 Essenburg 1
+Baseball 1
 Sectional 1
 Shift 1
 Tucker 1
 Bucks 2
-Pei 1
 Mystics 4
 Studio 1
 Event 3
-Even 1
-Gmail 1
 Milwaukee 4
 Economy 1
 Brain 1
 Cancellations 2
-Galaxy 3
 Europe 2
 Unfold 1
-Brief 1
 Republicans 3
-Don't 1
 Column 1
 Materials 1
 Interior 1
 Floyd 1
-NewPipe 1
 Compares 2
 Change 1
-Design 1
-Ultra 6
 Rising 1
 Reese 2
 Campaign 1
-Confirm 1
 Energy 2
 Taiwan 2
 Peshia 2
 Balance 1
 April 1
-TV 1
 FAA 1
 Right 1
 JPMorgan 1
@@ -1246,7 +947,6 @@ Vetoes 2
 Officials 2
 Police 2
 Marquette 1
-Feel 3
 Business 1
 Fridays 1
 Emma 1
@@ -1264,18 +964,14 @@ Park 4
 Chat 1
 Donne 1
 Hendriks 2
-MIUI 1
-Geena 1
-ASUS 1
 Cubs' 1
+Geena 1
 Netflix 1
-Fire 1
 Minnesota 6
 Tigers 4
 Montana 1
 Wintrust 2
 Jewelry 2
-Please 9
 Jerry 1
 Leaders 2
 Greene 1
@@ -1287,7 +983,6 @@ NWSL 2
 Chip 1
 Class 8
 Jamie 1
-IRC 5
 Governor 2
 Still 1
 Associated 1
@@ -1303,13 +998,10 @@ June 3
 DEI 1
 Academy 1
 Hunter 1
-Arnold 1
-Max 1
 Expects 1
 Missing 1
 Sharing 1
 Walz 2
-Phone 1
 SherryLehmann 1
 Whitney 1
 Photo 1
@@ -1317,10 +1009,8 @@ Roy 1
 Turner 1
 Leaving 1
 Game 1
-Halloweens 1
-Note 8
-Ottawa 1
 Lockport 2
+Ottawa 1
 Instagram 1
 Thoughts 1
 Whose 1
@@ -1335,23 +1025,18 @@ Risks 3
 Moves 2
 Danica 2
 Picket 1
-Check 6
 Real 1
 Pattiz 1
 Two 1
-Thursday 3
 Windfalls 1
+Thursday 3
 Chineseowned 3
-MASSIVE 1
 Faces 1
 Privacy 1
 Groups 1
 Jordan 2
 Heres 1
-Elgin 2
-HTC 1
 Donnes 1
-Physical 1
 Try 1
 Investors 1
 Germany 1
@@ -1361,44 +1046,35 @@ Hiring 2
 Semafor 1
 Employees 3
 Americans 1
-May 8
+May 3
 Backlash 1
-Boring 1
 Deposits 1
 Press 1
 Complain 1
-CtrlF 5
 Work 1
 Debt 10
 NCAA 5
 Treasury 3
 Speaker 1
-FE 1
 Gray 1
 Protect 1
 Evidence 1
 Tax 2
-Essentially 1
 Plan 2
 Around 1
 Crisis 2
 FTC 1
-Bard 4
 Joliet 1
 Disputes 1
 Passes 1
 Alyssa 2
 Billionaires 1
-Asking 1
 Childs 1
+Asking 1
 PK 1
-Full 1
-Exclusively 1
 Negotiators 1
 Dame 2
 Needs 2
-Storehttpsgithubcomdrkenredditandroidappstorereleases 1
-Authorithy 1
 See 1
 Yang 1
 Cuts 1
@@ -1410,10 +1086,8 @@ Ban 1
 AIs 1
 Raises 1
 Rock 1
-Worst 1
-Mishaal 3
 Elena 2
-Gboard 1
+Worst 1
 Lawmakers 1
 Iconic 1
 Default 1
@@ -1421,7 +1095,6 @@ Award 1
 Neither 1
 Payments 1
 Bill 3
-GOOD 1
 Could 1
 State 3
 Liam 2
@@ -1433,10 +1106,9 @@ Warnings 1
 Weaknesses 1
 User 2
 Predawn 1
-Launch 1
 Excessive 1
 Black 1
-Store 2
+Store 1
 Watchdog 2
 Livestreams 2
 Boston 2
@@ -1455,8 +1127,8 @@ Recession 1
 Lance 1
 Auroras 1
 Chicagoarea 2
-Saturday 8
-Photos 4
+Saturday 6
+Photos 3
 Democratic 1
 Bottles 1
 Listen 2
@@ -1471,111 +1143,89 @@ Military 1
 Legal 1
 Valley 3
 Andrew 4
-Keyboard 1
-Pro 3
 Mount 2
 St 1
 Catholic 1
 Mackenzie 2
-Fabian 1
-India 1
 South 1
 Montanas 1
 Dominion 1
-Praising 2
 West 2
+Praising 2
 Strikes 1
 Key 1
 Wrigley 2
-Taken 1
 Eagles 1
-Xiaomi 7
-Edge 1
+Taken 1
 Gender 1
 Book 1
-Daniel 1
-Downloader 1
 Limiting 1
 Scrutiny 1
 Bias 1
-Android 13
 White 11
 Stars 2
 North 1
-Rahman 3
-WearOS 1
 Growth 2
 Jill 1
-Huawei 1
 Brand 1
 Global 1
 Limit 3
 Disrupt 1
 DeSantis 1
 McCarthy 2
-Superthread 3
 OT 1
-Google 11
+Google 1
 Barely 1
 Savings 1
 Florida 4
-Telegram 5
 Detroit 4
 Spaces 4
 Mr 4
 Replacing 1
 Sarah 1
 Celtics 3
-Yes 1
 Cubs 10
 Lake 2
 Social 2
 Prosecutors 1
 Dont 1
 Markets 1
-Probably 1
 Restaurant 1
-Sony 1
 Become 1
 Used 3
 Reserves 2
-Renders 1
 Announcement 3
 Red 2
 IndoPacific 1
 Orlando 1
-Soon 1
 Hoffman 4
 Flexibility 1
+Conor 1
 Malware 1
 Ross 1
-App 4
+App 1
 Yellen 2
-Conor 1
-LG 5
+LG 1
 Warrenville 1
 Chief 1
 Italy 1
 Calls 2
 Help 1
+Kansas 1
 Hardship 1
 Brewers' 1
-Kansas 1
 Twitter 11
-Daily 3
 Warns 1
-Reveal 1
 Porters 1
 Airfares 1
 Abbotts 2
 Naeher 2
 Kevin 2
 Know 2
-Micay 1
 Beach 1
 Epsteins 1
-Ties 1
 Mary 1
+Ties 1
 Raptors 1
 Burgerim 1
 Tick 1
@@ -1599,7 +1249,6 @@ Allow 1
 Musks 2
 Toronto 1
 Cash 2
-Windows 1
 Sunnyvale 1
 Scores 1
 Move 1
@@ -1610,7 +1259,6 @@ Regulate 2
 DealBook 1
 Mecca 1
 Pictures 1
-MUCH 1
 Suspends 1
 Entitled 1
 Atomic 2
@@ -1619,46 +1267,37 @@ Northwestern 3
 Announce 1
 Providence 2
 Logs 1
-APPreciation 1
 Apples 1
 Demand 1
 Newarks 1
-Razr 1
-Planning 1
 Center 1
 Rose 1
 MLB 1
-Demo 1
 Year 1
-I've 1
 Nicholas 1
 Blackhawks 1
 Jan 1
 Voting 1
-Phones 1
-Godawful 1
 Dies 2
 Rise 1
 Would 1
-ChatGPT 1
 Lines 1
+ChatGPT 1
 Leave 1
 Eight 1
 Billion 3
-TicWatch 1
 European 1
 United 3
 RBI 1
 Sale 1
 Silicon 3
 Casey 1
-Talks 4
+Talks 3
 Hollywood 1
 Regional 3
 Nauden 1
 Nvidia 1
 Journal 1
-Marble 1
 Plant 1
 Supreme 1
 Dimon 1
@@ -1666,13 +1305,11 @@ TrillionDollar 1
 Angel 2
 Prompts 1
 Workers 2
-Comeback 1
 Path 1
 Jimnez 2
 Coming 1
 Rice 2
 Rebmann 2
-JuanBagnell 1
 Research 1
 Time 3
 Interactions 1
@@ -1682,7 +1319,7 @@ Emails 1
 Smith 2
 Clashing 1
 Jacksonville 1
-Rules 5
+Rules 4
 Credit 2
 Anticipating 1
 NBA 1
@@ -1691,11 +1328,9 @@ George 1
 Group 2
 Friday 5
 Wisely 1
-Nothing 1
 Brad 2
 Griffin 2
 Karen 1
-Motorola 2
 Chain 1
 Gorillas 1
 College 2
@@ -1703,7 +1338,6 @@ Misinformation 1
 Generals 1
 Rights 1
 Valuation 1
-Xperia 2
 Union 1
 Meta 1
 Fallout 1
@@ -1719,8 +1353,8 @@ Say 2
 Grimes 2
 Reviews 1
 Top 1
-Ron 1
 Hedge 1
+Ron 1
 Minutes 1
 Firedup 1
 Became 2
@@ -1729,28 +1363,23 @@ Warriors 1
 Way 1
 Agency 2
 Sky 4
-Chinese 2
 Hot 1
+Chinese 2
 Lynn 1
 East 3
 Face 2
 Climate 1
-ZenFone 1
-Challenger 1
+Ricketts 1
 Wine 1
 Across 1
-Ricketts 1
 Comerica 3
 Slipped 1
-Settings 1
 Womens 1
-Exposes 1
 Mountain 1
+Exposes 1
 Nears 1
-Watch 2
-Foundation 1
 Virginia 2
 Part 1
 Reasons 1
 Target 3
-System 2
+Elgin 2
