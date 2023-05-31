@@ -144,10 +144,15 @@ En el codigo del laboratorio 2 cada articulo tenia su lista de entidades nombrad
 En este lab no haré uso ni de ese metodo ni de esa lista.
 
 1) Yo tengo una lista de articulos, por cada feed. Estaria bueno concatenar todas estas listas, para tener un array con todos los articulos. 
+
 2) Esos articulos mapearlos y converitrlos en una lista de strings donde me guardo solo el titulo y el texto.
+
 3) Ahora a la lista de strings, aplicarle la funcion parallelalize para comenzar a trabajar con Spark.
+
 4) Partir todo esos strings en una lista mas larga que tiene todas las palabras separadas.
+
 5) Mapear dicha lista para convertir la lista de palabras en una lista de tuplas (palabra, frecuencia) donde la frecuencia seria 1
+
 6) Reducir a partir de la clave la lista, para que quede cada palabra una sola vez con su respectiva frecuencia (reduceByKey).
 
 Los pasos donde se involucra spark son 3,4,5,6.
@@ -158,6 +163,25 @@ En mi caso como las operaciones de spark eran pocas las deje en el Main, pero se
 
 ### Mas informacion sobre diseño
 La clase FactoryNamedEntities podria ser dividida en 2 clases: 
-    ListNamedEntities la cual se encarga solamente
+    ListNamedEntities la cual se encarga solamente de procesar las tuplas y crear la lista, y tambien de mantener un conteo de aparicion de NE por clases y subclases dentro de esa lista.
+    FactoryNameEntity la cual simplemente se encarga de ejecutar los constructores correspondientes para la NE.
+
+Este diseño es el ideal ya que separa bien los objetivos de cada clase, pero para los objetivos de este lab me convenia juntarlas, ya que hacer ambas me traia la consecuencia de realizar dos veces pattern matching.
+
+El pattern matching de FactoryNameEntity hubiese sido para ejecutar el constructor correcto segun tipo de entidad y tema.
+Y el pattern matching de ListNameEntities hubiese sido para actualizar los contadores de aparicion por clase y subclase de entidad nombrada
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
