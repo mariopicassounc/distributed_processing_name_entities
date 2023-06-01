@@ -44,3 +44,104 @@ Luego, como este laboratorio se realiza en Java, lo que quedaría sería añadir
 
 ![Parte 3](/Mateo Malpassi/Imágenes/Pregunta3/Paso5-6.png)
 
+> Pregunta 4: ¿Cómo adaptar el código del Laboratorio 2 a la estructura del programa objetivo en Spark?
+
+Para esta pregunta, se copio el código que la IA devolvió. Su respuesta fué:
+
+```
+public class WordCountSpark {
+    public static void main(String[] args) {
+        // Crear el contexto de Spark
+        JavaSparkContext sparkContext = new JavaSparkContext("local", "WordCountSpark");
+
+        // Cargar los documentos de texto utilizando el lector de feeds
+        List<String> documents = FeedReader.loadDocuments();
+
+        // Crear un RDD a partir de la lista de documentos
+        JavaRDD<String> documentsRDD = sparkContext.parallelize(documents);
+
+        // Realizar el conteo de palabras en cada documento
+        JavaRDD<String> wordsRDD = documentsRDD.flatMap((FlatMapFunction<String, String>) line ->
+                Arrays.asList(line.split(" ")).iterator());
+
+        // Realizar el conteo de palabras en todos los documentos
+        JavaRDD<String> wordsCountRDD = wordsRDD.mapToPair(word -> new Tuple2<>(word, 1))
+                .reduceByKey(Integer::sum);
+
+        // Recopilar los resultados
+        List<Tuple2<String, Integer>> wordCountList = wordsCountRDD.collect();
+
+        // Mostrar los resultados
+        for (Tuple2<String, Integer> wordCount : wordCountList) {
+            System.out.println(wordCount._1() + ": " + wordCount._2());
+        }
+
+        // Computar entidades nombradas utilizando la funcionalidad existente
+        List<String> namedEntities = NamedEntityRecognizer.computeNamedEntities(documents);
+
+        // Mostrar las entidades nombradas encontradas
+        for (String entity : namedEntities) {
+            System.out.println("Named Entity: " + entity);
+        }
+
+        // Detener el contexto de Spark
+        sparkContext.stop();
+    }
+}
+```
+
+> Pregunta 5: ¿Cómo se integra una estructura orientada a objetos con la estructura funcional de map-reduce?
+
+![Parte 1](/Mateo Malpassi/Imágenes/Pregunta5/mapReduce.png)
+
+El ejemplo que menciona la imágen es:
+
+```
+public class WordCountAndNamedEntitiesSpark {
+    public static void main(String[] args) {
+        // Crear el contexto de Spark
+        JavaSparkContext sparkContext = new JavaSparkContext("local", "WordCountAndNamedEntitiesSpark");
+
+        // Cargar los documentos de texto utilizando el lector de feeds
+        List<String> documents = FeedReader.loadDocuments();
+
+        // Crear un RDD a partir de la lista de documentos
+        JavaRDD<String> documentsRDD = sparkContext.parallelize(documents);
+
+        // Realizar el conteo de palabras en cada documento
+        JavaRDD<String> wordsRDD = documentsRDD.flatMap((FlatMapFunction<String, String>) line ->
+                Arrays.asList(line.split(" ")).iterator());
+
+        // Realizar el conteo de palabras en todos los documentos
+        JavaRDD<String> wordsCountRDD = wordsRDD.mapToPair(word -> new Tuple2<>(word, 1))
+                .reduceByKey(Integer::sum);
+
+        // Recopilar los resultados del conteo de palabras
+        List<Tuple2<String, Integer>> wordCountList = wordsCountRDD.collect();
+
+        // Mostrar los resultados del conteo de palabras
+        for (Tuple2<String, Integer> wordCount : wordCountList) {
+            System.out.println(wordCount._1() + ": " + wordCount._2());
+        }
+
+        // Computar entidades nombradas utilizando la funcionalidad existente
+        JavaRDD<String> namedEntitiesRDD = documentsRDD.flatMap((FlatMapFunction<String, String>) line ->
+                NamedEntityRecognizer.computeNamedEntities(line).iterator());
+
+        // Realizar el conteo de entidades nombradas
+        JavaRDD<String> namedEntitiesCountRDD = namedEntitiesRDD.mapToPair(entity -> new Tuple2<>(entity, 1))
+                .reduceByKey(Integer::sum);
+
+        // Recopilar los resultados del conteo de entidades nombradas
+        List<Tuple2<String, Integer>> namedEntitiesCountList = namedEntitiesCountRDD.collect();
+
+        // Mostrar los resultados del conteo de entidades nombradas
+        for (Tuple2<String, Integer> namedEntityCount : namedEntitiesCountList) {
+            System.out.println("Named Entity: " + namedEntityCount._1() + ", Count: " + namedEntityCount._2());
+        }
+
+        // Detener el contexto de Spark
+        sparkContext.stop();
+    }
+}
+```
