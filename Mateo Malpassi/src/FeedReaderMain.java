@@ -1,21 +1,21 @@
 import java.io.FileNotFoundException;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.regex.Pattern;
 
+import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
 import org.apache.spark.sql.SparkSession;
 
 import feed.Article;
 import feed.Feed;
 
-import namedEntity.heuristic.Heuristic;
-import namedEntity.heuristic.QuickHeuristic;
-
 import parser.FeedParser;
 import parser.FeedParserFactory;
 import parser.SubscriptionParser;
-
+import scala.Tuple2;
 import subscription.SingleSubscription;
 import subscription.Subscription;
 
@@ -36,7 +36,7 @@ public class FeedReaderMain {
 
 		System.out.println("\n\n\n************* FeedReader version 1.0 *************");
 			
-		// Read the default subscription file
+		// Leer el archivo subscripción
 		String relativePath = "config/subscriptions.json";
 		String absolutePath = Paths.get(relativePath).toAbsolutePath().toString();
 				
@@ -80,17 +80,26 @@ public class FeedReaderMain {
 			articleToString.add(a.getTitle());
 		}
 
-		//Heurística
-		Heuristic heuristic = new QuickHeuristic();
+		// Crear un RDD a partir de los artículos
+		JavaRDD<String> articlesRDD = sparkContext.parallelize(articleToString);
+
+		// Expresión regular para filtrar las NE
+		String regex = "^[A-Z][a-zA-Z]+$";
+
+		// Generar un nuevo RDD que contiene todas las palabras individuales
+		JavaRDD<String> wordsRDD = articlesRDD.flatMap(line -> Arrays.asList(line.split(" ")).iterator());
 		
-		//Filtro las NE de los artículos
-		List<String> neArray = new ArrayList<String>();
-		for (String s: articleToString){
-			if(heuristic.isEntity(s)){
-				neArray.add(s);
-			}
-		}
-		
+		// Utilizo regex en wordsRDD
+		wordsRDD = wordsRDD.filter(word -> Pattern.matches(regex, word));
+
+		// Se mapea a pares, y con reduceByKey se aplica la suma al par (palabra, 1) para sumar el conteo
+		JavaRDD<String> countedEntitiesRDD = wordsRDD.mapToPair(word -> new Tuple2<>(word, 1))
+		.reduceByKey(Integer::sum) // Combina los valores para cada clave utilizando la función Integer::sum
+		.map(pair -> pair._1 + ": " + pair._2);  // Mapear a pares (palabra, conteo) 
+
+		// Pasamos a lista
+		List<String> countedEntitiesList = countedEntitiesRDD.collect();
+
 		// Detener Spark
 		spark.stop();
 	}
