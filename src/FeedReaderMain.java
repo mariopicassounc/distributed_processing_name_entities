@@ -1,4 +1,5 @@
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.List;
 
@@ -16,7 +17,7 @@ public class FeedReaderMain {
 		System.out.println("Please, call this program in correct way: FeedReader [-ne]");
 	}
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		Subscription subscription = null;
 
 		System.out.println("\n\n\n************* FeedReader version 1.0 *************");

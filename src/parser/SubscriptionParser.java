@@ -5,7 +5,7 @@ import subscription.SingleSubscription;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-
+import java.io.IOException;
 import java.util.List;
 import java.util.ArrayList;
 
@@ -27,7 +27,7 @@ public class SubscriptionParser{
         this.subscription = new Subscription(subscriptionFilePath);
     }
 
-    public Subscription parseJSONFile() throws FileNotFoundException {
+    public Subscription parseJSONFile() throws FileNotFoundException, IOException {
         SingleSubscription singleSubscription = null;
 
         FileReader reader = new FileReader(this.subscriptionFilePath);
