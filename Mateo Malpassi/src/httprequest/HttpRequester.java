@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.concurrent.TimeUnit;
 
 /* Esta clase se encarga de realizar efectivamente el pedido de feed al servidor de noticias
  * Leer sobre como hacer una http request en java
@@ -20,6 +21,7 @@ public class HttpRequester {
 
 	public String getContent() {
         try{
+            TimeUnit.SECONDS.sleep(1);
             URL url = new URL(this.url);
             HttpURLConnection con = (HttpURLConnection) url.openConnection();
             con.setRequestMethod("GET");
