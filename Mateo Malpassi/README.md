@@ -10,6 +10,16 @@ Todas las preguntas guía de este informe fueron hechas en ChatGPT.
 
 > Pregunta 1: ¿Cómo se instala Spark en una computadora personal?
 
+![Parte 1](/Mateo Malpassi/Imágenes/Pregunta1/InstSpark1.png)
 
+![Parte 2](/Mateo Malpassi/Imágenes/Pregunta1/InstSpark2.png)
+
+![Parte 3](/Mateo Malpassi/Imágenes/Pregunta1/InstSpark3.png)
+
+![Parte 4](/Mateo Malpassi/Imágenes/Pregunta1/InstSpark4.png)
+
+![Parte 5](/Mateo Malpassi/Imágenes/Pregunta1/InstSpark5.png)
+
+Luego, como este laboratorio se realiza en Java, lo que quedaría sería añadir la carpeta "jars" de spark a nuestro proyecto para que podamos utilizar Spark.
 
 
