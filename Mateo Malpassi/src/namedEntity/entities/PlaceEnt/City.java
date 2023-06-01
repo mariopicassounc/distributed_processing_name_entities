@@ -1,5 +1,7 @@
 package namedEntity.entities.PlaceEnt;
 
+import java.util.List;
+
 import namedEntity.entities.Place;
 
 public class City extends Place {
@@ -7,7 +9,7 @@ public class City extends Place {
     private boolean isCapital;
     private int population;
 
-    public City(String name, String category, int frequency, Country country, boolean isCapital, int population) {
+    public City(String name, List<String> category, int frequency, Country country, boolean isCapital, int population) {
         super(name, category, frequency);
         this.country = country;
         this.isCapital = isCapital;

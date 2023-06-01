@@ -11,7 +11,9 @@ import org.apache.spark.sql.SparkSession;
 
 import feed.Article;
 import feed.Feed;
-
+import namedEntity.CounterNE;
+import namedEntity.heuristic.Heuristic;
+import namedEntity.heuristic.QuickHeuristic;
 import parser.FeedParser;
 import parser.FeedParserFactory;
 import parser.SubscriptionParser;
@@ -22,7 +24,7 @@ import subscription.Subscription;
 
 public class FeedReaderMain {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 	
 		//Seteo spark
 		SparkSession spark = SparkSession.builder()	//Init SparkSession
@@ -100,6 +102,12 @@ public class FeedReaderMain {
 		// Pasamos a lista
 		List<String> countedEntitiesList = countedEntitiesRDD.collect();
 
+		// Filtrado y conteo de entidades nombradas
+		CounterNE namedEntity = new CounterNE();
+		Heuristic heuristic = new QuickHeuristic();
+		List<namedEntity.NamedEntity> listNE = namedEntity.getListNamedEntity(countedEntitiesList, heuristic);
+
+		namedEntity.prettyPrint();	
 		// Detener Spark
 		spark.stop();
 	}

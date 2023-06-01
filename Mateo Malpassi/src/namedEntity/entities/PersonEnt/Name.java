@@ -1,5 +1,7 @@
 package namedEntity.entities.PersonEnt;
 
+import java.util.List;
+
 import namedEntity.entities.Person;
 
 public class Name extends Person {
@@ -7,7 +9,7 @@ public class Name extends Person {
     private String origin;
     private String alternativeForm;
 
-    public Name(String name, String category, int frequency, int id, String canonicalForm, String origin, String alternativeForm) {
+    public Name(String name, List<String> category, int frequency, int id, String canonicalForm, String origin, String alternativeForm) {
         super(name, category, frequency, id);
         this.canonicalForm = canonicalForm;
         this.origin = origin;

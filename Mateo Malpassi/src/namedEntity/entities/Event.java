@@ -1,5 +1,7 @@
 package namedEntity.entities;
 
+import java.util.List;
+
 import namedEntity.NamedEntity;
 
 public class Event extends NamedEntity {
@@ -7,7 +9,7 @@ public class Event extends NamedEntity {
     private Date date;
     private String recurrence;
 
-    public Event(String name, String category, int frequency, String canonicalForm, Date date, String recurrence) {
+    public Event(String name, List<String> category, int frequency, String canonicalForm, Date date, String recurrence) {
         super(name, category, frequency);
         this.canonicalForm = canonicalForm;
         this.date = date;
