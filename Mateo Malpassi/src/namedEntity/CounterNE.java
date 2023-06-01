@@ -1,5 +1,6 @@
 package namedEntity;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -8,6 +9,7 @@ import namedEntity.entities.Organization;
 import namedEntity.entities.OtherNE;
 import namedEntity.entities.PersonEnt.LastName;
 import namedEntity.entities.PlaceEnt.Country;
+import namedEntity.heuristic.Heuristic;
 
 public class CounterNE {
     
@@ -27,9 +29,9 @@ public class CounterNE {
         }
     }
     
-    // Según la categoría de la entidad nombrada, se actualiza el valor de frecuencia de la entidad nombrada en el mapa
-    private NamedEntity CreateNE(String word, List<String> categoryList, Integer frecuency) throws Exception {
-        
+    private NamedEntity createNE(String word, List<String> categoryList, Integer frecuency) throws Exception {
+    
+        // Según la categoría de la entidad nombrada, se crea y se actualiza el valor de frecuencia de la entidad nombrada en el mapa
         if(categoryList == null){
 
             MapNamedEntity.put("OtherNE", MapNamedEntity.get("OtherNE") + frecuency);
@@ -84,5 +86,27 @@ public class CounterNE {
         }else{
             throw new Exception("Not a valid category");
         }
+    }
+
+    public List<NamedEntity> getListNamedEntity(List<String> entityList, Heuristic heuristic) throws Exception {
+
+        /*
+        * Añado a ListNamedEntity las entidades nombradas que cumplen con la heurística
+        * A su vez, utilizo CreateNE para crear la entidad nombrada y actualizar el valor de frecuencia en el mapa
+        */
+
+        this.ListNamedEntity = new ArrayList<NamedEntity>();
+        
+        for (String entity : entityList) {
+            String[] parts = entity.split(" ");
+            String word = parts[0];
+            Integer frecuency = Integer.parseInt(parts[1]);
+            if (heuristic.isEntity(word)) {
+                List<String> categoryList = heuristic.getCategory(word);
+                NamedEntity namedEntity = createNE(word, categoryList, frecuency);
+                ListNamedEntity.add(namedEntity);
+            }
+        }
+        return ListNamedEntity;
     }
 }
