@@ -87,7 +87,7 @@ public class Article {
 			if (h.isEntity(s)){
 				NamedEntity ne = this.getNamedEntity(s);
 				if (ne == null) {
-					this.namedEntityList.add(new NamedEntity(s, null,1));
+					this.namedEntityList.add(new NamedEntity(s, null,1,null));
 				}else {
 					ne.incFrequency();
 				}

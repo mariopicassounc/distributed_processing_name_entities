@@ -3,12 +3,13 @@ package namedEntity.entities;
 import java.util.List;
 
 import namedEntity.NamedEntity;
+import namedEntity.Theme;
 
 public class OtherNE extends NamedEntity {
     private String comments;
 
-    public OtherNE(String name, List<String> categoryList, int frequency, String comments) {
-        super(name, categoryList, frequency);
+    public OtherNE(String name, List<String> categoryList, int frequency, Theme theme, String comments) {
+        super(name, categoryList, frequency, theme);
         this.comments = comments;
     }
 

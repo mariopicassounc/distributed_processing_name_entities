@@ -1,5 +1,7 @@
 package namedEntity.themes;
 
-public class Industry {
+import namedEntity.Theme;
+
+public class Industry extends Theme{
     public Industry(){};
 }
