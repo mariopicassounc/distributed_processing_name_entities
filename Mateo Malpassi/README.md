@@ -36,4 +36,11 @@ Luego, como este laboratorio se realiza en Java, lo que quedaría sería añadir
 
 ![Parte 6](/Mateo Malpassi/Imágenes/Pregunta2/Estructura6.png)
 
+> Pregunta 3: ¿Qué estructura tiene un programa de conteo de palabras en diferentes documentos en Spark?
+
+![Parte 1](/Mateo Malpassi/Imágenes/Pregunta3/Paso1-2.png)
+
+![Parte 2](/Mateo Malpassi/Imágenes/Pregunta3/Paso3-4.png)
+
+![Parte 3](/Mateo Malpassi/Imágenes/Pregunta3/Paso5-6.png)
 
