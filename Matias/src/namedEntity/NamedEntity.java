@@ -1,17 +1,20 @@
 package namedEntity;
 
+import java.util.List;
+
 /*Esta clase modela la nocion de entidad nombrada*/
 
 public class NamedEntity {
 	protected String name;
-	protected String category; 
+	protected List<String> category; 
 	protected int frequency;
 	protected Theme theme;
 	
-	public NamedEntity(String name, String category, int frequency) {
+	public NamedEntity(String name, List<String> category, int frequency,Theme theme) {
 		this.name = name;
 		this.category = category;
 		this.frequency = frequency;
+		this.theme = theme;
 	}
 
 	public String getName() {
@@ -22,11 +25,11 @@ public class NamedEntity {
 		this.name = name;
 	}
 
-	public String getCategory() {
+	public List<String> getCategory() {
 		return this.category;
 	}
 
-	public void setCategory(String category) {
+	public void setCategory(List<String> category) {
 		this.category = category;
 	}
 
@@ -49,9 +52,4 @@ public class NamedEntity {
 	public void prettyPrint(){
 		System.out.println(this.getName() + " " + this.getFrequency());
 	}
-	
-	
 }
-
-
-

@@ -1,12 +1,16 @@
 package namedEntity.entities;
 import namedEntity.NamedEntity;
+import namedEntity.Theme;
+
+
+import java.util.List;
 
 public class Person extends NamedEntity {
     int id;
     
     // Constructor
-    public Person(String name, String category, int frequency, int id) {
-        super(name, category, frequency);
+    public Person(String name, List<String> category, int frequency, Theme theme, int id) {
+        super(name, category, frequency, theme);
         this.id = id;
     }
 
