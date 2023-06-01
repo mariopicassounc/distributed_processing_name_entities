@@ -1,13 +1,15 @@
 package namedEntity.entities.PlaceEnt;
 
+import java.util.List;
+
 import namedEntity.entities.Place;
 
 public class Country extends Place {
     private int population;
     private String language;
 
-    public Country(String name, String category, int frequency, int population, String language) {
-        super(name, category, frequency);
+    public Country(String name, List<String> categoryList, int frequency, int population, String language) {
+        super(name, categoryList, frequency);
         this.population = population;
         this.language = language;
     }

@@ -1,5 +1,7 @@
 package namedEntity.entities;
 
+import java.util.List;
+
 import namedEntity.NamedEntity;
 
 public class Organization extends NamedEntity {
@@ -7,8 +9,8 @@ public class Organization extends NamedEntity {
     private int numberOfMembers;
     private String organizationType;
 
-    public Organization(String name, String category, int frequency, String canonicalForm, int numberOfMembers, String organizationType) {
-        super(name, category, frequency);
+    public Organization(String name, List<String> categoryList, int frequency, String canonicalForm, int numberOfMembers, String organizationType) {
+        super(name, categoryList, frequency);
         this.canonicalForm = canonicalForm;
         this.numberOfMembers = numberOfMembers;
         this.organizationType = organizationType;

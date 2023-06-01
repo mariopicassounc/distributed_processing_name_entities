@@ -1,12 +1,14 @@
 package namedEntity.entities;
 
+import java.util.List;
+
 import namedEntity.NamedEntity;
 
 public class OtherNE extends NamedEntity {
     private String comments;
 
-    public OtherNE(String name, String category, int frequency, String comments) {
-        super(name, category, frequency);
+    public OtherNE(String name, List<String> categoryList, int frequency, String comments) {
+        super(name, categoryList, frequency);
         this.comments = comments;
     }
 
