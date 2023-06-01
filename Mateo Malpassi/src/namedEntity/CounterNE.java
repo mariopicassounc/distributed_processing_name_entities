@@ -109,4 +109,16 @@ public class CounterNE {
         }
         return ListNamedEntity;
     }
+
+    public void prettyPrint(){
+        System.out.println("*****Category Map Frecuency*****");
+        for (Map.Entry<String, Integer> entry : MapNamedEntity.entrySet()) {
+            System.out.println(entry.getKey() + " : " + entry.getValue());
+        }
+
+        System.out.println("*****Named Entity List*****");
+        for (NamedEntity namedEntity : ListNamedEntity) {
+            namedEntity.prettyPrint();
+        }
+    }
 }
