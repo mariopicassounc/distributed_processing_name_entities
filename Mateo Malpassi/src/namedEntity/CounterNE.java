@@ -99,7 +99,7 @@ public class CounterNE {
         this.ListNamedEntity = new ArrayList<NamedEntity>();
         
         for (String entity : entityList) {
-            String[] parts = entity.split(" ");
+            String[] parts = entity.split(": ");
             String word = parts[0];
             Integer frecuency = Integer.parseInt(parts[1]);
             if (heuristic.isEntity(word)) {
@@ -126,11 +126,11 @@ public class CounterNE {
     public static void main(String[] args) throws Exception{
         //Test CounterNE
         List<String> entityList = new ArrayList<String>();
-        entityList.add("Musk 50");
-        entityList.add("Iphone 50");
-        entityList.add("Microsoft 50");
-        entityList.add("USA 50");
-        entityList.add("AFA 50");
+        entityList.add("Musk: 50");
+        entityList.add("Iphone: 50");
+        entityList.add("Microsoft: 50");
+        entityList.add("USA: 50");
+        entityList.add("AFA: 50");
 
         Heuristic heuristic = new QuickHeuristic();
         CounterNE counterNE = new CounterNE();
