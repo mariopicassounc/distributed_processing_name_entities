@@ -39,7 +39,7 @@ public class FeedReaderMain {
 		System.out.println("\n\n\n************* FeedReader version 1.0 *************");
 			
 		// Leer el archivo subscripción
-		String relativePath = "config/subscriptions.json";
+		String relativePath = "Mateo Malpassi/config/subscriptions.json";
 		String absolutePath = Paths.get(relativePath).toAbsolutePath().toString();
 				
 		SubscriptionParser subParser = new SubscriptionParser(absolutePath);
