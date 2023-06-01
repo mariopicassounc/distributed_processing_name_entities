@@ -145,3 +145,9 @@ public class WordCountAndNamedEntitiesSpark {
     }
 }
 ```
+
+### Aclaraciones finales sobre implementación
+
+Se añade una clase denominada "CounterNE" que se encargará de crear un Map de pares <Categoría,Frecuencia>, y luego los dos métodos principales que tiene esta clase son las que se encargan de filtrar las entidades nombradas de los artículos de cada feed, añadirlas a una lista final, y por último cada vez que se crea una de estas, se aumenta la frecuencia de dicha entidad nombrada según su categoría y se actualiza el valor de frecuencia de cada en el Map.
+
+Esta clase se utiliza en FeedReaderMain, junto al código (ligeramente modificado) de Spark que nos brindó ChatGPT, para que la tarea principal de este laboratorio pueda realizarse.
