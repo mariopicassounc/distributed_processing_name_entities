@@ -13,6 +13,7 @@ import org.apache.spark.api.java.JavaSparkContext;
 
 import feed.Article;
 import feed.Feed;
+import namedEntity.FactoryNamedEntity;
 import namedEntity.NamedEntity;
 import namedEntity.heuristic.Heuristic;
 import namedEntity.heuristic.QuickHeuristic;
@@ -53,7 +54,7 @@ public class FeedReaderMain {
 			System.out.println("Error: " + e.getMessage());
 		}
 
-		// For each subscription in the list, request the feed, parse it, show it, and
+		// Para cada subscripcion requestear el feed, parsearlo y mostrarlo
 		for (SingleSubscription s : subscription.getSubscriptionsList()) {
 			String url = s.getUrl();
 			String type = s.getUrlType();
@@ -93,44 +94,22 @@ public class FeedReaderMain {
 		// Reduce by key to get the frequency of each word
 		JavaPairRDD<String, Integer> counts = ones.reduceByKey((i1, i2) -> i1 + i2);
 
-        // Sort the words by frequency
 		List<Tuple2<String, Integer>> output = counts.collect();
 		for (Tuple2<?, ?> tuple : output) {
 			System.out.println(tuple._1() + ": " + tuple._2());
 		}
 
-		// Create a List of named entities
-		List<NamedEntity> namedEntities = new ArrayList<NamedEntity>();
-
 		// For each word in the RDD, check if it is a named entity
 		Heuristic h = new QuickHeuristic();
 
-		for (Tuple2<?, ?> tuple : output) {
-			String word = (String) tuple._1();
-			Integer frequency = (Integer) tuple._2();
+		// Create list of named entities with FactoryNamedEntity
+		FactoryNamedEntity factoryNamedEntity = new FactoryNamedEntity();
+		List<NamedEntity> namedEntities = factoryNamedEntity.createListNamedEntitys(h, output);
 
-			// If it is a named entity, add it to the list
-			if (h.isEntity(word)) {
-				List<String> category = h.getCategory(word);
-
-				if (category != null) {
-					NamedEntity ne = new NamedEntity(word, category, frequency, null);
-					namedEntities.add(ne);
-
-				}
-				else{
-					NamedEntity ne = new NamedEntity(word, null, frequency, null);
-					namedEntities.add(ne);
-				}
-			}
-		}
-
-		// Print the named entities
+		// Print the list of named entities with FactoryNamedEntity
 		System.out.println("\n\n\n************* Named Entities *************");
-		for (NamedEntity ne : namedEntities) {
-			ne.prettyPrint();
-		}
-
+		factoryNamedEntity.preetyPrint();
+		
 		sc.stop();
 		sc.close();
 	}
