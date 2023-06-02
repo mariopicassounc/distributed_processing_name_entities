@@ -25,89 +25,88 @@ import subscription.SingleSubscription;
 import subscription.Subscription;
 
 public class FeedReaderMain {
-	private static final Pattern SPACE = Pattern.compile(" ");
+    private static final Pattern SPACE = Pattern.compile(" ");
 
-	public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException {
 
-		// set up Spark configuration
-		SparkConf conf = new SparkConf()
-				.setAppName("Spark Example")
-				.setMaster("local[2]"); // Set the number of executor cores
+        // Set up Spark configuration
+        SparkConf conf = new SparkConf()
+                .setAppName("Spark Example")
+                .setMaster("local[2]"); // Set the number of executor cores
 
-		JavaSparkContext sc = new JavaSparkContext(conf);
-		sc.setLogLevel("ERROR");
+        JavaSparkContext sc = new JavaSparkContext(conf);
+        sc.setLogLevel("ERROR");
 
-		Subscription subscription = null;
-		List<Article> articles = new ArrayList<Article>();
+        Subscription subscription = null;
+        List<Article> articles = new ArrayList<>();
 
-		System.out.println("\n\n\n************* FeedReader version 2.0 *************");
-		
-		// Read the default subscription file
-		String relativePath = "Matias/config/subscriptions.json";
-		String absolutePath = Paths.get(relativePath).toAbsolutePath().toString();
+        System.out.println("\n\n\n************* FeedReader version 2.0 *************\n");
 
-		SubscriptionParser subParser = new SubscriptionParser(absolutePath);
+        // Read the default subscription file
+        String relativePath = "Matias/config/subscriptions.json";
+        String absolutePath = Paths.get(relativePath).toAbsolutePath().toString();
 
-		try {
-			subscription = subParser.parseJSONFile();
-		} catch (FileNotFoundException e) {
-			System.out.println("Error: " + e.getMessage());
-		}
+        SubscriptionParser subParser = new SubscriptionParser(absolutePath);
 
-		// Para cada subscripcion requestear el feed, parsearlo y mostrarlo
-		for (SingleSubscription s : subscription.getSubscriptionsList()) {
-			String url = s.getUrl();
-			String type = s.getUrlType();
-			List<String> params = s.getUlrParams();
-			s.prettyPrint();
+        try {
+            subscription = subParser.parseJSONFile();
+        } catch (FileNotFoundException e) {
+            System.out.println("Error: " + e.getMessage());
+        }
 
-			// For each param in the list, request the feed, parse it, show it, and add all
-			// the articles to the list
-			for (String param : params) {
-				String feedUrl = url.replace("%s", param);
+        // For each subscription, request the feed, parse it, and show it
+        for (SingleSubscription s : subscription.getSubscriptionsList()) {
+            String url = s.getUrl();
+            String type = s.getUrlType();
+            List<String> params = s.getUlrParams();
+            s.prettyPrint();
 
-				Feed feed;
+            // For each param in the list, request the feed, parse it, show it, and add all
+            // the articles to the list
+            for (String param : params) {
+                String feedUrl = url.replace("%s", param);
 
-				FeedParser feedParser = FeedParserFactory.createParser(type);
-				feed = feedParser.parseFeed(feedUrl);
-				feed.prettyPrint();
+                Feed feed;
 
-				articles.addAll(feed.getArticleList());
-			}
-		}
+                FeedParser feedParser = FeedParserFactory.createParser(type);
+                feed = feedParser.parseFeed(feedUrl);
+                feed.prettyPrint();
 
-		// Map articles to string
-		List<String> stringArticles = new ArrayList<String>();
-		for (Article a : articles) {
-			stringArticles.add(a.getTitleAndText());
-		}
+                articles.addAll(feed.getArticleList());
+            }
+        }
 
-		JavaRDD<String> RDDArticles = sc.parallelize(stringArticles);
+        // Map articles to strings
+        List<String> stringArticles = new ArrayList<>();
+        for (Article a : articles) {
+            stringArticles.add(a.getTitleAndText());
+        }
 
-		// Split all strings into word list
-		JavaRDD<String> RDDWords = RDDArticles.flatMap(s -> Arrays.asList(SPACE.split(s)).iterator());
+        JavaRDD<String> RDDArticles = sc.parallelize(stringArticles);
 
-		// Map each word to (word, 1) pair
-		JavaPairRDD<String, Integer> ones = RDDWords.mapToPair(s -> new Tuple2<>(s,
-				1));
+        // Split all strings into word lists
+        JavaRDD<String> RDDWords = RDDArticles.flatMap(s -> Arrays.asList(SPACE.split(s)).iterator());
 
-		// Reduce by key to get the frequency of each word
-		JavaPairRDD<String, Integer> counts = ones.reduceByKey((i1, i2) -> i1 + i2);
+        // Map each word to (word, 1) pair
+        JavaPairRDD<String, Integer> ones = RDDWords.mapToPair(s -> new Tuple2<>(s, 1));
 
-		List<Tuple2<String, Integer>> output = counts.collect();
-		
-		// For each word in the RDD, check if it is a named entity
-		Heuristic h = new QuickHeuristic();
+        // Reduce by key to get the frequency of each word
+        JavaPairRDD<String, Integer> counts = ones.reduceByKey((i1, i2) -> i1 + i2);
 
-		// Create list of named entities with FactoryNamedEntity
-		FactoryNamedEntity factoryNamedEntity = new FactoryNamedEntity();
-		List<NamedEntity> namedEntities = factoryNamedEntity.createListNamedEntitys(h, output);
+        List<Tuple2<String, Integer>> output = counts.collect();
 
-		// Print the list of named entities with FactoryNamedEntity
-		System.out.println("\n\n\n************* Named Entities *************");
-		factoryNamedEntity.preetyPrint();
-		
-		sc.stop();
-		sc.close();
-	}
+        // Check if each word in the RDD is a named entity
+        Heuristic h = new QuickHeuristic();
+
+        // Create a list of named entities with FactoryNamedEntity
+        FactoryNamedEntity factoryNamedEntity = new FactoryNamedEntity();
+        List<NamedEntity> namedEntities = factoryNamedEntity.createListNamedEntities(h, output);
+
+        // Print the list of named entities
+        System.out.println("\n\n\n************* Named Entities *************");
+        factoryNamedEntity.prettyPrint();
+
+        sc.stop();
+        sc.close();
+    }
 }

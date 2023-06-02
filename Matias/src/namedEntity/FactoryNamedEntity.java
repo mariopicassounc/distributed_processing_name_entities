@@ -21,10 +21,6 @@ import namedEntity.themes.Tenis;
 import scala.Tuple2;
 
 public class FactoryNamedEntity {
-    /*
-     * Factory of Named Entities. Has a map of class-frequency and a list of Named
-     * Entities to structure the NEs and save frequency by class and subclass.
-     */
     private Map<String, Integer> classFrequencyEntityMap = new HashMap<String, Integer>() {
         {
             put("LastName", 0);
@@ -39,78 +35,52 @@ public class FactoryNamedEntity {
     };
     private List<NamedEntity> listNamedEntities;
 
-    public List<NamedEntity> createListNamedEntitys(Heuristic h, List<Tuple2<String, Integer>> output) {
-        /*
-         * Create a list of Named Entities from a List of Tuples word-frequency. Set
-         * frequency of classes and subclasses.
-         * parameters: frequency and selected heuristic
-         * Returns List of NE
-         */
+    public List<NamedEntity> createListNamedEntities(Heuristic heuristic, List<Tuple2<String, Integer>> output) {
+        this.listNamedEntities = new ArrayList<>();
 
-        this.listNamedEntities = new ArrayList<NamedEntity>();
+        for (Tuple2<String, Integer> tuple : output) {
+            String word = tuple._1();
+            Integer frequency = tuple._2();
 
-        for (Tuple2<?, ?> tuple : output) {
-            String word = (String) tuple._1();
-            Integer frequency = (Integer) tuple._2();
-
-            // If it is a named entity, add it to the list
-            if (h.isEntity(word)) {
-                List<String> category = h.getCategory(word);
+            if (heuristic.isEntity(word)) {
+                List<String> category = heuristic.getCategory(word);
                 NamedEntity namedEntity = createNamedEntity(word, category, frequency);
                 this.listNamedEntities.add(namedEntity);
             }
         }
+
         return listNamedEntities;
     }
 
     private NamedEntity createNamedEntity(String name, List<String> category, int frequency) {
-        /*
-         * Assumes that the name is a NamedEntity, checked this condition with the
-         * heuristic rules.
-         * Updates values in the classFrequencyEntityMap
-         */
-
-        // All the cases covered by the heuristic Map
         if (category == null) {
             return new OtherNE(name, category, frequency, null, null);
         } else if (category.get(0).equals("LastName") && category.get(1).equals("International")) {
-
             classFrequencyEntityMap.put("LastName", classFrequencyEntityMap.get("LastName") + frequency);
             classFrequencyEntityMap.put("Person", classFrequencyEntityMap.get("Person") + frequency);
-
             Theme theme = new International();
             return new LastName(name, category, frequency, theme, 0, null, null);
         } else if (category.get(0).equals("LastName") && category.get(1).equals("Futbol")) {
-
             classFrequencyEntityMap.put("LastName", classFrequencyEntityMap.get("LastName") + frequency);
             classFrequencyEntityMap.put("Person", classFrequencyEntityMap.get("Person") + frequency);
-
             Theme theme = new Futbol();
             return new LastName(name, category, frequency, theme, 0, null, null);
         } else if (category.get(0).equals("LastName") && category.get(1).equals("Tenis")) {
-
             classFrequencyEntityMap.put("LastName", classFrequencyEntityMap.get("LastName") + frequency);
             classFrequencyEntityMap.put("Person", classFrequencyEntityMap.get("Person") + frequency);
-
             Theme theme = new Tenis();
             return new LastName(name, category, frequency, theme, 0, null, null);
         } else if (category.get(0).equals("Country") && category.get(1).equals("International")) {
-
             classFrequencyEntityMap.put("Country", classFrequencyEntityMap.get("Country") + frequency);
             classFrequencyEntityMap.put("Place", classFrequencyEntityMap.get("Place") + frequency);
-
             Theme theme = new International();
             return new Country(name, category, frequency, theme, 0, null);
         } else if (category.get(0).equals("Organization") && category.get(1).equals("Technology")) {
-
             classFrequencyEntityMap.put("Organization", classFrequencyEntityMap.get("Organization") + frequency);
-
             Theme theme = new Technology();
             return new Organization(name, category, frequency, theme, null, 0, null);
         } else if (category.get(0).equals("Product") && category.get(1).equals("Technology")) {
-
             classFrequencyEntityMap.put("Product", classFrequencyEntityMap.get("Product") + frequency);
-
             Theme theme = new Technology();
             return new Product(name, category, frequency, theme, false, null);
         } else {
@@ -118,17 +88,13 @@ public class FactoryNamedEntity {
         }
     }
 
-    public void preetyPrint() {
-        /*
-         * Prints the classFrequencyEntityMap and the list of Named Entities with
-         * frequency
-         */
-        System.out.println("Class Frequency Entity Map:");
+    public void prettyPrint() {
+        System.out.println("\n\n\n****** Class Frequency Entity Map ********\n");
         for (Map.Entry<String, Integer> entry : this.classFrequencyEntityMap.entrySet()) {
             System.out.println(entry.getKey() + " " + entry.getValue());
         }
 
-        System.out.println("List of Named Entities:");
+        System.out.println("\n\n\n********* List of Named Entities *********\n");
 
         for (NamedEntity namedEntity : listNamedEntities) {
             System.out.println(namedEntity.getName() + " " + namedEntity.getFrequency());
@@ -136,13 +102,12 @@ public class FactoryNamedEntity {
     }
 
     public static void main(String[] args) {
-        // Test FactoryNamedEntity
-        Heuristic h = new QuickHeuristic();
-        List<Tuple2<String, Integer>> output = new ArrayList<Tuple2<String, Integer>>();
-        output.add(new Tuple2<String, Integer>("Messi", 120));
+        Heuristic heuristic = new QuickHeuristic();
+        List<Tuple2<String, Integer>> output = new ArrayList<>();
+        output.add(new Tuple2<>("Messi", 120));
 
         FactoryNamedEntity factoryNamedEntity = new FactoryNamedEntity();
-        List<NamedEntity> namedEntities = factoryNamedEntity.createListNamedEntitys(h, output);
-        factoryNamedEntity.preetyPrint();
+        List<NamedEntity> namedEntities = factoryNamedEntity.createListNamedEntities(heuristic, output);
+        factoryNamedEntity.prettyPrint();
     }
 }
