@@ -249,6 +249,8 @@
         "/opt/spark/spark-3.4.0-bin-hadoop3/jars/oro-2.0.8.jar",
         "/opt/spark/spark-3.4.0-bin-hadoop3/jars/hive-shims-0.23-2.3.9.jar",
         "/opt/spark/spark-3.4.0-bin-hadoop3/jars/derby-10.14.2.0.jar",
-        "/opt/spark/spark-3.4.0-bin-hadoop3/jars/zookeeper-jute-3.6.3.jar"
-    ]
+        "/opt/spark/spark-3.4.0-bin-hadoop3/jars/zookeeper-jute-3.6.3.jar",
+        "Matias/lib/gson-2.10.1.jar"
+    ],
+    "java.compile.nullAnalysis.mode": "automatic"
 }
