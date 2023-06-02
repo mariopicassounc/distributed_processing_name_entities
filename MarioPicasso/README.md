@@ -1,5 +1,14 @@
 # Informe
 
+### Como ejecutar este programa
+Utiliza las librerias:
+
+gson 2.10 https://search.maven.org/remotecontent?filepath=com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
+
+org.json https://search.maven.org/remotecontent?filepath=org/json/json/20230227/json-20230227.jar
+
+Y todos los jars que vienen en la carpeta Jars de la instalacion de Spark. Instructivo abajo.
+
 ### ¿Como se instala spark en una computadora personal?
 
 Utilicé un video de youtube para instalar spark.
