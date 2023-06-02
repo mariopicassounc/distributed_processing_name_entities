@@ -114,6 +114,10 @@ Un programa de conteo de palabras en diferentes documentos en Spark generalmente
 ## Pregunta 4
 #### ¿Cómo adaptar el código del Laboratorio 2 a la estructura del programa objetivo en Spark?
 
+Primero se realizo, con ayuda de AI, una lectura a las clases basicas de Spark. Se aprendio que era un RDD y las clases basicas como SparkConf y, su adptación a java, JavaSparkContext. Luego se realizo una lectura de la documentación de Spark para Java, donde se encontraron las clases JavaRDD y JavaPairRDD. Estas clases son las que nos brindaron los metodos necesarios para realizar el conteo de palabras en los documentos.
+
+Esta parte se ralizo con la ayuda de StarChat, cuyas consultas quedan archivadas en la sección [Interacciones con StarChat](#interacciones-con-starchat). Así tambíen queda adjunto el código relevante para la comprención de la primera parte en [Código de utilidad](#código-de-utilidad).
+
 ## Pregunta 5
 #### ¿Cómo se integra una estructura orientada a objetos con la estructura funcional de map-reduce?
 
