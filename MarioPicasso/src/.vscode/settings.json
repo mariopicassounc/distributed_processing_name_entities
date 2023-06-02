@@ -1,0 +1,7 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/home/mario/Documents/paradigmas/grupo24_lab02_2023/config/json-20230227.jar",
+        "/home/mario/Documents/paradigmas/grupo24_lab02_2023/config/gson-2.10.1.jar"
+    ]
+}
