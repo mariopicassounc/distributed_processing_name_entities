@@ -42,12 +42,18 @@ spark-shell
 ~~~
 
 Luego para importarlo en Java y usar la JAVA API de Spark solo vamos a necesitar todos los .jar que nos vienen (estarían en opt/spark/spark-<version>/jars)
-Enterarme de esto me costo googlear bastante:
+
+Fuente
 https://www.tutorialkart.com/apache-spark/create-java-project-with-apache-spark/
 En ese post lo hace con Eclipse, pero con VS Code es lo mismo.
+
 Abierto nuestro proyecto en VS Code hay abajo a la izquierda una pestañita que dice "JAVA PROJECTS".
+
 La abrimos y nos dirgimos a "Referenced Libraries" y clikeamos "+".
+
 Seleccionamos todos los jars previamente mencionados y los agregamos.
+
+Es probable que para usar las clases de RDD no sea necesario importar todas las librerias, pero para no perder tiempo lo dejamos asi.
   
 ### ¿Qué estructura tiene un programa en Spark?
 Lo primero que debe hacer un programa Spark es crear un objeto SparkContext, que le dice a Spark cómo acceder a un clúster. Para crear un SparkContext primero necesitas construir un objeto SparkConf que contiene información sobre tu aplicación.
