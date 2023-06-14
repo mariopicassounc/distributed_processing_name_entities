@@ -42,7 +42,8 @@ public class FeedReaderMain {
 		System.out.println("\n\n\n************* FeedReader version 2.0 *************");
 		
 		// Read the default subscription file
-		String relativePath = "MarioPicasso/config/subscriptions.json";
+		String relativePath = System.getProperty("user.dir");
+		relativePath += "/InvertIndex/config/subscriptions.json";
 		String absolutePath = Paths.get(relativePath).toAbsolutePath().toString();
 
 		SubscriptionParser subParser = new SubscriptionParser(absolutePath);

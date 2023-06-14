@@ -21,10 +21,11 @@ public class HttpRequester {
 
     public String getContent() {
         try {
-            TimeUnit.SECONDS.sleep(1); // to avoid 429 error
+            TimeUnit.SECONDS.sleep(2); // to avoid 429 error
             URL url = new URL(this.url);
             HttpURLConnection con = (HttpURLConnection) url.openConnection();
             con.setRequestMethod("GET");
+            con.setRequestProperty("User-agent", "nada");
 
             BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
             String inputLine;

@@ -191,19 +191,7 @@ Este diseño es el ideal ya que separa bien los objetivos de cada clase, pero pa
 El pattern matching de FactoryNameEntity hubiese sido para ejecutar el constructor correcto segun tipo de entidad y tema.
 Y el pattern matching de ListNameEntities hubiese sido para actualizar los contadores de aparicion por clase y subclase de entidad nombrada
 
-### Invert Index
-Para poder procesar los Articles con Spark RDD debo implementar la interfaz Serializable en la clase Article.
 
-Fuente: https://www.tutorialkart.com/apache-spark/spark-rdd-with-custom-class-objects/
-
-Para hacer este inverted index tengo que:
-	
-	1) Crear un hash map donde la key es la palabra y el value es una lista que contiene tuplas(indice del articulo en el array, frecuencia)
-	2) Esta lista habra que ordenarla de mayor a menor segun frecuencia
-	3) Cuando hago una busqueda por una palabra (key) simplemente recorro la lista (value) e imprimo los articulos.
-	OPCIONAL) pedir al usuario la palabra por stdin "Que palabra desea buscar?"
-Fuente: https://es.wikipedia.org/wiki/%C3%8Dndice_invertido
-	
 
 
 

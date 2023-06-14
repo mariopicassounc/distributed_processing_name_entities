@@ -3,14 +3,13 @@ package feed;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-import java.io.Serializable;
 
 import namedEntity.NamedEntity;
 import namedEntity.heuristic.Heuristic;
 
 /*Esta clase modela el contenido de un articulo (ie, un item en el caso del rss feed) */
 
-public class Article implements Serializable{
+public class Article {
 	private String title;
 	private String text;
 	private Date publicationDate;
