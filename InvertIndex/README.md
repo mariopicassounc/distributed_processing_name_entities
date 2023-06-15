@@ -9,6 +9,8 @@ org.json https://search.maven.org/remotecontent?filepath=org/json/json/20230227/
 
 Y todos los jars que vienen en la carpeta Jars de la instalacion de Spark. Instructivo abajo.
 
+**Warning**: Al agregar todos los jars se va a agrega una version vieja de gson que puede pisar la anteriormente agregada.
+
 ### ¿Como se instala spark en una computadora personal?
 
 Utilicé un video de youtube para instalar spark.

@@ -84,6 +84,69 @@ public class FeedReaderMain {
 
 		JavaRDD<String> RDDArticles = sc.parallelize(stringArticles);
 
+		// zip with index to get the article number
+		JavaPairRDD<String, Long> RDDArticlesWithIndex = RDDArticles.zipWithIndex();
+
+		
+		// Split all strings of pairs into word list
+		JavaPairRDD<String, Long> RDDWordsWithIndex = RDDArticlesWithIndex
+				.flatMapToPair(pair -> {
+					String text = pair._1();
+					Long index = pair._2();
+					
+					// Splitting the text into words
+					String[] words = text.split(" ");
+					
+					List<Tuple2<String, Long>> wordList = new ArrayList<>();
+					
+					for (String word : words) {
+						wordList.add(new Tuple2<>(word, index));
+					}
+					
+					return wordList.iterator();
+		});
+	
+		// Map each pair to (word, (index, 1)) pair
+		JavaPairRDD<Tuple2<String, Long>, Integer> RDDWordsWithIndexAndOnes = RDDWordsWithIndex.mapToPair(pair -> new Tuple2<>(new Tuple2<>(pair._1(), pair._2()), 1));
+
+		// Reduce by key to get the frequency of each word
+		JavaPairRDD<Tuple2<String, Long>, Integer> RDDWordsWithIndexAndCounts = RDDWordsWithIndexAndOnes.reduceByKey((i1, i2) -> i1 + i2);
+		
+		// Map each pair to (word, (index, count)) pair
+		JavaPairRDD<String, Tuple2<Long, Integer>> RDDWordsWithIndexAndCountsMapped = RDDWordsWithIndexAndCounts.mapToPair(pair -> {
+			Tuple2<String, Long> wordIndex = pair._1();
+			Integer count = pair._2();
+			
+			return new Tuple2<>(wordIndex._1(), new Tuple2<>(wordIndex._2(), count));
+		});
+
+		// Group by key to get the list of indexes for each word
+		JavaPairRDD<String, Iterable<Tuple2<Long, Integer>>> RDDWordsWithIndexAndCountsGrouped = RDDWordsWithIndexAndCountsMapped.groupByKey();
+
+		// Map each pair to sort the iterable by frequency
+		JavaPairRDD<String, Iterable<Tuple2<Long, Integer>>> InvertIndex = RDDWordsWithIndexAndCountsGrouped.mapToPair(pair -> {
+			String word = pair._1();
+			Iterable<Tuple2<Long, Integer>> iterable = pair._2();
+			
+			List<Tuple2<Long, Integer>> list = new ArrayList<>();
+			iterable.forEach(list::add);
+			
+			list.sort((pair1, pair2) -> pair2._2().compareTo(pair1._2()));
+			
+			return new Tuple2<>(word, list);
+		});
+
+		// print the RDD
+		System.out.println("\n\n\n************* RDD *************");
+		InvertIndex.foreach(pair -> System.out.println(pair));
+
+		
+		
+
+		/*
+
+		
+		// Process named entities
 		// Split all strings into word list
 		JavaRDD<String> RDDWords = RDDArticles.flatMap(s -> Arrays.asList(SPACE.split(s)).iterator());
 
@@ -107,6 +170,9 @@ public class FeedReaderMain {
 		System.out.println("\n\n\n************* Named Entities *************");
 		factoryNamedEntity.preetyPrint();
 		
+		*/
+
+
 		sc.stop();
 		sc.close();
 	}
