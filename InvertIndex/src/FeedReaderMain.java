@@ -136,14 +136,7 @@ public class FeedReaderMain {
 			return new Tuple2<>(word, list);
 		});
 
-		// print the RDD
-		System.out.println("\n\n\n************* RDD *************");
-		InvertIndex.foreach(pair -> System.out.println(pair));
-
 		
-		
-
-		/*
 
 		
 		// Process named entities
@@ -170,7 +163,7 @@ public class FeedReaderMain {
 		System.out.println("\n\n\n************* Named Entities *************");
 		factoryNamedEntity.preetyPrint();
 		
-		*/
+		
 
 
 		sc.stop();
