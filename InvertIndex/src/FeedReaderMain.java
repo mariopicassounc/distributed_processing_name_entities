@@ -29,32 +29,76 @@ public class FeedReaderMain {
 	public static void main(String[] args) {
 
 		// set up Spark configuration
+		JavaSparkContext sc = initSparkConfig();
+		sc.setLogLevel("ERROR");
+
+		// Read the default subscription file
+		Subscription subscription = readSubscriptionFile();
+
+		// For each subscription, request the feed, parse it, show it, and append all articles in a list
+		List<Article> articles = processAndShowFeeds(subscription);
+		
+		// Create RDD from list of articles and map articles to string
+		JavaRDD<Article> RDDArticles = sc.parallelize(articles);
+		JavaRDD<String> RDDArticlesString = RDDArticles.map(article -> article.getTitleAndText());
+
+		printNamedEntities(RDDArticlesString);
+
+		JavaPairRDD<String, Iterable<Tuple2<Long, Integer>>> RDDInvertIndex = getInvertedIndex(RDDArticlesString);
+
+		// Show pront to request a word and show the list of articles where it appears
+
+		System.out.println("\n\n\n************* Inverted Index *************");
+		System.out.println("Enter a word to search in the inverted index: ");
+		String word = System.console().readLine();
+
+		// Look up in the RDD
+		List<Iterable<Tuple2<Long, Integer>>> articleIterables = RDDInvertIndex.lookup(word);
+		
+		// if length is 0, the word is not in the RDD
+		if (articleIterables.size() == 0) {
+			System.out.println("The word \"" + word + "\" is not in the inverted index");
+			return;
+		}
+		
+		// Print the list of articles where the word appears
+		printArticles(articleIterables, articles, word);
+		
+
+
+		sc.stop();
+		sc.close();
+	}
+
+	public static JavaSparkContext initSparkConfig(){
+		// set up Spark configuration
 		SparkConf conf = new SparkConf()
 				.setAppName("Spark Example")
 				.setMaster("local[2]"); // Set the number of executor cores
 
-		JavaSparkContext sc = new JavaSparkContext(conf);
-		sc.setLogLevel("ERROR");
+		return new JavaSparkContext(conf);
+	}
 
+	public static Subscription readSubscriptionFile(){
 		Subscription subscription = null;
-		List<Article> articles = new ArrayList<Article>();
 
-		System.out.println("\n\n\n************* FeedReader version 2.0 *************");
-		
-		// Read the default subscription file
 		String relativePath = System.getProperty("user.dir");
 		relativePath += "/InvertIndex/config/subscriptions.json";
 		String absolutePath = Paths.get(relativePath).toAbsolutePath().toString();
 
 		SubscriptionParser subParser = new SubscriptionParser(absolutePath);
-
+		
 		try {
 			subscription = subParser.parseJSONFile();
+			return subscription;
 		} catch (FileNotFoundException e) {
 			System.out.println("Error: " + e.getMessage());
+			return null;
 		}
+	}
 
-		// Para cada subscripcion requestear el feed, parsearlo y mostrarlo
+	public static List<Article> processAndShowFeeds(Subscription subscription){
+		List<Article> articles = new ArrayList<Article>();
 		for (SingleSubscription s : subscription.getSubscriptionsList()) {
 			String url = s.getUrl();
 			String type = s.getUrlType();
@@ -75,19 +119,37 @@ public class FeedReaderMain {
 				articles.addAll(feed.getArticleList());
 			}
 		}
+		return articles;
+	}
 
-		// Map articles to string
-		List<String> stringArticles = new ArrayList<String>();
-		for (Article a : articles) {
-			stringArticles.add(a.getTitleAndText());
-		}
+	public static void printNamedEntities(JavaRDD<String> RDDArticlesString){
+		JavaRDD<String> RDDWords = RDDArticlesString.flatMap(s -> Arrays.asList(SPACE.split(s)).iterator());
 
-		JavaRDD<String> RDDArticles = sc.parallelize(stringArticles);
+		// Map each word to (word, 1) pair
+		JavaPairRDD<String, Integer> ones = RDDWords.mapToPair(s -> new Tuple2<>(s,
+				1));
 
+		// Reduce by key to get the frequency of each word
+		JavaPairRDD<String, Integer> counts = ones.reduceByKey((i1, i2) -> i1 + i2);
+
+		List<Tuple2<String, Integer>> output = counts.collect();
+
+		// For each word in the RDD, check if it is a named entity
+		Heuristic h = new QuickHeuristic();
+
+		// Create list of named entities with FactoryNamedEntity
+		FactoryNamedEntity factoryNamedEntity = new FactoryNamedEntity();
+		List<NamedEntity> namedEntities = factoryNamedEntity.createListNamedEntitys(h, output);
+
+		// Print the list of named entities with FactoryNamedEntity
+		System.out.println("\n\n\n************* Named Entities *************");
+		factoryNamedEntity.preetyPrint();
+	}
+
+	public static JavaPairRDD<String, Iterable<Tuple2<Long, Integer>>> getInvertedIndex(JavaRDD<String> RDDArticlesString){
 		// zip with index to get the article number
-		JavaPairRDD<String, Long> RDDArticlesWithIndex = RDDArticles.zipWithIndex();
+		JavaPairRDD<String, Long> RDDArticlesWithIndex = RDDArticlesString.zipWithIndex();
 
-		
 		// Split all strings of pairs into word list
 		JavaPairRDD<String, Long> RDDWordsWithIndex = RDDArticlesWithIndex
 				.flatMapToPair(pair -> {
@@ -124,7 +186,7 @@ public class FeedReaderMain {
 		JavaPairRDD<String, Iterable<Tuple2<Long, Integer>>> RDDWordsWithIndexAndCountsGrouped = RDDWordsWithIndexAndCountsMapped.groupByKey();
 
 		// Map each pair to sort the iterable by frequency
-		JavaPairRDD<String, Iterable<Tuple2<Long, Integer>>> InvertIndex = RDDWordsWithIndexAndCountsGrouped.mapToPair(pair -> {
+		JavaPairRDD<String, Iterable<Tuple2<Long, Integer>>> RDDInvertIndex = RDDWordsWithIndexAndCountsGrouped.mapToPair(pair -> {
 			String word = pair._1();
 			Iterable<Tuple2<Long, Integer>> iterable = pair._2();
 			
@@ -134,39 +196,21 @@ public class FeedReaderMain {
 			list.sort((pair1, pair2) -> pair2._2().compareTo(pair1._2()));
 			
 			return new Tuple2<>(word, list);
-		});
+		});	
 
-		
-
-		
-		// Process named entities
-		// Split all strings into word list
-		JavaRDD<String> RDDWords = RDDArticles.flatMap(s -> Arrays.asList(SPACE.split(s)).iterator());
-
-		// Map each word to (word, 1) pair
-		JavaPairRDD<String, Integer> ones = RDDWords.mapToPair(s -> new Tuple2<>(s,
-				1));
-
-		// Reduce by key to get the frequency of each word
-		JavaPairRDD<String, Integer> counts = ones.reduceByKey((i1, i2) -> i1 + i2);
-
-		List<Tuple2<String, Integer>> output = counts.collect();
-
-		// For each word in the RDD, check if it is a named entity
-		Heuristic h = new QuickHeuristic();
-
-		// Create list of named entities with FactoryNamedEntity
-		FactoryNamedEntity factoryNamedEntity = new FactoryNamedEntity();
-		List<NamedEntity> namedEntities = factoryNamedEntity.createListNamedEntitys(h, output);
-
-		// Print the list of named entities with FactoryNamedEntity
-		System.out.println("\n\n\n************* Named Entities *************");
-		factoryNamedEntity.preetyPrint();
-		
-		
+		return RDDInvertIndex;
+	}
 
 
-		sc.stop();
-		sc.close();
+	public static void printArticles(List<Iterable<Tuple2<Long, Integer>>> articleIterables, List<Article> articles, String word ){
+		System.out.println("\n\n\n************* Articles where the word \"" + word + "\" appears *************");
+		for (Tuple2<Long, Integer> pair : articleIterables.get(0)) {
+			Long index = pair._1();
+			Integer count = pair._2();
+			
+			System.out.println("Article number: " + index + " - Frequency: " + count);
+			
+			articles.get(index.intValue()).prettyPrint();
+		}
 	}
 }
