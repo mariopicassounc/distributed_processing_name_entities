@@ -69,21 +69,23 @@ El índice invertido permite una búsqueda eficiente de documentos que contienen
 
 En el código, `getInvertedIndex()` construye un ejemplo de este tipo de indice. Cada palabra en los artículos se mapea a una lista de tuplas que contiene el índice del artículo y el recuento de la palabra en ese artículo. El resultado final es un RDD que representa el índice invertido, donde cada palabra se mapea a una lista de tuplas de (índice, recuento) que indican en qué documentos aparece y con qué frecuencia.
 
-Más precisamente. Se comienza con un RDD (Resilient Distributed Dataset) llamado RDDArticlesString que contiene los textos de los artículos.
+Más precisamente. RDDArticlesString es el RDD que contiene las cadenas de texto de los artículos. Cada cadena de texto representa el título y el texto de un artículo concatenados.
 
-A continuación, se realiza un proceso de transformación para dividir cada artículo en palabras. Esto se hace utilizando la función flatMap que toma cada artículo y lo divide en palabras individuales. El resultado es un nuevo RDD llamado RDDWords.
+RDDArticlesString se combina con su índice correspondiente utilizando el método zipWithIndex(), lo que da como resultado un nuevo RDD llamado RDDArticlesWithIndex. Cada elemento en RDDArticlesWithIndex es un par (cadena de texto, índice).
 
-Después, se realiza un mapeo en el RDD RDDWords para crear pares clave-valor, donde la clave es una palabra y el valor es el número 1. Esto se hace para contar la frecuencia de cada palabra. El resultado es un RDD llamado ones.
+A continuación, se aplica flatMapToPair() en RDDArticlesWithIndex. Esta operación divide cada cadena de texto en palabras individuales y genera una lista de pares (palabra, índice). El resultado es un nuevo RDD llamado RDDWordsWithIndex.
 
-Luego, se realiza una reducción por clave en el RDD ones para sumar los valores asociados a cada palabra. Esto nos da la frecuencia total de cada palabra en el conjunto de artículos. El resultado es un RDD llamado counts.
+Después de la operación flatMapToPair(), se obtiene un RDD de pares (palabra, índice) llamado RDDWordsWithIndex. Ahora, cada palabra tiene asociado el índice del artículo al que pertenece.
 
-A continuación, se recopila el resultado del RDD counts en una lista de tuplas (palabra, frecuencia) llamada output.
+A continuación, se mapea cada par (palabra, índice) en RDDWordsWithIndex a un nuevo par (palabra, 1) utilizando mapToPair(). Esto asigna el valor 1 a cada palabra para calcular su frecuencia más adelante.
 
-Se crea una instancia de una heurística llamada h utilizando la clase QuickHeuristic. Esta heurística se utiliza más adelante para identificar si una palabra es una entidad nombrada.
+Los pares (palabra, 1) se reducen por clave utilizando reduceByKey() para obtener la frecuencia de cada palabra. El resultado es un RDD llamado RDDWordsWithIndexAndCounts, que contiene pares (palabra, frecuencia).
 
-Luego, se crea una instancia de FactoryNamedEntity que se encarga de crear la lista de entidades nombradas a partir de la lista de tuplas output.
+El RDD RDDWordsWithIndexAndCounts se mapea nuevamente utilizando mapToPair(). En este paso, se cambia la estructura del par para que sea (palabra, (índice, frecuencia)). El resultado es un nuevo RDD llamado RDDWordsWithIndexAndCountsMapped.
 
-Por último y después de crear la lista de entidades nombradas, se imprime en la consola.
+A continuación, se agrupan los pares en RDDWordsWithIndexAndCountsMapped por clave utilizando groupByKey(). Esto agrupa todas las apariciones de cada palabra y crea un nuevo RDD llamado RDDWordsWithIndexAndCountsGrouped.
+
+Por último, se realiza un mapeo adicional en RDDWordsWithIndexAndCountsGrouped utilizando mapToPair(). En este paso, se ordenan las apariciones de cada palabra en orden descendente según su frecuencia. El resultado final es un RDD llamado RDDInvertIndex, que contiene pares (palabra, lista de pares (índice, frecuencia)) ordenados por frecuencia.
 
 ### Conclusión
 
